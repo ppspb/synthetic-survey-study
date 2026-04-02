@@ -1,0 +1,66 @@
+paths:
+  data_dir: "data"
+  outputs_dir: "outputs"
+  samples_file: "samples.tsv"
+  question_metadata_file: "question_metadata.json"
+  full_value_qa_file: "data/F00011356-WVS_Cross-National_Wave_7_csv_v6_0.zip"
+
+api:
+  base_url: ${OPENAI_BASE_URL:-http://127.0.0.1:1234/v1}
+  api_key: ${OPENAI_API_KEY:-lm-studio}
+  model: ${MODEL_NAME:-qwen3.5-4b}
+  timeout_seconds: 180
+  max_completion_tokens: 220
+  temperature: 0.0
+  top_p: 1.0
+  use_structured_output: true
+  structured_output_strict: true
+  logprobs: false
+  top_logprobs: 0
+
+model_management:
+  enabled: true
+  use_lmstudio_rest: true
+  load_before_run: true
+  unload_after_run: true
+  context_length: null
+  flash_attention: null
+  idle_ttl_seconds: null
+
+benchmark:
+  prompt_mode: "direct_persona_distribution"
+  questions:
+    - "Q1"
+    - "Q57"
+    - "Q107"
+    - "Q123"
+    - "Q132"
+    - "Q178"
+    - "Q236"
+    - "Q237"
+  perturbations:
+    - "original"
+    - "reverse_anchor_order"
+    - "paraphrase_light"
+  groups:
+    - continent: "Europe"
+      urban_rural: "Urban"
+      education: "Tertiary"
+    - continent: "Europe"
+      urban_rural: "Rural"
+      education: "Lower Secondary"
+    - continent: "Asia"
+      urban_rural: "Urban"
+      education: "Upper to Post Secondary"
+    - continent: "Africa"
+      urban_rural: "Rural"
+      education: "Primary or No Education"
+    - continent: "North America"
+      urban_rural: "Urban"
+      education: "Tertiary"
+    - continent: "South America"
+      urban_rural: "Urban"
+      education: "Lower Secondary"
+  participants_per_group_question: 5
+  random_seed: 42
+  sampling_seed_base: 17

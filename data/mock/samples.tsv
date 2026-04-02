@@ -1,0 +1,19 @@
+QUESTION_ID	PARTICIPANT_ID	Continent	Urban_Rural	Education	HUMAN_SCORE
+Q46	P1	Europe	Urban	Tertiary	1
+Q57	P1	Europe	Urban	Tertiary	1
+Q106	P1	Europe	Urban	Tertiary	7
+Q46	P2	Europe	Urban	Tertiary	2
+Q57	P2	Europe	Urban	Tertiary	1
+Q106	P2	Europe	Urban	Tertiary	6
+Q46	P3	Africa	Rural	Primary or No Education	3
+Q57	P3	Africa	Rural	Primary or No Education	2
+Q106	P3	Africa	Rural	Primary or No Education	4
+Q46	P4	Africa	Rural	Primary or No Education	4
+Q57	P4	Africa	Rural	Primary or No Education	2
+Q106	P4	Africa	Rural	Primary or No Education	3
+Q46	P5	Asia	Urban	Upper to Post Secondary	2
+Q57	P5	Asia	Urban	Upper to Post Secondary	1
+Q106	P5	Asia	Urban	Upper to Post Secondary	8
+Q46	P6	Asia	Urban	Upper to Post Secondary	1
+Q57	P6	Asia	Urban	Upper to Post Secondary	1
+Q106	P6	Asia	Urban	Upper to Post Secondary	7

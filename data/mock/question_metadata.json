@@ -1,0 +1,26 @@
+{
+  "Q46": {
+    "question": "On a scale of 1 to 4, 1 meaning 'Very happy' and 4 meaning 'Not at all happy', taking all things together, how would you rate your overall happiness?",
+    "category": "Happiness and Wellbeing",
+    "use_case": "value",
+    "answer_scale_min": 1,
+    "answer_scale_max": 4,
+    "answer_data_type": "ordinal"
+  },
+  "Q57": {
+    "question": "On a scale of 1 to 2, 1 meaning 'Most people can be trusted' and 2 meaning 'Need to be very careful', generally speaking, would you say people can be trusted or you need to be careful in dealing with people?",
+    "category": "Social Capital, Trust and Organizational Membership",
+    "use_case": "value",
+    "answer_scale_min": 1,
+    "answer_scale_max": 2,
+    "answer_data_type": "ordinal"
+  },
+  "Q106": {
+    "question": "On a scale of 1 to 10, 1 meaning 'Incomes should be made more equal' and 10 meaning 'There should be greater incentives for individual effort', where does your opinion fall?",
+    "category": "Economic Values",
+    "use_case": "value",
+    "answer_scale_min": 1,
+    "answer_scale_max": 10,
+    "answer_data_type": "ordinal"
+  }
+}

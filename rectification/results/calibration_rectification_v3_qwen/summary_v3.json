@@ -1,0 +1,53 @@
+{
+  "method": "selective_family_rectification_v3",
+  "shrink": 5.0,
+  "weights": {
+    "global": 0.0,
+    "category": 1.5
+  },
+  "selected_categories": [
+    "Perceptions of Migration",
+    "Perceptions of Corruption",
+    "Perceptions of Security",
+    "Political Culture and Political Regimes"
+  ],
+  "overall": {
+    "split": "overall",
+    "rows": 216,
+    "baseline_mean_w1": 0.2273082402266344,
+    "corrected_mean_w1": 0.20329363200271922,
+    "baseline_top_hit_rate": 0.3611111111111111,
+    "corrected_top_hit_rate": 0.37037037037037035,
+    "delta_mean_w1": -0.024014608223915185,
+    "delta_top_hit_rate": 0.009259259259259245,
+    "mean_corrected_entropy": 1.4355021053079005
+  },
+  "calibration": {
+    "split": "calibration",
+    "rows": 72,
+    "baseline_mean_w1": 0.2703347395856761,
+    "corrected_mean_w1": 0.22942711842659635,
+    "baseline_top_hit_rate": 0.2916666666666667,
+    "corrected_top_hit_rate": 0.3472222222222222,
+    "delta_mean_w1": -0.040907621159079754,
+    "delta_top_hit_rate": 0.055555555555555525,
+    "mean_corrected_entropy": 1.283769331933026
+  },
+  "evaluation": {
+    "split": "evaluation",
+    "rows": 144,
+    "baseline_mean_w1": 0.20579499054711356,
+    "corrected_mean_w1": 0.19022688879078065,
+    "baseline_top_hit_rate": 0.3958333333333333,
+    "corrected_top_hit_rate": 0.3819444444444444,
+    "delta_mean_w1": -0.015568101756332914,
+    "delta_top_hit_rate": -0.013888888888888895,
+    "mean_corrected_entropy": 1.5113684919953374
+  },
+  "evaluation_bootstrap": {
+    "delta_mean_w1_bootstrap_mean": -0.015421274661306853,
+    "delta_mean_w1_bootstrap_ci95_low": -0.029424613950577407,
+    "delta_mean_w1_bootstrap_ci95_high": -0.0024204329232364067
+  },
+  "warning": "Targeted post-selection rectification. If families were chosen using prior held-out analysis, evaluation is optimistic and not a fresh generalization test."
+}

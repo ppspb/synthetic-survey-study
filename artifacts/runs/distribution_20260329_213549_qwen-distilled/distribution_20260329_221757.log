@@ -1,0 +1,253 @@
+2026-03-29 22:17:57,700 | INFO | distribution_benchmark | Logging initialized. Log file: outputs\runs\distribution_20260329_213549_qwen-distilled\logs\distribution_20260329_221757.log
+2026-03-29 22:17:57,733 | INFO | distribution_benchmark | Loaded samples: shape=(8280, 6) columns=['Question', 'Question Category', 'Continent', 'Urban / Rural', 'Education', 'D_INTERVIEW']
+2026-03-29 22:17:57,787 | WARNING | distribution_benchmark | No rows for qid=Q46 group={'continent': 'Latin America', 'urban_rural': 'Urban', 'education': 'Upper to Post Secondary'}
+2026-03-29 22:17:57,809 | WARNING | distribution_benchmark | No rows for qid=Q57 group={'continent': 'Latin America', 'urban_rural': 'Urban', 'education': 'Upper to Post Secondary'}
+2026-03-29 22:17:57,831 | WARNING | distribution_benchmark | No rows for qid=Q59 group={'continent': 'Latin America', 'urban_rural': 'Urban', 'education': 'Upper to Post Secondary'}
+2026-03-29 22:17:57,857 | WARNING | distribution_benchmark | No rows for qid=Q106 group={'continent': 'Latin America', 'urban_rural': 'Urban', 'education': 'Upper to Post Secondary'}
+2026-03-29 22:17:57,880 | WARNING | distribution_benchmark | No rows for qid=Q158 group={'continent': 'Latin America', 'urban_rural': 'Urban', 'education': 'Upper to Post Secondary'}
+2026-03-29 22:17:57,903 | WARNING | distribution_benchmark | No rows for qid=Q164 group={'continent': 'Latin America', 'urban_rural': 'Urban', 'education': 'Upper to Post Secondary'}
+2026-03-29 22:17:57,929 | WARNING | distribution_benchmark | No rows for qid=Q199 group={'continent': 'Latin America', 'urban_rural': 'Urban', 'education': 'Upper to Post Secondary'}
+2026-03-29 22:17:57,959 | WARNING | distribution_benchmark | No rows for qid=Q235 group={'continent': 'Latin America', 'urban_rural': 'Urban', 'education': 'Upper to Post Secondary'}
+2026-03-29 22:17:57,963 | INFO | distribution_benchmark | Built subset shape=(200, 6)
+2026-03-29 22:18:03,013 | INFO | distribution_benchmark | Attached HUMAN_SCORE: attached=200 missing=0
+2026-03-29 22:18:03,077 | INFO | distribution_benchmark | Resume status: already_completed=0 pending=200 total=200
+2026-03-29 22:18:03,509 | INFO | httpx | HTTP Request: GET <LOCAL_ENDPOINT>/api/v1/models "HTTP/1.1 200 OK"
+2026-03-29 22:18:19,033 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/api/v1/models/load "HTTP/1.1 200 OK"
+2026-03-29 22:18:19,035 | INFO | src.lmstudio_rest | Loaded model via LM Studio REST | model=qwen3.5-4b-claude-opus-4.6-distilled instance_id=qwen3.5-4b-claude-opus-4.6-distilled
+2026-03-29 22:18:24,840 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:18:29,761 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:18:35,922 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:18:42,459 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:18:49,384 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:18:57,301 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:19:03,987 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:19:09,997 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:19:16,075 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:19:21,716 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:19:28,777 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:19:35,087 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:19:40,610 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:19:46,115 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:19:51,971 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:19:59,212 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:20:04,633 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:20:10,580 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:20:16,298 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:20:22,074 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:20:29,632 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:20:35,336 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:20:40,857 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:20:46,133 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:20:51,147 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:20:56,716 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:21:01,259 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:21:05,888 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:21:10,450 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:21:14,678 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:21:20,060 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:21:24,431 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:21:28,776 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:21:32,812 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:21:36,858 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:21:42,097 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:21:46,175 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:21:50,339 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:21:54,411 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:21:58,567 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:22:04,744 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:22:09,902 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:22:15,310 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:22:20,269 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:22:25,665 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:22:31,178 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:22:35,204 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:22:41,169 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:22:46,968 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:22:51,835 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:22:57,894 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:23:02,959 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:23:08,072 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:23:13,123 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:23:18,181 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:23:24,614 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:23:30,301 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:23:35,914 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:23:41,231 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:23:46,640 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:23:53,752 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:23:58,912 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:24:03,964 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:24:09,100 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:24:14,227 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:24:20,905 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:24:26,597 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:24:32,171 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:24:37,670 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:24:43,858 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:24:51,619 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:24:57,892 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:25:03,643 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:25:09,730 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:25:15,301 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:25:26,078 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:25:35,421 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:25:44,017 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:25:52,842 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:26:01,591 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:26:13,165 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:26:22,610 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:26:32,945 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:26:42,717 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:26:52,005 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:27:01,773 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:27:11,303 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:27:20,271 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:27:29,541 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:27:39,195 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:27:50,274 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:27:59,496 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:28:09,004 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:28:18,260 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:28:35,245 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:28:46,613 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:28:55,988 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:29:05,436 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:29:15,007 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:29:24,015 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:29:34,549 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:29:43,835 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:29:53,130 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:30:02,648 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:30:12,234 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:30:23,528 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:30:34,031 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:30:43,919 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:30:54,931 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:31:04,793 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:31:14,892 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:31:23,596 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:31:32,445 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:31:41,492 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:31:50,330 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:32:01,511 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:32:11,368 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:32:21,132 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:32:31,443 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:32:40,998 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:32:53,612 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:33:03,054 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:33:13,504 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:33:27,494 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:33:39,119 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:33:51,468 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:34:02,005 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:34:12,229 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:34:22,546 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:34:32,551 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:34:43,225 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:34:52,454 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:35:01,938 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:35:11,347 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:35:21,298 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:35:32,787 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:35:42,941 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:35:53,245 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:36:03,399 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:36:13,682 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:36:24,912 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:36:35,377 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:36:44,975 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:36:54,229 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:37:03,374 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:37:14,192 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:37:14,196 | ERROR | distribution_benchmark | Row failed for qid=Q164 pid=124072376 group=North America | Urban | Tertiary
+Traceback (most recent call last):
+  File "C:\python\synthetic-survey-prompt-benchmark\scripts\run_distribution_benchmark.py", line 369, in main
+    parsed = parse_json(raw_text)
+  File "C:\python\synthetic-survey-prompt-benchmark\scripts\run_distribution_benchmark.py", line 162, in parse_json
+    raise RuntimeError(f'JSON parse failed: {last}')
+RuntimeError: JSON parse failed: Expecting ',' delimiter: line 13 column 4 (char 175)
+2026-03-29 22:37:23,589 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:37:23,592 | ERROR | distribution_benchmark | Row failed for qid=Q164 pid=320070523 group=North America | Urban | Tertiary
+Traceback (most recent call last):
+  File "C:\python\synthetic-survey-prompt-benchmark\scripts\run_distribution_benchmark.py", line 369, in main
+    parsed = parse_json(raw_text)
+  File "C:\python\synthetic-survey-prompt-benchmark\scripts\run_distribution_benchmark.py", line 162, in parse_json
+    raise RuntimeError(f'JSON parse failed: {last}')
+RuntimeError: JSON parse failed: Expecting ',' delimiter: line 13 column 4 (char 175)
+2026-03-29 22:37:35,235 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:37:35,239 | ERROR | distribution_benchmark | Row failed for qid=Q164 pid=124071831 group=North America | Urban | Tertiary
+Traceback (most recent call last):
+  File "C:\python\synthetic-survey-prompt-benchmark\scripts\run_distribution_benchmark.py", line 369, in main
+    parsed = parse_json(raw_text)
+  File "C:\python\synthetic-survey-prompt-benchmark\scripts\run_distribution_benchmark.py", line 162, in parse_json
+    raise RuntimeError(f'JSON parse failed: {last}')
+RuntimeError: JSON parse failed: Expecting ',' delimiter: line 13 column 4 (char 175)
+2026-03-29 22:37:45,622 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:37:45,624 | ERROR | distribution_benchmark | Row failed for qid=Q164 pid=124073058 group=North America | Urban | Tertiary
+Traceback (most recent call last):
+  File "C:\python\synthetic-survey-prompt-benchmark\scripts\run_distribution_benchmark.py", line 369, in main
+    parsed = parse_json(raw_text)
+  File "C:\python\synthetic-survey-prompt-benchmark\scripts\run_distribution_benchmark.py", line 162, in parse_json
+    raise RuntimeError(f'JSON parse failed: {last}')
+RuntimeError: JSON parse failed: Expecting ',' delimiter: line 13 column 4 (char 175)
+2026-03-29 22:37:56,302 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:37:56,304 | ERROR | distribution_benchmark | Row failed for qid=Q164 pid=558071133 group=North America | Urban | Tertiary
+Traceback (most recent call last):
+  File "C:\python\synthetic-survey-prompt-benchmark\scripts\run_distribution_benchmark.py", line 369, in main
+    parsed = parse_json(raw_text)
+  File "C:\python\synthetic-survey-prompt-benchmark\scripts\run_distribution_benchmark.py", line 162, in parse_json
+    raise RuntimeError(f'JSON parse failed: {last}')
+RuntimeError: JSON parse failed: Expecting ',' delimiter: line 13 column 4 (char 175)
+2026-03-29 22:38:03,094 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:38:08,954 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:38:15,264 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:38:21,256 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:38:26,762 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:38:34,734 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:38:40,981 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:38:47,399 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:38:53,616 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:38:59,414 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:39:08,030 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:39:13,547 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:39:19,253 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:39:24,460 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:39:29,954 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:39:37,085 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:39:42,616 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:39:48,308 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:39:54,006 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:40:00,023 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:40:06,892 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:40:12,567 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:40:18,134 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:40:23,597 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:40:29,162 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:40:35,665 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:40:41,052 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:40:46,379 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:40:52,115 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:40:57,416 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:41:05,357 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:41:11,721 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:41:17,729 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:41:23,685 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:41:29,836 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:41:37,203 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:41:42,639 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:41:47,826 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:41:52,908 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:41:58,029 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:42:05,324 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:42:12,239 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:42:19,023 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:42:26,068 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:42:33,292 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:42:40,667 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:42:47,169 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:42:53,855 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:42:59,843 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:43:05,725 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-29 22:43:05,892 | INFO | httpx | HTTP Request: POST <LOCAL_ENDPOINT>/api/v1/models/unload "HTTP/1.1 200 OK"
+2026-03-29 22:43:05,893 | INFO | src.lmstudio_rest | Unloaded model via LM Studio REST | instance_id=qwen3.5-4b-claude-opus-4.6-distilled

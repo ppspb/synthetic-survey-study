@@ -1,0 +1,255 @@
+{
+  "method": "clean_family_group_rectification_v4",
+  "design": "12 calibration / 12 dev / 12 test, one question per family in each split",
+  "shrink": 5.0,
+  "split_map": {
+    "Economic Values": {
+      "calibration": "Q106",
+      "dev": "Q107",
+      "test": "Q108"
+    },
+    "Ethical Values": {
+      "calibration": "Q176",
+      "dev": "Q177",
+      "test": "Q178"
+    },
+    "Happiness and Wellbeing": {
+      "calibration": "Q46",
+      "dev": "Q47",
+      "test": "Q48"
+    },
+    "Perceptions about Science and Technology": {
+      "calibration": "Q158",
+      "dev": "Q159",
+      "test": "Q160"
+    },
+    "Perceptions of Corruption": {
+      "calibration": "Q112",
+      "dev": "Q113",
+      "test": "Q114"
+    },
+    "Perceptions of Migration": {
+      "calibration": "Q121",
+      "dev": "Q122",
+      "test": "Q123"
+    },
+    "Perceptions of Security": {
+      "calibration": "Q131",
+      "dev": "Q132",
+      "test": "Q133"
+    },
+    "Political Culture and Political Regimes": {
+      "calibration": "Q235",
+      "dev": "Q236",
+      "test": "Q237"
+    },
+    "Political Interest and Political Participation": {
+      "calibration": "Q199",
+      "dev": "Q200",
+      "test": "Q201"
+    },
+    "Religious Values": {
+      "calibration": "Q164",
+      "dev": "Q165",
+      "test": "Q166"
+    },
+    "Social Capital, Trust and Organizational Membership": {
+      "calibration": "Q57",
+      "dev": "Q58",
+      "test": "Q59"
+    },
+    "Social Values, Norms, Stereotypes": {
+      "calibration": "Q1",
+      "dev": "Q2",
+      "test": "Q3"
+    }
+  },
+  "selected_categories": [
+    "Economic Values",
+    "Perceptions about Science and Technology",
+    "Perceptions of Corruption",
+    "Perceptions of Migration",
+    "Perceptions of Security",
+    "Political Culture and Political Regimes"
+  ],
+  "selection": {
+    "Economic Values": {
+      "weights": [
+        0.0,
+        0.5,
+        0.5
+      ],
+      "dev_summary": {
+        "split": "dev",
+        "rows": 6,
+        "baseline_mean_w1": 0.17277777777777778,
+        "corrected_mean_w1": 0.15823263340266439,
+        "baseline_top_hit_rate": 0.0,
+        "corrected_top_hit_rate": 0.3333333333333333,
+        "baseline_entropy": 2.232521758013095,
+        "corrected_entropy": 2.1144079064577848,
+        "delta_mean_w1": -0.014545144375113395,
+        "delta_top_hit_rate": 0.3333333333333333,
+        "delta_entropy": -0.1181138515553104
+      }
+    },
+    "Perceptions about Science and Technology": {
+      "weights": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "dev_summary": {
+        "split": "dev",
+        "rows": 6,
+        "baseline_mean_w1": 0.14444444444444443,
+        "corrected_mean_w1": 0.134063451830605,
+        "baseline_top_hit_rate": 0.16666666666666666,
+        "corrected_top_hit_rate": 0.5,
+        "baseline_entropy": 2.0648520695483907,
+        "corrected_entropy": 1.7774168118051963,
+        "delta_mean_w1": -0.01038099261383943,
+        "delta_top_hit_rate": 0.33333333333333337,
+        "delta_entropy": -0.28743525774319445
+      }
+    },
+    "Perceptions of Corruption": {
+      "weights": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "dev_summary": {
+        "split": "dev",
+        "rows": 6,
+        "baseline_mean_w1": 0.1844444444444444,
+        "corrected_mean_w1": 0.16766520746796065,
+        "baseline_top_hit_rate": 0.16666666666666666,
+        "corrected_top_hit_rate": 0.3333333333333333,
+        "baseline_entropy": 1.214419236961826,
+        "corrected_entropy": 1.2258896056284603,
+        "delta_mean_w1": -0.016779236976483758,
+        "delta_top_hit_rate": 0.16666666666666666,
+        "delta_entropy": 0.0114703686666342
+      }
+    },
+    "Perceptions of Migration": {
+      "weights": [
+        0.25,
+        0.5,
+        0.5
+      ],
+      "dev_summary": {
+        "split": "dev",
+        "rows": 6,
+        "baseline_mean_w1": 0.17828473269649744,
+        "corrected_mean_w1": 0.15843839072186852,
+        "baseline_top_hit_rate": 0.8333333333333334,
+        "corrected_top_hit_rate": 0.8333333333333334,
+        "baseline_entropy": 0.6261172141515102,
+        "corrected_entropy": 0.593284935662923,
+        "delta_mean_w1": -0.019846341974628923,
+        "delta_top_hit_rate": 0.0,
+        "delta_entropy": -0.032832278488587274
+      }
+    },
+    "Perceptions of Security": {
+      "weights": [
+        0.25,
+        0.5,
+        0.0
+      ],
+      "dev_summary": {
+        "split": "dev",
+        "rows": 6,
+        "baseline_mean_w1": 0.3361111111111112,
+        "corrected_mean_w1": 0.32784333467157484,
+        "baseline_top_hit_rate": 0.16666666666666666,
+        "corrected_top_hit_rate": 0.16666666666666666,
+        "baseline_entropy": 1.26946055769565,
+        "corrected_entropy": 1.248564368954775,
+        "delta_mean_w1": -0.008267776439536356,
+        "delta_top_hit_rate": 0.0,
+        "delta_entropy": -0.020896188740874955
+      }
+    },
+    "Political Culture and Political Regimes": {
+      "weights": [
+        0.0,
+        1.0,
+        0.5
+      ],
+      "dev_summary": {
+        "split": "dev",
+        "rows": 6,
+        "baseline_mean_w1": 0.20000000000000004,
+        "corrected_mean_w1": 0.19149550459634387,
+        "baseline_top_hit_rate": 0.0,
+        "corrected_top_hit_rate": 0.5,
+        "baseline_entropy": 1.3351817967063049,
+        "corrected_entropy": 1.2435850295892377,
+        "delta_mean_w1": -0.008504495403656165,
+        "delta_top_hit_rate": 0.5,
+        "delta_entropy": -0.09159676711706721
+      }
+    }
+  },
+  "overall": {
+    "split": "overall",
+    "rows": 216,
+    "baseline_mean_w1": 0.1829308075847201,
+    "corrected_mean_w1": 0.17198229257831094,
+    "baseline_top_hit_rate": 0.4074074074074074,
+    "corrected_top_hit_rate": 0.5092592592592593,
+    "baseline_entropy": 1.4337617112495087,
+    "corrected_entropy": 1.3723550339873465,
+    "delta_mean_w1": -0.01094851500640917,
+    "delta_top_hit_rate": 0.10185185185185192,
+    "delta_entropy": -0.0614066772621622
+  },
+  "calibration": {
+    "split": "calibration",
+    "rows": 72,
+    "baseline_mean_w1": 0.18932484567901237,
+    "corrected_mean_w1": 0.1656829631901434,
+    "baseline_top_hit_rate": 0.2916666666666667,
+    "corrected_top_hit_rate": 0.4722222222222222,
+    "baseline_entropy": 1.5822895438614397,
+    "corrected_entropy": 1.4842589795647507,
+    "delta_mean_w1": -0.023641882488868976,
+    "delta_top_hit_rate": 0.18055555555555552,
+    "delta_entropy": -0.098030564296689
+  },
+  "dev": {
+    "split": "dev",
+    "rows": 72,
+    "baseline_mean_w1": 0.18008082649014023,
+    "corrected_mean_w1": 0.17355382750820209,
+    "baseline_top_hit_rate": 0.4444444444444444,
+    "corrected_top_hit_rate": 0.5555555555555556,
+    "baseline_entropy": 1.2951393332595535,
+    "corrected_entropy": 1.2501890020113535,
+    "delta_mean_w1": -0.006526998981938148,
+    "delta_top_hit_rate": 0.11111111111111116,
+    "delta_entropy": -0.044950331248200026
+  },
+  "test": {
+    "split": "test",
+    "rows": 72,
+    "baseline_mean_w1": 0.17938675058500772,
+    "corrected_mean_w1": 0.17671008703658736,
+    "baseline_top_hit_rate": 0.4861111111111111,
+    "corrected_top_hit_rate": 0.5,
+    "baseline_entropy": 1.4238562566275332,
+    "corrected_entropy": 1.382617120385935,
+    "delta_mean_w1": -0.0026766635484203605,
+    "delta_top_hit_rate": 0.013888888888888895,
+    "delta_entropy": -0.04123913624159825
+  },
+  "test_bootstrap": {
+    "delta_mean_w1_bootstrap_mean": -0.0026175180746187826,
+    "delta_mean_w1_bootstrap_ci95_low": -0.009149663297806324,
+    "delta_mean_w1_bootstrap_ci95_high": 0.004249708399048937
+  },
+  "warning": "Clean v4 selection: categories and weights were chosen using only dev after fitting bias tables on calibration; test remained untouched."
+}

@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Runs catalog</title>
+  <style>
+    body { margin: 0; font: 16px/1.55 Arial, Helvetica, sans-serif; color: #222; background: #fff; }
+    .wrap { width: min(100% - 32px, 1100px); margin: 0 auto; }
+    header { border-bottom: 1px solid #ddd; padding: 18px 0; }
+    header a { color: #222; text-decoration: none; margin-right: 16px; }
+    main { padding: 28px 0 48px; }
+    h1 { font-size: 32px; line-height: 1.15; margin: 0 0 14px; }
+    p { max-width: 70ch; margin: 0 0 14px; }
+    .small { color: #666; font-size: 14px; }
+    .status { margin: 16px 0 20px; }
+    table { width: 100%; border-collapse: collapse; margin-top: 18px; }
+    th, td { border: 1px solid #ddd; padding: 10px 12px; text-align: left; vertical-align: top; font-size: 14px; }
+    th { background: #f5f5f5; }
+    code { font-family: Consolas, Monaco, monospace; font-size: 12px; background: #f5f5f5; padding: 2px 4px; }
+    .links a { margin-right: 10px; white-space: nowrap; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <a href="./index.html"><strong>Synthetic Survey Study</strong></a>
+      <a href="./runs.html">Runs</a>
+      <a href="./rectification.html">Rectification</a>
+    </div>
+  </header>
+  <main>
+    <div class="wrap">
+      <h1>Каталог запусков</h1>
+      <p>Эта страница показывает опубликованные run-артефакты из <code>artifacts/RUN_ALIASES.json</code>. Исходные имена папок сохранены без переименования. Для чтения используйте alias и описание, для перехода к артефактам — прямые ссылки в таблице.</p>
+      <p class="small">Если таблица не загрузилась, откройте сайт через GitHub Pages или локальный статический сервер.</p>
+      <div class="status" id="status">Загрузка…</div>
+      <table>
+        <thead>
+          <tr>
+            <th>Alias</th>
+            <th>Тип</th>
+            <th>Модель</th>
+            <th>Исходная папка</th>
+            <th>Описание</th>
+            <th>Файлы</th>
+          </tr>
+        </thead>
+        <tbody id="rows"></tbody>
+      </table>
+    </div>
+  </main>
+  <script>
+    const rows = document.getElementById('rows');
+    const status = document.getElementById('status');
+    fetch('../artifacts/RUN_ALIASES.json')
+      .then(r => r.json())
+      .then(data => {
+        status.textContent = `Найдено записей: ${data.length}.`;
+        rows.innerHTML = data.map(x => {
+          const files = (x.files || []).map(f => `<a href="${x.path}${f}">${f}</a>`).join(' ');
+          return `
+<tr>
+<td><strong>${x.alias || ''}</strong></td>
+<td>${x.kind || ''}</td>
+<td>${x.model || ''}</td>
+<td><code>${x.run_id || ''}</code></td>
+<td>${x.description || ''}</td>
+<td class="links">${files || '—'}</td>
+</tr>`;
+        }).join('');
+      })
+      .catch(() => {
+        status.textContent = 'Не удалось загрузить artifacts/RUN_ALIASES.json.';
+      });
+  </script>
+</body>
+</html>

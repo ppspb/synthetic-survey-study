@@ -1,0 +1,71 @@
+{
+  "original": {
+    "mean_w1": 0.27523148148148147,
+    "per_question_w1": {
+      "Q1": 0.38888888888888884,
+      "Q107": 0.1259259259259259,
+      "Q123": 0.2833333333333333,
+      "Q132": 0.2888888888888889,
+      "Q178": 0.4703703703703703,
+      "Q236": 0.055555555555555546,
+      "Q237": 0.22222222222222227,
+      "Q57": 0.36666666666666664
+    },
+    "top_option_hit_rate": 0.25,
+    "mean_score_delta": 0.5041666666666669,
+    "human_unique_scores_per_cell": 2.5625,
+    "human_zero_variance_cell_rate": 0.14583333333333334,
+    "human_mean_cell_entropy": 0.7773708357348497,
+    "model_unique_scores_per_cell": 3.0416666666666665,
+    "model_zero_variance_cell_rate": 0.020833333333333332,
+    "model_mean_cell_entropy": 0.9901030277984445,
+    "mean_declared_option_entropy": 1.3935647855717013,
+    "inter_group_std_ratio": 1.2006952935543276
+  },
+  "paraphrase_light": {
+    "mean_w1": 0.29166666666666663,
+    "per_question_w1": {
+      "Q1": 0.3888888888888889,
+      "Q107": 0.08888888888888889,
+      "Q123": 0.3,
+      "Q132": 0.2777777777777778,
+      "Q178": 0.4666666666666667,
+      "Q236": 0.11111111111111109,
+      "Q237": 0.3,
+      "Q57": 0.39999999999999997
+    },
+    "top_option_hit_rate": 0.1875,
+    "mean_score_delta": 0.22916666666666663,
+    "human_unique_scores_per_cell": 2.5625,
+    "human_zero_variance_cell_rate": 0.14583333333333334,
+    "human_mean_cell_entropy": 0.7773708357348497,
+    "model_unique_scores_per_cell": 2.875,
+    "model_zero_variance_cell_rate": 0.0625,
+    "model_mean_cell_entropy": 0.9216272894737289,
+    "mean_declared_option_entropy": 1.381348129621257,
+    "inter_group_std_ratio": 1.411438202813037
+  },
+  "reverse_anchor_order": {
+    "mean_w1": 0.2719907407407407,
+    "per_question_w1": {
+      "Q1": 0.5444444444444444,
+      "Q107": 0.04444444444444444,
+      "Q123": 0.21666666666666667,
+      "Q132": 0.2333333333333334,
+      "Q178": 0.3925925925925926,
+      "Q236": 0.08888888888888888,
+      "Q237": 0.22222222222222227,
+      "Q57": 0.4333333333333333
+    },
+    "top_option_hit_rate": 0.125,
+    "mean_score_delta": 0.3666666666666667,
+    "human_unique_scores_per_cell": 2.5625,
+    "human_zero_variance_cell_rate": 0.14583333333333334,
+    "human_mean_cell_entropy": 0.7773708357348497,
+    "model_unique_scores_per_cell": 3.0,
+    "model_zero_variance_cell_rate": 0.041666666666666664,
+    "model_mean_cell_entropy": 0.9746661260957902,
+    "mean_declared_option_entropy": 1.3893039521861477,
+    "inter_group_std_ratio": 1.5962937877749122
+  }
+}

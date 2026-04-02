@@ -1,0 +1,334 @@
+{
+  "method": "offline_rectification_v5",
+  "design": "clean 12/12/12 split; dev-only family selection; mean/dispersion/group-shrink + family bias tilt",
+  "split_map": {
+    "Social Values, Norms, Stereotypes": {
+      "calibration": "Q1",
+      "dev": "Q2",
+      "test": "Q3"
+    },
+    "Economic Values": {
+      "calibration": "Q106",
+      "dev": "Q107",
+      "test": "Q108"
+    },
+    "Perceptions of Corruption": {
+      "calibration": "Q112",
+      "dev": "Q113",
+      "test": "Q114"
+    },
+    "Perceptions of Migration": {
+      "calibration": "Q121",
+      "dev": "Q122",
+      "test": "Q123"
+    },
+    "Perceptions of Security": {
+      "calibration": "Q131",
+      "dev": "Q132",
+      "test": "Q133"
+    },
+    "Perceptions about Science and Technology": {
+      "calibration": "Q158",
+      "dev": "Q159",
+      "test": "Q160"
+    },
+    "Religious Values": {
+      "calibration": "Q164",
+      "dev": "Q165",
+      "test": "Q166"
+    },
+    "Ethical Values": {
+      "calibration": "Q176",
+      "dev": "Q177",
+      "test": "Q178"
+    },
+    "Political Interest and Political Participation": {
+      "calibration": "Q199",
+      "dev": "Q200",
+      "test": "Q201"
+    },
+    "Political Culture and Political Regimes": {
+      "calibration": "Q235",
+      "dev": "Q236",
+      "test": "Q237"
+    },
+    "Happiness and Wellbeing": {
+      "calibration": "Q46",
+      "dev": "Q47",
+      "test": "Q48"
+    },
+    "Social Capital, Trust and Organizational Membership": {
+      "calibration": "Q57",
+      "dev": "Q58",
+      "test": "Q59"
+    }
+  },
+  "selected_categories": [
+    "Happiness and Wellbeing",
+    "Perceptions about Science and Technology",
+    "Perceptions of Corruption",
+    "Perceptions of Migration",
+    "Perceptions of Security",
+    "Political Culture and Political Regimes",
+    "Political Interest and Political Participation",
+    "Religious Values",
+    "Social Capital, Trust and Organizational Membership",
+    "Social Values, Norms, Stereotypes"
+  ],
+  "selection": [
+    {
+      "category": "Economic Values",
+      "params": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        0.25
+      ],
+      "baseline_mean_w1": 0.19259259259259257,
+      "corrected_mean_w1": 0.19096719506144785,
+      "delta_mean_w1": -0.0016253975311447122,
+      "baseline_top_hit_rate": 0.0,
+      "corrected_top_hit_rate": 0.16666666666666666,
+      "baseline_entropy": 2.13650705762401,
+      "corrected_entropy": 2.163964237152218
+    },
+    {
+      "category": "Ethical Values",
+      "params": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.25
+      ],
+      "baseline_mean_w1": 0.24938271604938275,
+      "corrected_mean_w1": 0.24830420717987822,
+      "delta_mean_w1": -0.0010785088695045297,
+      "baseline_top_hit_rate": 0.0,
+      "corrected_top_hit_rate": 0.0,
+      "baseline_entropy": 2.13650705762401,
+      "corrected_entropy": 2.1355390551190934
+    },
+    {
+      "category": "Happiness and Wellbeing",
+      "params": [
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.25
+      ],
+      "baseline_mean_w1": 0.21458333333333335,
+      "corrected_mean_w1": 0.20229084346373985,
+      "delta_mean_w1": -0.012292489869593498,
+      "baseline_top_hit_rate": 0.5,
+      "corrected_top_hit_rate": 0.5,
+      "baseline_entropy": 1.4770179428656327,
+      "corrected_entropy": 1.3008481766604498
+    },
+    {
+      "category": "Perceptions about Science and Technology",
+      "params": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        0.25
+      ],
+      "baseline_mean_w1": 0.2783862433862434,
+      "corrected_mean_w1": 0.24375884622959318,
+      "delta_mean_w1": -0.034627397156650225,
+      "baseline_top_hit_rate": 0.0,
+      "corrected_top_hit_rate": 0.0,
+      "baseline_entropy": 2.0785900053636097,
+      "corrected_entropy": 2.123842444711468
+    },
+    {
+      "category": "Perceptions of Corruption",
+      "params": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.25
+      ],
+      "baseline_mean_w1": 0.16944444444444443,
+      "corrected_mean_w1": 0.15484239743194583,
+      "delta_mean_w1": -0.014602047012498592,
+      "baseline_top_hit_rate": 0.16666666666666666,
+      "corrected_top_hit_rate": 0.16666666666666666,
+      "baseline_entropy": 1.2333659859765402,
+      "corrected_entropy": 1.0756742117516793
+    },
+    {
+      "category": "Perceptions of Migration",
+      "params": [
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.25
+      ],
+      "baseline_mean_w1": 0.19999999999999998,
+      "corrected_mean_w1": 0.18261883367937704,
+      "delta_mean_w1": -0.01738116632062295,
+      "baseline_top_hit_rate": 0.3333333333333333,
+      "corrected_top_hit_rate": 0.5,
+      "baseline_entropy": 1.0986122886681093,
+      "corrected_entropy": 1.0954969790630793
+    },
+    {
+      "category": "Perceptions of Security",
+      "params": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        0.25
+      ],
+      "baseline_mean_w1": 0.2944444444444445,
+      "corrected_mean_w1": 0.26867642855241725,
+      "delta_mean_w1": -0.025768015892027263,
+      "baseline_top_hit_rate": 0.0,
+      "corrected_top_hit_rate": 0.0,
+      "baseline_entropy": 1.3097812179501604,
+      "corrected_entropy": 1.30189507851087
+    },
+    {
+      "category": "Political Culture and Political Regimes",
+      "params": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        0.25
+      ],
+      "baseline_mean_w1": 0.16111111111111107,
+      "corrected_mean_w1": 0.15001985598949955,
+      "delta_mean_w1": -0.01109125512161152,
+      "baseline_top_hit_rate": 0.5,
+      "corrected_top_hit_rate": 0.5,
+      "baseline_entropy": 1.2991271391520705,
+      "corrected_entropy": 1.3085887394572182
+    },
+    {
+      "category": "Political Interest and Political Participation",
+      "params": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        0.25
+      ],
+      "baseline_mean_w1": 0.24166666666666667,
+      "corrected_mean_w1": 0.1911493628368346,
+      "delta_mean_w1": -0.05051730382983208,
+      "baseline_top_hit_rate": 0.0,
+      "corrected_top_hit_rate": 0.8333333333333334,
+      "baseline_entropy": 1.0486537893593546,
+      "corrected_entropy": 1.0941916341584959
+    },
+    {
+      "category": "Religious Values",
+      "params": [
+        0.0,
+        0.5,
+        0.0,
+        1.0,
+        0.25
+      ],
+      "baseline_mean_w1": 0.25000000000000006,
+      "corrected_mean_w1": 0.23741763927653378,
+      "delta_mean_w1": -0.012582360723466274,
+      "baseline_top_hit_rate": 0.6666666666666666,
+      "corrected_top_hit_rate": 0.6666666666666666,
+      "baseline_entropy": 0.5107802565619062,
+      "corrected_entropy": 0.4401995295781962
+    },
+    {
+      "category": "Social Capital, Trust and Organizational Membership",
+      "params": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.25
+      ],
+      "baseline_mean_w1": 0.31388888888888883,
+      "corrected_mean_w1": 0.28389968310486774,
+      "delta_mean_w1": -0.02998920578402109,
+      "baseline_top_hit_rate": 0.5,
+      "corrected_top_hit_rate": 0.5,
+      "baseline_entropy": 1.2625270094750325,
+      "corrected_entropy": 1.1955870847951486
+    },
+    {
+      "category": "Social Values, Norms, Stereotypes",
+      "params": [
+        0.5,
+        1.0,
+        0.0,
+        0.0,
+        0.25
+      ],
+      "baseline_mean_w1": 0.2138888888888889,
+      "corrected_mean_w1": 0.14416199348727357,
+      "delta_mean_w1": -0.06972689540161534,
+      "baseline_top_hit_rate": 0.3333333333333333,
+      "corrected_top_hit_rate": 0.3333333333333333,
+      "baseline_entropy": 1.3514697103477573,
+      "corrected_entropy": 1.17949171564486
+    }
+  ],
+  "calibration": {
+    "baseline_mean_w1": 0.25171569291025914,
+    "corrected_mean_w1": 0.23319083850142658,
+    "baseline_top_hit_rate": 0.3611111111111111,
+    "corrected_top_hit_rate": 0.375,
+    "baseline_entropy": 1.5941459571215928,
+    "corrected_entropy": 1.5099333913560868,
+    "delta_mean_w1": -0.01852485440883256,
+    "delta_top_hit_rate": 0.013888888888888895,
+    "delta_entropy": -0.08421256576550595
+  },
+  "dev": {
+    "baseline_mean_w1": 0.23161577748383305,
+    "corrected_mean_w1": 0.2084009327245048,
+    "baseline_top_hit_rate": 0.25,
+    "corrected_top_hit_rate": 0.3333333333333333,
+    "baseline_entropy": 1.4119116217473495,
+    "corrected_entropy": 1.3657358091316238,
+    "delta_mean_w1": -0.02321484475932825,
+    "delta_top_hit_rate": 0.08333333333333331,
+    "delta_entropy": -0.046175812615725675
+  },
+  "test": {
+    "baseline_mean_w1": 0.206104063117952,
+    "corrected_mean_w1": 0.19154301075711366,
+    "baseline_top_hit_rate": 0.2638888888888889,
+    "corrected_top_hit_rate": 0.3194444444444444,
+    "baseline_entropy": 1.5059736858615527,
+    "corrected_entropy": 1.4517909828736526,
+    "delta_mean_w1": -0.01456105236083835,
+    "delta_top_hit_rate": 0.055555555555555525,
+    "delta_entropy": -0.05418270298790007
+  },
+  "overall": {
+    "baseline_mean_w1": 0.22981184450401473,
+    "corrected_mean_w1": 0.2110449273276817,
+    "baseline_top_hit_rate": 0.2916666666666667,
+    "corrected_top_hit_rate": 0.3425925925925926,
+    "baseline_entropy": 1.504010421576832,
+    "corrected_entropy": 1.4424867277871214,
+    "delta_mean_w1": -0.018766917176333026,
+    "delta_top_hit_rate": 0.05092592592592593,
+    "delta_entropy": -0.061523693789710565
+  },
+  "test_bootstrap": {
+    "delta_mean_w1_bootstrap_mean": -0.014637203168069487,
+    "delta_mean_w1_bootstrap_ci95_low": -0.026218381669029473,
+    "delta_mean_w1_bootstrap_ci95_high": -0.004234031193298881
+  },
+  "warning": "Clean v5: categories and parameters selected on dev only. Test remained untouched."
+}

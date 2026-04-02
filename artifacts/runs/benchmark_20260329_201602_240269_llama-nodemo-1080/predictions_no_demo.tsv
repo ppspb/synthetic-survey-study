@@ -1,0 +1,1081 @@
+ROW_KEY	QUESTION_ID	PARTICIPANT_ID	GROUP_KEY	MODEL_SCORE	prompt_mode	HUMAN_SCORE
+Q1::528071583::no_demo	Q1	528071583	Europe | Urban | Tertiary	3	no_demo	2
+Q1::909070272::no_demo	Q1	909070272	Europe | Urban | Tertiary	3	no_demo	1
+Q1::528071289::no_demo	Q1	528071289	Europe | Urban | Tertiary	3	no_demo	1
+Q1::528071879::no_demo	Q1	528071879	Europe | Urban | Tertiary	3	no_demo	1
+Q1::528071466::no_demo	Q1	528071466	Europe | Urban | Tertiary	3	no_demo	1
+Q1::826071121::no_demo	Q1	826071121	Europe | Rural | Lower Secondary	3	no_demo	1
+Q1::804070731::no_demo	Q1	804070731	Europe | Rural | Lower Secondary	3	no_demo	1
+Q1::703070894::no_demo	Q1	703070894	Europe | Rural | Lower Secondary	3	no_demo	1
+Q1::196070429::no_demo	Q1	196070429	Europe | Rural | Lower Secondary	3	no_demo	1
+Q1::642070088::no_demo	Q1	642070088	Europe | Rural | Lower Secondary	3	no_demo	1
+Q1::586070648::no_demo	Q1	586070648	Asia | Urban | Upper to Post Secondary	3	no_demo	1
+Q1::398070007::no_demo	Q1	398070007	Asia | Urban | Upper to Post Secondary	3	no_demo	1
+Q1::410070706::no_demo	Q1	410070706	Asia | Urban | Upper to Post Secondary	3	no_demo	1
+Q1::156070594::no_demo	Q1	156070594	Asia | Urban | Upper to Post Secondary	3	no_demo	1
+Q1::400070152::no_demo	Q1	400070152	Asia | Urban | Upper to Post Secondary	3	no_demo	1
+Q1::818071042::no_demo	Q1	818071042	Africa | Rural | Primary or No Education	3	no_demo	1
+Q1::231070731::no_demo	Q1	231070731	Africa | Rural | Primary or No Education	3	no_demo	1
+Q1::818070237::no_demo	Q1	818070237	Africa | Rural | Primary or No Education	3	no_demo	1
+Q1::788071187::no_demo	Q1	788071187	Africa | Rural | Primary or No Education	3	no_demo	1
+Q1::231070458::no_demo	Q1	231070458	Africa | Rural | Primary or No Education	3	no_demo	1
+Q1::484071076::no_demo	Q1	484071076	North America | Urban | Tertiary	3	no_demo	1
+Q1::124073018::no_demo	Q1	124073018	North America | Urban | Tertiary	3	no_demo	1
+Q1::124071008::no_demo	Q1	124071008	North America | Urban | Tertiary	3	no_demo	1
+Q1::840072850::no_demo	Q1	840072850	North America | Urban | Tertiary	3	no_demo	1
+Q1::320070283::no_demo	Q1	320070283	North America | Urban | Tertiary	3	no_demo	1
+Q1::218070541::no_demo	Q1	218070541	South America | Rural | Upper to Post Secondary	3	no_demo	1
+Q1::218070214::no_demo	Q1	218070214	South America | Rural | Upper to Post Secondary	3	no_demo	1
+Q1::170074579::no_demo	Q1	170074579	South America | Rural | Upper to Post Secondary	3	no_demo	1
+Q1::152070923::no_demo	Q1	152070923	South America | Rural | Upper to Post Secondary	3	no_demo	1
+Q1::218070048::no_demo	Q1	218070048	South America | Rural | Upper to Post Secondary	3	no_demo	1
+Q2::642070845::no_demo	Q2	642070845	Europe | Urban | Tertiary	3	no_demo	2
+Q2::20070366::no_demo	Q2	20070366	Europe | Urban | Tertiary	3	no_demo	2
+Q2::276070875::no_demo	Q2	276070875	Europe | Urban | Tertiary	3	no_demo	2
+Q2::300070037::no_demo	Q2	300070037	Europe | Urban | Tertiary	3	no_demo	2
+Q2::276070072::no_demo	Q2	276070072	Europe | Urban | Tertiary	3	no_demo	2
+Q2::703070414::no_demo	Q2	703070414	Europe | Rural | Lower Secondary	3	no_demo	2
+Q2::826070421::no_demo	Q2	826070421	Europe | Rural | Lower Secondary	3	no_demo	1
+Q2::826071121::no_demo	Q2	826071121	Europe | Rural | Lower Secondary	3	no_demo	3
+Q2::203070948::no_demo	Q2	203070948	Europe | Rural | Lower Secondary	3	no_demo	1
+Q2::196070706::no_demo	Q2	196070706	Europe | Rural | Lower Secondary	3	no_demo	1
+Q2::702070734::no_demo	Q2	702070734	Asia | Urban | Upper to Post Secondary	3	no_demo	1
+Q2::496070317::no_demo	Q2	496070317	Asia | Urban | Upper to Post Secondary	3	no_demo	2
+Q2::392070125::no_demo	Q2	392070125	Asia | Urban | Upper to Post Secondary	3	no_demo	1
+Q2::608070097::no_demo	Q2	608070097	Asia | Urban | Upper to Post Secondary	3	no_demo	2
+Q2::364072376::no_demo	Q2	364072376	Asia | Urban | Upper to Post Secondary	3	no_demo	3
+Q2::404070991::no_demo	Q2	404070991	Africa | Rural | Primary or No Education	3	no_demo	2
+Q2::818070575::no_demo	Q2	818070575	Africa | Rural | Primary or No Education	3	no_demo	2
+Q2::231070595::no_demo	Q2	231070595	Africa | Rural | Primary or No Education	3	no_demo	1
+Q2::788071187::no_demo	Q2	788071187	Africa | Rural | Primary or No Education	3	no_demo	1
+Q2::231070195::no_demo	Q2	231070195	Africa | Rural | Primary or No Education	3	no_demo	2
+Q2::124073119::no_demo	Q2	124073119	North America | Urban | Tertiary	3	no_demo	1
+Q2::484071204::no_demo	Q2	484071204	North America | Urban | Tertiary	3	no_demo	2
+Q2::124073563::no_demo	Q2	124073563	North America | Urban | Tertiary	3	no_demo	1
+Q2::320070697::no_demo	Q2	320070697	North America | Urban | Tertiary	3	no_demo	1
+Q2::124071434::no_demo	Q2	124071434	North America | Urban | Tertiary	3	no_demo	2
+Q2::218070728::no_demo	Q2	218070728	South America | Rural | Upper to Post Secondary	3	no_demo	3
+Q2::68070954::no_demo	Q2	68070954	South America | Rural | Upper to Post Secondary	3	no_demo	2
+Q2::604070792::no_demo	Q2	604070792	South America | Rural | Upper to Post Secondary	3	no_demo	1
+Q2::218070818::no_demo	Q2	218070818	South America | Rural | Upper to Post Secondary	3	no_demo	3
+Q2::32070936::no_demo	Q2	32070936	South America | Rural | Upper to Post Secondary	3	no_demo	2
+Q3::300070148::no_demo	Q3	300070148	Europe | Urban | Tertiary	3	no_demo	3
+Q3::688071163::no_demo	Q3	688071163	Europe | Urban | Tertiary	3	no_demo	1
+Q3::300071084::no_demo	Q3	300071084	Europe | Urban | Tertiary	3	no_demo	1
+Q3::20070124::no_demo	Q3	20070124	Europe | Urban | Tertiary	3	no_demo	2
+Q3::528071466::no_demo	Q3	528071466	Europe | Urban | Tertiary	3	no_demo	2
+Q3::826071095::no_demo	Q3	826071095	Europe | Rural | Lower Secondary	3	no_demo	2
+Q3::826070052::no_demo	Q3	826070052	Europe | Rural | Lower Secondary	3	no_demo	1
+Q3::826071676::no_demo	Q3	826071676	Europe | Rural | Lower Secondary	3	no_demo	2
+Q3::826070421::no_demo	Q3	826070421	Europe | Rural | Lower Secondary	3	no_demo	2
+Q3::51071198::no_demo	Q3	51071198	Europe | Rural | Lower Secondary	3	no_demo	2
+Q3::364072161::no_demo	Q3	364072161	Asia | Urban | Upper to Post Secondary	3	no_demo	1
+Q3::446070852::no_demo	Q3	446070852	Asia | Urban | Upper to Post Secondary	3	no_demo	2
+Q3::446070563::no_demo	Q3	446070563	Asia | Urban | Upper to Post Secondary	3	no_demo	2
+Q3::410070959::no_demo	Q3	410070959	Asia | Urban | Upper to Post Secondary	3	no_demo	1
+Q3::422070939::no_demo	Q3	422070939	Asia | Urban | Upper to Post Secondary	3	no_demo	3
+Q3::818070039::no_demo	Q3	818070039	Africa | Rural | Primary or No Education	3	no_demo	3
+Q3::404071234::no_demo	Q3	404071234	Africa | Rural | Primary or No Education	3	no_demo	2
+Q3::231070408::no_demo	Q3	231070408	Africa | Rural | Primary or No Education	3	no_demo	2
+Q3::231070458::no_demo	Q3	231070458	Africa | Rural | Primary or No Education	3	no_demo	1
+Q3::716071125::no_demo	Q3	716071125	Africa | Rural | Primary or No Education	3	no_demo	2
+Q3::840073467::no_demo	Q3	840073467	North America | Urban | Tertiary	3	no_demo	2
+Q3::124070203::no_demo	Q3	124070203	North America | Urban | Tertiary	3	no_demo	2
+Q3::840073207::no_demo	Q3	840073207	North America | Urban | Tertiary	3	no_demo	2
+Q3::484070040::no_demo	Q3	484070040	North America | Urban | Tertiary	3	no_demo	1
+Q3::124076065::no_demo	Q3	124076065	North America | Urban | Tertiary	3	no_demo	1
+Q3::862070168::no_demo	Q3	862070168	South America | Rural | Upper to Post Secondary	3	no_demo	1
+Q3::170074414::no_demo	Q3	170074414	South America | Rural | Upper to Post Secondary	3	no_demo	1
+Q3::170075711::no_demo	Q3	170075711	South America | Rural | Upper to Post Secondary	3	no_demo	2
+Q3::218070048::no_demo	Q3	218070048	South America | Rural | Upper to Post Secondary	3	no_demo	1
+Q3::68070006::no_demo	Q3	68070006	South America | Rural | Upper to Post Secondary	3	no_demo	1
+Q46::51070402::no_demo	Q46	51070402	Europe | Urban | Tertiary	2	no_demo	3
+Q46::826070539::no_demo	Q46	826070539	Europe | Urban | Tertiary	2	no_demo	2
+Q46::642070475::no_demo	Q46	642070475	Europe | Urban | Tertiary	2	no_demo	2
+Q46::826070106::no_demo	Q46	826070106	Europe | Urban | Tertiary	2	no_demo	2
+Q46::276070659::no_demo	Q46	276070659	Europe | Urban | Tertiary	2	no_demo	2
+Q46::300070647::no_demo	Q46	300070647	Europe | Rural | Lower Secondary	2	no_demo	2
+Q46::276071246::no_demo	Q46	276071246	Europe | Rural | Lower Secondary	2	no_demo	2
+Q46::826072247::no_demo	Q46	826072247	Europe | Rural | Lower Secondary	2	no_demo	1
+Q46::703070553::no_demo	Q46	703070553	Europe | Rural | Lower Secondary	2	no_demo	3
+Q46::703070298::no_demo	Q46	703070298	Europe | Rural | Lower Secondary	2	no_demo	2
+Q46::458070872::no_demo	Q46	458070872	Asia | Urban | Upper to Post Secondary	2	no_demo	2
+Q46::368071160::no_demo	Q46	368071160	Asia | Urban | Upper to Post Secondary	2	no_demo	3
+Q46::586070659::no_demo	Q46	586070659	Asia | Urban | Upper to Post Secondary	2	no_demo	2
+Q46::156071692::no_demo	Q46	156071692	Asia | Urban | Upper to Post Secondary	2	no_demo	2
+Q46::702070276::no_demo	Q46	702070276	Asia | Urban | Upper to Post Secondary	2	no_demo	2
+Q46::231070763::no_demo	Q46	231070763	Africa | Rural | Primary or No Education	2	no_demo	1
+Q46::818071042::no_demo	Q46	818071042	Africa | Rural | Primary or No Education	2	no_demo	2
+Q46::566070050::no_demo	Q46	566070050	Africa | Rural | Primary or No Education	2	no_demo	3
+Q46::231070884::no_demo	Q46	231070884	Africa | Rural | Primary or No Education	2	no_demo	2
+Q46::231070700::no_demo	Q46	231070700	Africa | Rural | Primary or No Education	2	no_demo	2
+Q46::124073536::no_demo	Q46	124073536	North America | Urban | Tertiary	2	no_demo	2
+Q46::630070025::no_demo	Q46	630070025	North America | Urban | Tertiary	2	no_demo	2
+Q46::630071068::no_demo	Q46	630071068	North America | Urban | Tertiary	2	no_demo	3
+Q46::124072190::no_demo	Q46	124072190	North America | Urban | Tertiary	2	no_demo	1
+Q46::124070203::no_demo	Q46	124070203	North America | Urban | Tertiary	2	no_demo	2
+Q46::218071185::no_demo	Q46	218071185	South America | Rural | Upper to Post Secondary	2	no_demo	1
+Q46::68070071::no_demo	Q46	68070071	South America | Rural | Upper to Post Secondary	2	no_demo	3
+Q46::218071062::no_demo	Q46	218071062	South America | Rural | Upper to Post Secondary	2	no_demo	1
+Q46::170070672::no_demo	Q46	170070672	South America | Rural | Upper to Post Secondary	2	no_demo	3
+Q46::68071428::no_demo	Q46	68071428	South America | Rural | Upper to Post Secondary	2	no_demo	2
+Q47::826071005::no_demo	Q47	826071005	Europe | Urban | Tertiary	3	no_demo	1
+Q47::276071398::no_demo	Q47	276071398	Europe | Urban | Tertiary	3	no_demo	1
+Q47::688071099::no_demo	Q47	688071099	Europe | Urban | Tertiary	3	no_demo	1
+Q47::528070083::no_demo	Q47	528070083	Europe | Urban | Tertiary	3	no_demo	2
+Q47::826071689::no_demo	Q47	826071689	Europe | Urban | Tertiary	3	no_demo	2
+Q47::703070414::no_demo	Q47	703070414	Europe | Rural | Lower Secondary	3	no_demo	3
+Q47::703070329::no_demo	Q47	703070329	Europe | Rural | Lower Secondary	3	no_demo	1
+Q47::300070760::no_demo	Q47	300070760	Europe | Rural | Lower Secondary	3	no_demo	2
+Q47::826071634::no_demo	Q47	826071634	Europe | Rural | Lower Secondary	3	no_demo	4
+Q47::643071654::no_demo	Q47	643071654	Europe | Rural | Lower Secondary	3	no_demo	2
+Q47::360071777::no_demo	Q47	360071777	Asia | Urban | Upper to Post Secondary	3	no_demo	2
+Q47::702071586::no_demo	Q47	702071586	Asia | Urban | Upper to Post Secondary	3	no_demo	2
+Q47::704070257::no_demo	Q47	704070257	Asia | Urban | Upper to Post Secondary	3	no_demo	3
+Q47::586070373::no_demo	Q47	586070373	Asia | Urban | Upper to Post Secondary	3	no_demo	1
+Q47::158071027::no_demo	Q47	158071027	Asia | Urban | Upper to Post Secondary	3	no_demo	1
+Q47::818071053::no_demo	Q47	818071053	Africa | Rural | Primary or No Education	3	no_demo	2
+Q47::788070927::no_demo	Q47	788070927	Africa | Rural | Primary or No Education	3	no_demo	4
+Q47::818070687::no_demo	Q47	818070687	Africa | Rural | Primary or No Education	3	no_demo	3
+Q47::504070533::no_demo	Q47	504070533	Africa | Rural | Primary or No Education	3	no_demo	4
+Q47::818070271::no_demo	Q47	818070271	Africa | Rural | Primary or No Education	3	no_demo	2
+Q47::840073487::no_demo	Q47	840073487	North America | Urban | Tertiary	3	no_demo	1
+Q47::124072187::no_demo	Q47	124072187	North America | Urban | Tertiary	3	no_demo	3
+Q47::124072453::no_demo	Q47	124072453	North America | Urban | Tertiary	3	no_demo	1
+Q47::320070929::no_demo	Q47	320070929	North America | Urban | Tertiary	3	no_demo	2
+Q47::124073448::no_demo	Q47	124073448	North America | Urban | Tertiary	3	no_demo	1
+Q47::170075711::no_demo	Q47	170075711	South America | Rural | Upper to Post Secondary	3	no_demo	1
+Q47::170075765::no_demo	Q47	170075765	South America | Rural | Upper to Post Secondary	3	no_demo	2
+Q47::604071381::no_demo	Q47	604071381	South America | Rural | Upper to Post Secondary	3	no_demo	3
+Q47::862070973::no_demo	Q47	862070973	South America | Rural | Upper to Post Secondary	3	no_demo	2
+Q47::218071068::no_demo	Q47	218071068	South America | Rural | Upper to Post Secondary	3	no_demo	2
+Q48::642070132::no_demo	Q48	642070132	Europe | Urban | Tertiary	8	no_demo	8
+Q48::688070058::no_demo	Q48	688070058	Europe | Urban | Tertiary	8	no_demo	6
+Q48::804070887::no_demo	Q48	804070887	Europe | Urban | Tertiary	8	no_demo	5
+Q48::196070680::no_demo	Q48	196070680	Europe | Urban | Tertiary	8	no_demo	1
+Q48::528070554::no_demo	Q48	528070554	Europe | Urban | Tertiary	8	no_demo	7
+Q48::703070205::no_demo	Q48	703070205	Europe | Rural | Lower Secondary	8	no_demo	6
+Q48::826070045::no_demo	Q48	826070045	Europe | Rural | Lower Secondary	8	no_demo	8
+Q48::826071095::no_demo	Q48	826071095	Europe | Rural | Lower Secondary	8	no_demo	5
+Q48::203070203::no_demo	Q48	203070203	Europe | Rural | Lower Secondary	8	no_demo	9
+Q48::203070023::no_demo	Q48	203070023	Europe | Rural | Lower Secondary	8	no_demo	9
+Q48::360070748::no_demo	Q48	360070748	Asia | Urban | Upper to Post Secondary	8	no_demo	5
+Q48::392070580::no_demo	Q48	392070580	Asia | Urban | Upper to Post Secondary	8	no_demo	7
+Q48::368070632::no_demo	Q48	368070632	Asia | Urban | Upper to Post Secondary	8	no_demo	5
+Q48::156070293::no_demo	Q48	156070293	Asia | Urban | Upper to Post Secondary	8	no_demo	8
+Q48::702070711::no_demo	Q48	702070711	Asia | Urban | Upper to Post Secondary	8	no_demo	8
+Q48::231070545::no_demo	Q48	231070545	Africa | Rural | Primary or No Education	8	no_demo	9
+Q48::788070056::no_demo	Q48	788070056	Africa | Rural | Primary or No Education	8	no_demo	10
+Q48::566070764::no_demo	Q48	566070764	Africa | Rural | Primary or No Education	8	no_demo	7
+Q48::404070963::no_demo	Q48	404070963	Africa | Rural | Primary or No Education	8	no_demo	6
+Q48::504070335::no_demo	Q48	504070335	Africa | Rural | Primary or No Education	8	no_demo	5
+Q48::320070403::no_demo	Q48	320070403	North America | Urban | Tertiary	8	no_demo	1
+Q48::124071387::no_demo	Q48	124071387	North America | Urban | Tertiary	8	no_demo	7
+Q48::320070589::no_demo	Q48	320070589	North America | Urban | Tertiary	8	no_demo	8
+Q48::124071848::no_demo	Q48	124071848	North America | Urban | Tertiary	8	no_demo	7
+Q48::124071489::no_demo	Q48	124071489	North America | Urban | Tertiary	8	no_demo	7
+Q48::68071428::no_demo	Q48	68071428	South America | Rural | Upper to Post Secondary	8	no_demo	9
+Q48::604071369::no_demo	Q48	604071369	South America | Rural | Upper to Post Secondary	8	no_demo	8
+Q48::218071062::no_demo	Q48	218071062	South America | Rural | Upper to Post Secondary	8	no_demo	10
+Q48::170071307::no_demo	Q48	170071307	South America | Rural | Upper to Post Secondary	8	no_demo	9
+Q48::76071070::no_demo	Q48	76071070	South America | Rural | Upper to Post Secondary	8	no_demo	3
+Q57::196070773::no_demo	Q57	196070773	Europe | Urban | Tertiary	1	no_demo	1
+Q57::642071348::no_demo	Q57	642071348	Europe | Urban | Tertiary	1	no_demo	2
+Q57::804070773::no_demo	Q57	804070773	Europe | Urban | Tertiary	1	no_demo	2
+Q57::688071147::no_demo	Q57	688071147	Europe | Urban | Tertiary	1	no_demo	2
+Q57::528070056::no_demo	Q57	528070056	Europe | Urban | Tertiary	1	no_demo	1
+Q57::643071087::no_demo	Q57	643071087	Europe | Rural | Lower Secondary	1	no_demo	2
+Q57::643071306::no_demo	Q57	643071306	Europe | Rural | Lower Secondary	1	no_demo	1
+Q57::196070537::no_demo	Q57	196070537	Europe | Rural | Lower Secondary	1	no_demo	2
+Q57::703070698::no_demo	Q57	703070698	Europe | Rural | Lower Secondary	1	no_demo	2
+Q57::826071546::no_demo	Q57	826071546	Europe | Rural | Lower Secondary	1	no_demo	1
+Q57::104070001::no_demo	Q57	104070001	Asia | Urban | Upper to Post Secondary	1	no_demo	2
+Q57::608070780::no_demo	Q57	608070780	Asia | Urban | Upper to Post Secondary	1	no_demo	2
+Q57::586070263::no_demo	Q57	586070263	Asia | Urban | Upper to Post Secondary	1	no_demo	1
+Q57::344071814::no_demo	Q57	344071814	Asia | Urban | Upper to Post Secondary	1	no_demo	2
+Q57::704070047::no_demo	Q57	704070047	Asia | Urban | Upper to Post Secondary	1	no_demo	1
+Q57::788070927::no_demo	Q57	788070927	Africa | Rural | Primary or No Education	1	no_demo	2
+Q57::231070927::no_demo	Q57	231070927	Africa | Rural | Primary or No Education	1	no_demo	2
+Q57::566070866::no_demo	Q57	566070866	Africa | Rural | Primary or No Education	1	no_demo	2
+Q57::231070213::no_demo	Q57	231070213	Africa | Rural | Primary or No Education	1	no_demo	2
+Q57::404070950::no_demo	Q57	404070950	Africa | Rural | Primary or No Education	1	no_demo	2
+Q57::630071154::no_demo	Q57	630071154	North America | Urban | Tertiary	1	no_demo	2
+Q57::840072074::no_demo	Q57	840072074	North America | Urban | Tertiary	1	no_demo	1
+Q57::840072901::no_demo	Q57	840072901	North America | Urban | Tertiary	1	no_demo	1
+Q57::840071498::no_demo	Q57	840071498	North America | Urban | Tertiary	1	no_demo	2
+Q57::840071852::no_demo	Q57	840071852	North America | Urban | Tertiary	1	no_demo	2
+Q57::76071590::no_demo	Q57	76071590	South America | Rural | Upper to Post Secondary	1	no_demo	2
+Q57::604071093::no_demo	Q57	604071093	South America | Rural | Upper to Post Secondary	1	no_demo	2
+Q57::862070488::no_demo	Q57	862070488	South America | Rural | Upper to Post Secondary	1	no_demo	2
+Q57::170070426::no_demo	Q57	170070426	South America | Rural | Upper to Post Secondary	1	no_demo	2
+Q57::218070642::no_demo	Q57	218070642	South America | Rural | Upper to Post Secondary	1	no_demo	2
+Q58::528070056::no_demo	Q58	528070056	Europe | Urban | Tertiary	1	no_demo	1
+Q58::528070699::no_demo	Q58	528070699	Europe | Urban | Tertiary	1	no_demo	1
+Q58::826071581::no_demo	Q58	826071581	Europe | Urban | Tertiary	1	no_demo	1
+Q58::826072226::no_demo	Q58	826072226	Europe | Urban | Tertiary	1	no_demo	1
+Q58::688070389::no_demo	Q58	688070389	Europe | Urban | Tertiary	1	no_demo	1
+Q58::642070296::no_demo	Q58	642070296	Europe | Rural | Lower Secondary	1	no_demo	1
+Q58::643070475::no_demo	Q58	643070475	Europe | Rural | Lower Secondary	1	no_demo	1
+Q58::909070197::no_demo	Q58	909070197	Europe | Rural | Lower Secondary	1	no_demo	1
+Q58::703070230::no_demo	Q58	703070230	Europe | Rural | Lower Secondary	1	no_demo	2
+Q58::909070284::no_demo	Q58	909070284	Europe | Rural | Lower Secondary	1	no_demo	1
+Q58::344070408::no_demo	Q58	344070408	Asia | Urban | Upper to Post Secondary	1	no_demo	1
+Q58::496071263::no_demo	Q58	496071263	Asia | Urban | Upper to Post Secondary	1	no_demo	1
+Q58::360071304::no_demo	Q58	360071304	Asia | Urban | Upper to Post Secondary	1	no_demo	1
+Q58::410070061::no_demo	Q58	410070061	Asia | Urban | Upper to Post Secondary	1	no_demo	1
+Q58::702071267::no_demo	Q58	702071267	Asia | Urban | Upper to Post Secondary	1	no_demo	1
+Q58::231070172::no_demo	Q58	231070172	Africa | Rural | Primary or No Education	1	no_demo	1
+Q58::566070187::no_demo	Q58	566070187	Africa | Rural | Primary or No Education	1	no_demo	1
+Q58::788071029::no_demo	Q58	788071029	Africa | Rural | Primary or No Education	1	no_demo	2
+Q58::716070345::no_demo	Q58	716070345	Africa | Rural | Primary or No Education	1	no_demo	1
+Q58::788070063::no_demo	Q58	788070063	Africa | Rural | Primary or No Education	1	no_demo	1
+Q58::840073467::no_demo	Q58	840073467	North America | Urban | Tertiary	1	no_demo	1
+Q58::124070203::no_demo	Q58	124070203	North America | Urban | Tertiary	1	no_demo	1
+Q58::484070208::no_demo	Q58	484070208	North America | Urban | Tertiary	1	no_demo	1
+Q58::320070127::no_demo	Q58	320070127	North America | Urban | Tertiary	1	no_demo	1
+Q58::558070049::no_demo	Q58	558070049	North America | Urban | Tertiary	1	no_demo	1
+Q58::68071747::no_demo	Q58	68071747	South America | Rural | Upper to Post Secondary	1	no_demo	1
+Q58::218071049::no_demo	Q58	218071049	South America | Rural | Upper to Post Secondary	1	no_demo	1
+Q58::604071365::no_demo	Q58	604071365	South America | Rural | Upper to Post Secondary	1	no_demo	1
+Q58::218071144::no_demo	Q58	218071144	South America | Rural | Upper to Post Secondary	1	no_demo	1
+Q58::170074579::no_demo	Q58	170074579	South America | Rural | Upper to Post Secondary	1	no_demo	2
+Q59::826072366::no_demo	Q59	826072366	Europe | Urban | Tertiary	3	no_demo	2
+Q59::703070268::no_demo	Q59	703070268	Europe | Urban | Tertiary	3	no_demo	2
+Q59::196070630::no_demo	Q59	196070630	Europe | Urban | Tertiary	3	no_demo	3
+Q59::196070938::no_demo	Q59	196070938	Europe | Urban | Tertiary	3	no_demo	2
+Q59::826071207::no_demo	Q59	826071207	Europe | Urban | Tertiary	3	no_demo	2
+Q59::642070696::no_demo	Q59	642070696	Europe | Rural | Lower Secondary	3	no_demo	2
+Q59::804071127::no_demo	Q59	804071127	Europe | Rural | Lower Secondary	3	no_demo	2
+Q59::203070083::no_demo	Q59	203070083	Europe | Rural | Lower Secondary	3	no_demo	1
+Q59::203070514::no_demo	Q59	203070514	Europe | Rural | Lower Secondary	3	no_demo	2
+Q59::826071676::no_demo	Q59	826071676	Europe | Rural | Lower Secondary	3	no_demo	2
+Q59::608070044::no_demo	Q59	608070044	Asia | Urban | Upper to Post Secondary	3	no_demo	2
+Q59::410071175::no_demo	Q59	410071175	Asia | Urban | Upper to Post Secondary	3	no_demo	1
+Q59::410070640::no_demo	Q59	410070640	Asia | Urban | Upper to Post Secondary	3	no_demo	2
+Q59::586070534::no_demo	Q59	586070534	Asia | Urban | Upper to Post Secondary	3	no_demo	3
+Q59::392070728::no_demo	Q59	392070728	Asia | Urban | Upper to Post Secondary	3	no_demo	2
+Q59::231071049::no_demo	Q59	231071049	Africa | Rural | Primary or No Education	3	no_demo	2
+Q59::566071062::no_demo	Q59	566071062	Africa | Rural | Primary or No Education	3	no_demo	1
+Q59::566070815::no_demo	Q59	566070815	Africa | Rural | Primary or No Education	3	no_demo	2
+Q59::404070950::no_demo	Q59	404070950	Africa | Rural | Primary or No Education	3	no_demo	2
+Q59::231070811::no_demo	Q59	231070811	Africa | Rural | Primary or No Education	3	no_demo	3
+Q59::840072891::no_demo	Q59	840072891	North America | Urban | Tertiary	3	no_demo	2
+Q59::630070345::no_demo	Q59	630070345	North America | Urban | Tertiary	3	no_demo	3
+Q59::840072165::no_demo	Q59	840072165	North America | Urban | Tertiary	3	no_demo	2
+Q59::124074779::no_demo	Q59	124074779	North America | Urban | Tertiary	3	no_demo	2
+Q59::630070829::no_demo	Q59	630070829	North America | Urban | Tertiary	3	no_demo	3
+Q59::218070034::no_demo	Q59	218070034	South America | Rural | Upper to Post Secondary	3	no_demo	3
+Q59::76071664::no_demo	Q59	76071664	South America | Rural | Upper to Post Secondary	3	no_demo	3
+Q59::152070923::no_demo	Q59	152070923	South America | Rural | Upper to Post Secondary	3	no_demo	2
+Q59::76070907::no_demo	Q59	76070907	South America | Rural | Upper to Post Secondary	3	no_demo	2
+Q59::604070790::no_demo	Q59	604070790	South America | Rural | Upper to Post Secondary	3	no_demo	2
+Q106::826071549::no_demo	Q106	826071549	Europe | Urban | Tertiary	5	no_demo	4
+Q106::276071365::no_demo	Q106	276071365	Europe | Urban | Tertiary	5	no_demo	8
+Q106::642070319::no_demo	Q106	642070319	Europe | Urban | Tertiary	5	no_demo	10
+Q106::300070162::no_demo	Q106	300070162	Europe | Urban | Tertiary	5	no_demo	8
+Q106::688070852::no_demo	Q106	688070852	Europe | Urban | Tertiary	5	no_demo	4
+Q106::203071112::no_demo	Q106	203071112	Europe | Rural | Lower Secondary	5	no_demo	10
+Q106::642070866::no_demo	Q106	642070866	Europe | Rural | Lower Secondary	5	no_demo	10
+Q106::703070367::no_demo	Q106	703070367	Europe | Rural | Lower Secondary	5	no_demo	2
+Q106::203070347::no_demo	Q106	203070347	Europe | Rural | Lower Secondary	5	no_demo	8
+Q106::703070362::no_demo	Q106	703070362	Europe | Rural | Lower Secondary	5	no_demo	1
+Q106::360073144::no_demo	Q106	360073144	Asia | Urban | Upper to Post Secondary	5	no_demo	8
+Q106::344070978::no_demo	Q106	344070978	Asia | Urban | Upper to Post Secondary	5	no_demo	8
+Q106::702071635::no_demo	Q106	702071635	Asia | Urban | Upper to Post Secondary	5	no_demo	6
+Q106::417070994::no_demo	Q106	417070994	Asia | Urban | Upper to Post Secondary	5	no_demo	10
+Q106::410070925::no_demo	Q106	410070925	Asia | Urban | Upper to Post Secondary	5	no_demo	8
+Q106::231070555::no_demo	Q106	231070555	Africa | Rural | Primary or No Education	5	no_demo	9
+Q106::818070860::no_demo	Q106	818070860	Africa | Rural | Primary or No Education	5	no_demo	5
+Q106::716070318::no_demo	Q106	716070318	Africa | Rural | Primary or No Education	5	no_demo	10
+Q106::231070887::no_demo	Q106	231070887	Africa | Rural | Primary or No Education	5	no_demo	5
+Q106::231070371::no_demo	Q106	231070371	Africa | Rural | Primary or No Education	5	no_demo	1
+Q106::840072174::no_demo	Q106	840072174	North America | Urban | Tertiary	5	no_demo	5
+Q106::840073033::no_demo	Q106	840073033	North America | Urban | Tertiary	5	no_demo	5
+Q106::320070093::no_demo	Q106	320070093	North America | Urban | Tertiary	5	no_demo	5
+Q106::124074310::no_demo	Q106	124074310	North America | Urban | Tertiary	5	no_demo	7
+Q106::124072662::no_demo	Q106	124072662	North America | Urban | Tertiary	5	no_demo	4
+Q106::218070106::no_demo	Q106	218070106	South America | Rural | Upper to Post Secondary	5	no_demo	10
+Q106::152070740::no_demo	Q106	152070740	South America | Rural | Upper to Post Secondary	5	no_demo	4
+Q106::32070936::no_demo	Q106	32070936	South America | Rural | Upper to Post Secondary	5	no_demo	10
+Q106::68071396::no_demo	Q106	68071396	South America | Rural | Upper to Post Secondary	5	no_demo	7
+Q106::68070652::no_demo	Q106	68070652	South America | Rural | Upper to Post Secondary	5	no_demo	5
+Q107::528070066::no_demo	Q107	528070066	Europe | Urban | Tertiary	5	no_demo	10
+Q107::203070784::no_demo	Q107	203070784	Europe | Urban | Tertiary	5	no_demo	8
+Q107::826070770::no_demo	Q107	826070770	Europe | Urban | Tertiary	5	no_demo	6
+Q107::300070455::no_demo	Q107	300070455	Europe | Urban | Tertiary	5	no_demo	6
+Q107::642070475::no_demo	Q107	642070475	Europe | Urban | Tertiary	5	no_demo	5
+Q107::642070866::no_demo	Q107	642070866	Europe | Rural | Lower Secondary	5	no_demo	1
+Q107::826070945::no_demo	Q107	826070945	Europe | Rural | Lower Secondary	5	no_demo	5
+Q107::203070448::no_demo	Q107	203070448	Europe | Rural | Lower Secondary	5	no_demo	3
+Q107::203070913::no_demo	Q107	203070913	Europe | Rural | Lower Secondary	5	no_demo	5
+Q107::643071623::no_demo	Q107	643071623	Europe | Rural | Lower Secondary	5	no_demo	6
+Q107::410070213::no_demo	Q107	410070213	Asia | Urban | Upper to Post Secondary	5	no_demo	3
+Q107::364071520::no_demo	Q107	364071520	Asia | Urban | Upper to Post Secondary	5	no_demo	5
+Q107::392070991::no_demo	Q107	392070991	Asia | Urban | Upper to Post Secondary	5	no_demo	3
+Q107::417071099::no_demo	Q107	417071099	Asia | Urban | Upper to Post Secondary	5	no_demo	5
+Q107::702070528::no_demo	Q107	702070528	Asia | Urban | Upper to Post Secondary	5	no_demo	3
+Q107::566071056::no_demo	Q107	566071056	Africa | Rural | Primary or No Education	5	no_demo	10
+Q107::566070866::no_demo	Q107	566070866	Africa | Rural | Primary or No Education	5	no_demo	9
+Q107::788070927::no_demo	Q107	788070927	Africa | Rural | Primary or No Education	5	no_demo	7
+Q107::716071211::no_demo	Q107	716071211	Africa | Rural | Primary or No Education	5	no_demo	10
+Q107::504070842::no_demo	Q107	504070842	Africa | Rural | Primary or No Education	5	no_demo	5
+Q107::630070132::no_demo	Q107	630070132	North America | Urban | Tertiary	5	no_demo	1
+Q107::124070383::no_demo	Q107	124070383	North America | Urban | Tertiary	5	no_demo	8
+Q107::124070601::no_demo	Q107	124070601	North America | Urban | Tertiary	5	no_demo	1
+Q107::630070968::no_demo	Q107	630070968	North America | Urban | Tertiary	5	no_demo	5
+Q107::484071595::no_demo	Q107	484071595	North America | Urban | Tertiary	5	no_demo	3
+Q107::218071058::no_demo	Q107	218071058	South America | Rural | Upper to Post Secondary	5	no_demo	10
+Q107::862070531::no_demo	Q107	862070531	South America | Rural | Upper to Post Secondary	5	no_demo	3
+Q107::68071757::no_demo	Q107	68071757	South America | Rural | Upper to Post Secondary	5	no_demo	2
+Q107::68071803::no_demo	Q107	68071803	South America | Rural | Upper to Post Secondary	5	no_demo	8
+Q107::170075196::no_demo	Q107	170075196	South America | Rural | Upper to Post Secondary	5	no_demo	8
+Q108::642070899::no_demo	Q108	642070899	Europe | Urban | Tertiary	5	no_demo	10
+Q108::196070764::no_demo	Q108	196070764	Europe | Urban | Tertiary	5	no_demo	2
+Q108::688070062::no_demo	Q108	688070062	Europe | Urban | Tertiary	5	no_demo	10
+Q108::826071466::no_demo	Q108	826071466	Europe | Urban | Tertiary	5	no_demo	3
+Q108::826070182::no_demo	Q108	826070182	Europe | Urban | Tertiary	5	no_demo	6
+Q108::826072423::no_demo	Q108	826072423	Europe | Rural | Lower Secondary	5	no_demo	10
+Q108::703070693::no_demo	Q108	703070693	Europe | Rural | Lower Secondary	5	no_demo	1
+Q108::642070919::no_demo	Q108	642070919	Europe | Rural | Lower Secondary	5	no_demo	7
+Q108::703070927::no_demo	Q108	703070927	Europe | Rural | Lower Secondary	5	no_demo	7
+Q108::703070362::no_demo	Q108	703070362	Europe | Rural | Lower Secondary	5	no_demo	1
+Q108::702071786::no_demo	Q108	702071786	Asia | Urban | Upper to Post Secondary	5	no_demo	1
+Q108::446070892::no_demo	Q108	446070892	Asia | Urban | Upper to Post Secondary	5	no_demo	5
+Q108::422070816::no_demo	Q108	422070816	Asia | Urban | Upper to Post Secondary	5	no_demo	4
+Q108::762070168::no_demo	Q108	762070168	Asia | Urban | Upper to Post Secondary	5	no_demo	9
+Q108::792071148::no_demo	Q108	792071148	Asia | Urban | Upper to Post Secondary	5	no_demo	8
+Q108::231070943::no_demo	Q108	231070943	Africa | Rural | Primary or No Education	5	no_demo	1
+Q108::231070342::no_demo	Q108	231070342	Africa | Rural | Primary or No Education	5	no_demo	5
+Q108::231070280::no_demo	Q108	231070280	Africa | Rural | Primary or No Education	5	no_demo	2
+Q108::231070408::no_demo	Q108	231070408	Africa | Rural | Primary or No Education	5	no_demo	10
+Q108::231070291::no_demo	Q108	231070291	Africa | Rural | Primary or No Education	5	no_demo	8
+Q108::320070384::no_demo	Q108	320070384	North America | Urban | Tertiary	5	no_demo	6
+Q108::840073273::no_demo	Q108	840073273	North America | Urban | Tertiary	5	no_demo	5
+Q108::630070813::no_demo	Q108	630070813	North America | Urban | Tertiary	5	no_demo	10
+Q108::124072768::no_demo	Q108	124072768	North America | Urban | Tertiary	5	no_demo	4
+Q108::320070378::no_demo	Q108	320070378	North America | Urban | Tertiary	5	no_demo	9
+Q108::604070677::no_demo	Q108	604070677	South America | Rural | Upper to Post Secondary	5	no_demo	1
+Q108::170074578::no_demo	Q108	170074578	South America | Rural | Upper to Post Secondary	5	no_demo	7
+Q108::218070048::no_demo	Q108	218070048	South America | Rural | Upper to Post Secondary	5	no_demo	6
+Q108::32070936::no_demo	Q108	32070936	South America | Rural | Upper to Post Secondary	5	no_demo	10
+Q108::604071365::no_demo	Q108	604071365	South America | Rural | Upper to Post Secondary	5	no_demo	7
+Q112::826071835::no_demo	Q112	826071835	Europe | Urban | Tertiary	5	no_demo	9
+Q112::20070828::no_demo	Q112	20070828	Europe | Urban | Tertiary	5	no_demo	3
+Q112::196070238::no_demo	Q112	196070238	Europe | Urban | Tertiary	5	no_demo	10
+Q112::196070612::no_demo	Q112	196070612	Europe | Urban | Tertiary	5	no_demo	10
+Q112::300070575::no_demo	Q112	300070575	Europe | Urban | Tertiary	5	no_demo	10
+Q112::642070296::no_demo	Q112	642070296	Europe | Rural | Lower Secondary	5	no_demo	3
+Q112::642071063::no_demo	Q112	642071063	Europe | Rural | Lower Secondary	5	no_demo	7
+Q112::643070538::no_demo	Q112	643070538	Europe | Rural | Lower Secondary	5	no_demo	9
+Q112::203070448::no_demo	Q112	203070448	Europe | Rural | Lower Secondary	5	no_demo	6
+Q112::203071112::no_demo	Q112	203071112	Europe | Rural | Lower Secondary	5	no_demo	8
+Q112::704071072::no_demo	Q112	704071072	Asia | Urban | Upper to Post Secondary	5	no_demo	9
+Q112::364072364::no_demo	Q112	364072364	Asia | Urban | Upper to Post Secondary	5	no_demo	3
+Q112::417070082::no_demo	Q112	417070082	Asia | Urban | Upper to Post Secondary	5	no_demo	10
+Q112::496070112::no_demo	Q112	496070112	Asia | Urban | Upper to Post Secondary	5	no_demo	6
+Q112::156071559::no_demo	Q112	156071559	Asia | Urban | Upper to Post Secondary	5	no_demo	4
+Q112::231070711::no_demo	Q112	231070711	Africa | Rural | Primary or No Education	5	no_demo	10
+Q112::566070050::no_demo	Q112	566070050	Africa | Rural | Primary or No Education	5	no_demo	10
+Q112::231070877::no_demo	Q112	231070877	Africa | Rural | Primary or No Education	5	no_demo	10
+Q112::788070056::no_demo	Q112	788070056	Africa | Rural | Primary or No Education	5	no_demo	10
+Q112::231070595::no_demo	Q112	231070595	Africa | Rural | Primary or No Education	5	no_demo	10
+Q112::840073175::no_demo	Q112	840073175	North America | Urban | Tertiary	5	no_demo	6
+Q112::630070293::no_demo	Q112	630070293	North America | Urban | Tertiary	5	no_demo	10
+Q112::124071522::no_demo	Q112	124071522	North America | Urban | Tertiary	5	no_demo	4
+Q112::320070283::no_demo	Q112	320070283	North America | Urban | Tertiary	5	no_demo	10
+Q112::630070260::no_demo	Q112	630070260	North America | Urban | Tertiary	5	no_demo	10
+Q112::218070560::no_demo	Q112	218070560	South America | Rural | Upper to Post Secondary	5	no_demo	5
+Q112::68071438::no_demo	Q112	68071438	South America | Rural | Upper to Post Secondary	5	no_demo	7
+Q112::170071768::no_demo	Q112	170071768	South America | Rural | Upper to Post Secondary	5	no_demo	10
+Q112::218070696::no_demo	Q112	218070696	South America | Rural | Upper to Post Secondary	5	no_demo	6
+Q112::604070792::no_demo	Q112	604070792	South America | Rural | Upper to Post Secondary	5	no_demo	9
+Q113::826070078::no_demo	Q113	826070078	Europe | Urban | Tertiary	3	no_demo	2
+Q113::300070455::no_demo	Q113	300070455	Europe | Urban | Tertiary	3	no_demo	3
+Q113::196070897::no_demo	Q113	196070897	Europe | Urban | Tertiary	3	no_demo	2
+Q113::196070375::no_demo	Q113	196070375	Europe | Urban | Tertiary	3	no_demo	3
+Q113::51070898::no_demo	Q113	51070898	Europe | Urban | Tertiary	3	no_demo	3
+Q113::203070347::no_demo	Q113	203070347	Europe | Rural | Lower Secondary	3	no_demo	2
+Q113::203070448::no_demo	Q113	203070448	Europe | Rural | Lower Secondary	3	no_demo	2
+Q113::703070362::no_demo	Q113	703070362	Europe | Rural | Lower Secondary	3	no_demo	3
+Q113::703070698::no_demo	Q113	703070698	Europe | Rural | Lower Secondary	3	no_demo	2
+Q113::643070475::no_demo	Q113	643070475	Europe | Rural | Lower Secondary	3	no_demo	3
+Q113::496071422::no_demo	Q113	496071422	Asia | Urban | Upper to Post Secondary	3	no_demo	3
+Q113::410070072::no_demo	Q113	410070072	Asia | Urban | Upper to Post Secondary	3	no_demo	2
+Q113::392071147::no_demo	Q113	392071147	Asia | Urban | Upper to Post Secondary	3	no_demo	2
+Q113::392070305::no_demo	Q113	392070305	Asia | Urban | Upper to Post Secondary	3	no_demo	4
+Q113::702070600::no_demo	Q113	702070600	Asia | Urban | Upper to Post Secondary	3	no_demo	2
+Q113::231070044::no_demo	Q113	231070044	Africa | Rural | Primary or No Education	3	no_demo	3
+Q113::231070291::no_demo	Q113	231070291	Africa | Rural | Primary or No Education	3	no_demo	2
+Q113::716070880::no_demo	Q113	716070880	Africa | Rural | Primary or No Education	3	no_demo	3
+Q113::504070333::no_demo	Q113	504070333	Africa | Rural | Primary or No Education	3	no_demo	3
+Q113::404070950::no_demo	Q113	404070950	Africa | Rural | Primary or No Education	3	no_demo	2
+Q113::124073448::no_demo	Q113	124073448	North America | Urban | Tertiary	3	no_demo	3
+Q113::124070054::no_demo	Q113	124070054	North America | Urban | Tertiary	3	no_demo	2
+Q113::630070128::no_demo	Q113	630070128	North America | Urban | Tertiary	3	no_demo	2
+Q113::124072294::no_demo	Q113	124072294	North America | Urban | Tertiary	3	no_demo	2
+Q113::124070797::no_demo	Q113	124070797	North America | Urban | Tertiary	3	no_demo	3
+Q113::68071696::no_demo	Q113	68071696	South America | Rural | Upper to Post Secondary	3	no_demo	3
+Q113::862070840::no_demo	Q113	862070840	South America | Rural | Upper to Post Secondary	3	no_demo	2
+Q113::862070488::no_demo	Q113	862070488	South America | Rural | Upper to Post Secondary	3	no_demo	2
+Q113::68070954::no_demo	Q113	68070954	South America | Rural | Upper to Post Secondary	3	no_demo	4
+Q113::604071224::no_demo	Q113	604071224	South America | Rural | Upper to Post Secondary	3	no_demo	3
+Q114::528070953::no_demo	Q114	528070953	Europe | Urban | Tertiary	3	no_demo	3
+Q114::909070279::no_demo	Q114	909070279	Europe | Urban | Tertiary	3	no_demo	2
+Q114::642070899::no_demo	Q114	642070899	Europe | Urban | Tertiary	3	no_demo	2
+Q114::826070021::no_demo	Q114	826070021	Europe | Urban | Tertiary	3	no_demo	4
+Q114::300070975::no_demo	Q114	300070975	Europe | Urban | Tertiary	3	no_demo	2
+Q114::196070706::no_demo	Q114	196070706	Europe | Rural | Lower Secondary	3	no_demo	3
+Q114::703070055::no_demo	Q114	703070055	Europe | Rural | Lower Secondary	3	no_demo	3
+Q114::203070083::no_demo	Q114	203070083	Europe | Rural | Lower Secondary	3	no_demo	2
+Q114::688071169::no_demo	Q114	688071169	Europe | Rural | Lower Secondary	3	no_demo	3
+Q114::51070040::no_demo	Q114	51070040	Europe | Rural | Lower Secondary	3	no_demo	4
+Q114::702070844::no_demo	Q114	702070844	Asia | Urban | Upper to Post Secondary	3	no_demo	3
+Q114::410070940::no_demo	Q114	410070940	Asia | Urban | Upper to Post Secondary	3	no_demo	3
+Q114::417070743::no_demo	Q114	417070743	Asia | Urban | Upper to Post Secondary	3	no_demo	2
+Q114::392070579::no_demo	Q114	392070579	Asia | Urban | Upper to Post Secondary	3	no_demo	1
+Q114::156072269::no_demo	Q114	156072269	Asia | Urban | Upper to Post Secondary	3	no_demo	2
+Q114::716070264::no_demo	Q114	716070264	Africa | Rural | Primary or No Education	3	no_demo	3
+Q114::231070481::no_demo	Q114	231070481	Africa | Rural | Primary or No Education	3	no_demo	1
+Q114::231071049::no_demo	Q114	231071049	Africa | Rural | Primary or No Education	3	no_demo	4
+Q114::504070334::no_demo	Q114	504070334	Africa | Rural | Primary or No Education	3	no_demo	4
+Q114::716070497::no_demo	Q114	716070497	Africa | Rural | Primary or No Education	3	no_demo	3
+Q114::124070719::no_demo	Q114	124070719	North America | Urban | Tertiary	3	no_demo	3
+Q114::124071196::no_demo	Q114	124071196	North America | Urban | Tertiary	3	no_demo	3
+Q114::840072503::no_demo	Q114	840072503	North America | Urban | Tertiary	3	no_demo	2
+Q114::124074707::no_demo	Q114	124074707	North America | Urban | Tertiary	3	no_demo	2
+Q114::320070316::no_demo	Q114	320070316	North America | Urban | Tertiary	3	no_demo	3
+Q114::68071789::no_demo	Q114	68071789	South America | Rural | Upper to Post Secondary	3	no_demo	3
+Q114::68071803::no_demo	Q114	68071803	South America | Rural | Upper to Post Secondary	3	no_demo	3
+Q114::170075193::no_demo	Q114	170075193	South America | Rural | Upper to Post Secondary	3	no_demo	2
+Q114::604070597::no_demo	Q114	604070597	South America | Rural | Upper to Post Secondary	3	no_demo	2
+Q114::170074636::no_demo	Q114	170074636	South America | Rural | Upper to Post Secondary	3	no_demo	2
+Q121::300070127::no_demo	Q121	300070127	Europe | Urban | Tertiary	3	no_demo	3
+Q121::703071004::no_demo	Q121	703071004	Europe | Urban | Tertiary	3	no_demo	1
+Q121::196070765::no_demo	Q121	196070765	Europe | Urban | Tertiary	3	no_demo	3
+Q121::528070780::no_demo	Q121	528070780	Europe | Urban | Tertiary	3	no_demo	3
+Q121::528070872::no_demo	Q121	528070872	Europe | Urban | Tertiary	3	no_demo	4
+Q121::196070373::no_demo	Q121	196070373	Europe | Rural | Lower Secondary	3	no_demo	3
+Q121::300070967::no_demo	Q121	300070967	Europe | Rural | Lower Secondary	3	no_demo	3
+Q121::703070834::no_demo	Q121	703070834	Europe | Rural | Lower Secondary	3	no_demo	4
+Q121::826070421::no_demo	Q121	826070421	Europe | Rural | Lower Secondary	3	no_demo	3
+Q121::703070559::no_demo	Q121	703070559	Europe | Rural | Lower Secondary	3	no_demo	3
+Q121::458071111::no_demo	Q121	458071111	Asia | Urban | Upper to Post Secondary	3	no_demo	3
+Q121::704070797::no_demo	Q121	704070797	Asia | Urban | Upper to Post Secondary	3	no_demo	4
+Q121::446070110::no_demo	Q121	446070110	Asia | Urban | Upper to Post Secondary	3	no_demo	3
+Q121::702072010::no_demo	Q121	702072010	Asia | Urban | Upper to Post Secondary	3	no_demo	2
+Q121::364072081::no_demo	Q121	364072081	Asia | Urban | Upper to Post Secondary	3	no_demo	2
+Q121::818070956::no_demo	Q121	818070956	Africa | Rural | Primary or No Education	3	no_demo	3
+Q121::566071175::no_demo	Q121	566071175	Africa | Rural | Primary or No Education	3	no_demo	4
+Q121::566071145::no_demo	Q121	566071145	Africa | Rural | Primary or No Education	3	no_demo	3
+Q121::504070335::no_demo	Q121	504070335	Africa | Rural | Primary or No Education	3	no_demo	3
+Q121::716070590::no_demo	Q121	716070590	Africa | Rural | Primary or No Education	3	no_demo	3
+Q121::840072291::no_demo	Q121	840072291	North America | Urban | Tertiary	3	no_demo	5
+Q121::840073220::no_demo	Q121	840073220	North America | Urban | Tertiary	3	no_demo	5
+Q121::840071019::no_demo	Q121	840071019	North America | Urban | Tertiary	3	no_demo	5
+Q121::840072531::no_demo	Q121	840072531	North America | Urban | Tertiary	3	no_demo	4
+Q121::840072159::no_demo	Q121	840072159	North America | Urban | Tertiary	3	no_demo	4
+Q121::218070560::no_demo	Q121	218070560	South America | Rural | Upper to Post Secondary	3	no_demo	4
+Q121::604071242::no_demo	Q121	604071242	South America | Rural | Upper to Post Secondary	3	no_demo	5
+Q121::76070900::no_demo	Q121	76070900	South America | Rural | Upper to Post Secondary	3	no_demo	5
+Q121::218070254::no_demo	Q121	218070254	South America | Rural | Upper to Post Secondary	3	no_demo	5
+Q121::170076742::no_demo	Q121	170076742	South America | Rural | Upper to Post Secondary	3	no_demo	1
+Q122::909070382::no_demo	Q122	909070382	Europe | Urban | Tertiary	1	no_demo	2
+Q122::826071378::no_demo	Q122	826071378	Europe | Urban | Tertiary	1	no_demo	2
+Q122::826070754::no_demo	Q122	826070754	Europe | Urban | Tertiary	1	no_demo	1
+Q122::300070386::no_demo	Q122	300070386	Europe | Urban | Tertiary	1	no_demo	0
+Q122::642070379::no_demo	Q122	642070379	Europe | Urban | Tertiary	1	no_demo	2
+Q122::203070887::no_demo	Q122	203070887	Europe | Rural | Lower Secondary	1	no_demo	1
+Q122::826071625::no_demo	Q122	826071625	Europe | Rural | Lower Secondary	1	no_demo	1
+Q122::826070698::no_demo	Q122	826070698	Europe | Rural | Lower Secondary	1	no_demo	1
+Q122::826071546::no_demo	Q122	826071546	Europe | Rural | Lower Secondary	1	no_demo	2
+Q122::826071429::no_demo	Q122	826071429	Europe | Rural | Lower Secondary	1	no_demo	2
+Q122::398070643::no_demo	Q122	398070643	Asia | Urban | Upper to Post Secondary	1	no_demo	0
+Q122::702070773::no_demo	Q122	702070773	Asia | Urban | Upper to Post Secondary	1	no_demo	0
+Q122::446070289::no_demo	Q122	446070289	Asia | Urban | Upper to Post Secondary	1	no_demo	1
+Q122::392070305::no_demo	Q122	392070305	Asia | Urban | Upper to Post Secondary	1	no_demo	2
+Q122::392071182::no_demo	Q122	392071182	Asia | Urban | Upper to Post Secondary	1	no_demo	2
+Q122::231070763::no_demo	Q122	231070763	Africa | Rural | Primary or No Education	1	no_demo	2
+Q122::566070151::no_demo	Q122	566070151	Africa | Rural | Primary or No Education	1	no_demo	2
+Q122::716071088::no_demo	Q122	716071088	Africa | Rural | Primary or No Education	1	no_demo	2
+Q122::231070895::no_demo	Q122	231070895	Africa | Rural | Primary or No Education	1	no_demo	0
+Q122::504070674::no_demo	Q122	504070674	Africa | Rural | Primary or No Education	1	no_demo	0
+Q122::124074624::no_demo	Q122	124074624	North America | Urban | Tertiary	1	no_demo	2
+Q122::840073472::no_demo	Q122	840073472	North America | Urban | Tertiary	1	no_demo	2
+Q122::320070056::no_demo	Q122	320070056	North America | Urban | Tertiary	1	no_demo	1
+Q122::124071851::no_demo	Q122	124071851	North America | Urban | Tertiary	1	no_demo	2
+Q122::840073033::no_demo	Q122	840073033	North America | Urban | Tertiary	1	no_demo	2
+Q122::604070716::no_demo	Q122	604070716	South America | Rural | Upper to Post Secondary	1	no_demo	0
+Q122::604070597::no_demo	Q122	604070597	South America | Rural | Upper to Post Secondary	1	no_demo	2
+Q122::604071242::no_demo	Q122	604071242	South America | Rural | Upper to Post Secondary	1	no_demo	2
+Q122::152070639::no_demo	Q122	152070639	South America | Rural | Upper to Post Secondary	1	no_demo	2
+Q122::152070638::no_demo	Q122	152070638	South America | Rural | Upper to Post Secondary	1	no_demo	2
+Q123::643071667::no_demo	Q123	643071667	Europe | Urban | Tertiary	1	no_demo	2
+Q123::688070523::no_demo	Q123	688070523	Europe | Urban | Tertiary	1	no_demo	0
+Q123::20070046::no_demo	Q123	20070046	Europe | Urban | Tertiary	1	no_demo	2
+Q123::528070865::no_demo	Q123	528070865	Europe | Urban | Tertiary	1	no_demo	2
+Q123::196070408::no_demo	Q123	196070408	Europe | Urban | Tertiary	1	no_demo	2
+Q123::826070421::no_demo	Q123	826070421	Europe | Rural | Lower Secondary	1	no_demo	2
+Q123::203070541::no_demo	Q123	203070541	Europe | Rural | Lower Secondary	1	no_demo	1
+Q123::703071001::no_demo	Q123	703071001	Europe | Rural | Lower Secondary	1	no_demo	0
+Q123::528070024::no_demo	Q123	528070024	Europe | Rural | Lower Secondary	1	no_demo	2
+Q123::642070866::no_demo	Q123	642070866	Europe | Rural | Lower Secondary	1	no_demo	1
+Q123::156070776::no_demo	Q123	156070776	Asia | Urban | Upper to Post Secondary	1	no_demo	2
+Q123::104070845::no_demo	Q123	104070845	Asia | Urban | Upper to Post Secondary	1	no_demo	0
+Q123::608070208::no_demo	Q123	608070208	Asia | Urban | Upper to Post Secondary	1	no_demo	2
+Q123::702071758::no_demo	Q123	702071758	Asia | Urban | Upper to Post Secondary	1	no_demo	1
+Q123::344070052::no_demo	Q123	344070052	Asia | Urban | Upper to Post Secondary	1	no_demo	2
+Q123::716070272::no_demo	Q123	716070272	Africa | Rural | Primary or No Education	1	no_demo	0
+Q123::504070335::no_demo	Q123	504070335	Africa | Rural | Primary or No Education	1	no_demo	0
+Q123::404070569::no_demo	Q123	404070569	Africa | Rural | Primary or No Education	1	no_demo	1
+Q123::231070213::no_demo	Q123	231070213	Africa | Rural | Primary or No Education	1	no_demo	2
+Q123::231070136::no_demo	Q123	231070136	Africa | Rural | Primary or No Education	1	no_demo	2
+Q123::320070876::no_demo	Q123	320070876	North America | Urban | Tertiary	1	no_demo	0
+Q123::840072119::no_demo	Q123	840072119	North America | Urban | Tertiary	1	no_demo	1
+Q123::124075822::no_demo	Q123	124075822	North America | Urban | Tertiary	1	no_demo	1
+Q123::124070063::no_demo	Q123	124070063	North America | Urban | Tertiary	1	no_demo	2
+Q123::840071424::no_demo	Q123	840071424	North America | Urban | Tertiary	1	no_demo	2
+Q123::170076289::no_demo	Q123	170076289	South America | Rural | Upper to Post Secondary	1	no_demo	0
+Q123::218071049::no_demo	Q123	218071049	South America | Rural | Upper to Post Secondary	1	no_demo	2
+Q123::170075018::no_demo	Q123	170075018	South America | Rural | Upper to Post Secondary	1	no_demo	2
+Q123::76071664::no_demo	Q123	76071664	South America | Rural | Upper to Post Secondary	1	no_demo	2
+Q123::152070215::no_demo	Q123	152070215	South America | Rural | Upper to Post Secondary	1	no_demo	1
+Q131::826072226::no_demo	Q131	826072226	Europe | Urban | Tertiary	2	no_demo	3
+Q131::826071491::no_demo	Q131	826071491	Europe | Urban | Tertiary	2	no_demo	3
+Q131::196070109::no_demo	Q131	196070109	Europe | Urban | Tertiary	2	no_demo	1
+Q131::276070072::no_demo	Q131	276070072	Europe | Urban | Tertiary	2	no_demo	2
+Q131::826070539::no_demo	Q131	826070539	Europe | Urban | Tertiary	2	no_demo	2
+Q131::642070096::no_demo	Q131	642070096	Europe | Rural | Lower Secondary	2	no_demo	1
+Q131::642070696::no_demo	Q131	642070696	Europe | Rural | Lower Secondary	2	no_demo	2
+Q131::826070004::no_demo	Q131	826070004	Europe | Rural | Lower Secondary	2	no_demo	4
+Q131::909070028::no_demo	Q131	909070028	Europe | Rural | Lower Secondary	2	no_demo	2
+Q131::203070887::no_demo	Q131	203070887	Europe | Rural | Lower Secondary	2	no_demo	2
+Q131::586070370::no_demo	Q131	586070370	Asia | Urban | Upper to Post Secondary	2	no_demo	2
+Q131::392071004::no_demo	Q131	392071004	Asia | Urban | Upper to Post Secondary	2	no_demo	4
+Q131::702070005::no_demo	Q131	702070005	Asia | Urban | Upper to Post Secondary	2	no_demo	1
+Q131::398070287::no_demo	Q131	398070287	Asia | Urban | Upper to Post Secondary	2	no_demo	2
+Q131::417071180::no_demo	Q131	417071180	Asia | Urban | Upper to Post Secondary	2	no_demo	1
+Q131::818070642::no_demo	Q131	818070642	Africa | Rural | Primary or No Education	2	no_demo	2
+Q131::504070294::no_demo	Q131	504070294	Africa | Rural | Primary or No Education	2	no_demo	2
+Q131::716070630::no_demo	Q131	716070630	Africa | Rural | Primary or No Education	2	no_demo	2
+Q131::818070271::no_demo	Q131	818070271	Africa | Rural | Primary or No Education	2	no_demo	2
+Q131::231070430::no_demo	Q131	231070430	Africa | Rural | Primary or No Education	2	no_demo	2
+Q131::840072868::no_demo	Q131	840072868	North America | Urban | Tertiary	2	no_demo	3
+Q131::840071482::no_demo	Q131	840071482	North America | Urban | Tertiary	2	no_demo	2
+Q131::840072805::no_demo	Q131	840072805	North America | Urban | Tertiary	2	no_demo	2
+Q131::630070164::no_demo	Q131	630070164	North America | Urban | Tertiary	2	no_demo	2
+Q131::840072980::no_demo	Q131	840072980	North America | Urban | Tertiary	2	no_demo	2
+Q131::862070168::no_demo	Q131	862070168	South America | Rural | Upper to Post Secondary	2	no_demo	2
+Q131::170070669::no_demo	Q131	170070669	South America | Rural | Upper to Post Secondary	2	no_demo	4
+Q131::68070071::no_demo	Q131	68070071	South America | Rural | Upper to Post Secondary	2	no_demo	2
+Q131::218070107::no_demo	Q131	218070107	South America | Rural | Upper to Post Secondary	2	no_demo	2
+Q131::218070801::no_demo	Q131	218070801	South America | Rural | Upper to Post Secondary	2	no_demo	1
+Q132::276070653::no_demo	Q132	276070653	Europe | Urban | Tertiary	4	no_demo	3
+Q132::528072089::no_demo	Q132	528072089	Europe | Urban | Tertiary	4	no_demo	4
+Q132::826070150::no_demo	Q132	826070150	Europe | Urban | Tertiary	4	no_demo	4
+Q132::909070272::no_demo	Q132	909070272	Europe | Urban | Tertiary	4	no_demo	3
+Q132::804070128::no_demo	Q132	804070128	Europe | Urban | Tertiary	4	no_demo	4
+Q132::51070146::no_demo	Q132	51070146	Europe | Rural | Lower Secondary	4	no_demo	1
+Q132::643071643::no_demo	Q132	643071643	Europe | Rural | Lower Secondary	4	no_demo	4
+Q132::826071540::no_demo	Q132	826071540	Europe | Rural | Lower Secondary	4	no_demo	3
+Q132::703070143::no_demo	Q132	703070143	Europe | Rural | Lower Secondary	4	no_demo	4
+Q132::826071429::no_demo	Q132	826071429	Europe | Rural | Lower Secondary	4	no_demo	2
+Q132::702070855::no_demo	Q132	702070855	Asia | Urban | Upper to Post Secondary	4	no_demo	3
+Q132::704070254::no_demo	Q132	704070254	Asia | Urban | Upper to Post Secondary	4	no_demo	3
+Q132::496071442::no_demo	Q132	496071442	Asia | Urban | Upper to Post Secondary	4	no_demo	3
+Q132::446070936::no_demo	Q132	446070936	Asia | Urban | Upper to Post Secondary	4	no_demo	4
+Q132::344070190::no_demo	Q132	344070190	Asia | Urban | Upper to Post Secondary	4	no_demo	4
+Q132::716070330::no_demo	Q132	716070330	Africa | Rural | Primary or No Education	4	no_demo	3
+Q132::716070185::no_demo	Q132	716070185	Africa | Rural | Primary or No Education	4	no_demo	3
+Q132::566070957::no_demo	Q132	566070957	Africa | Rural | Primary or No Education	4	no_demo	2
+Q132::504070533::no_demo	Q132	504070533	Africa | Rural | Primary or No Education	4	no_demo	4
+Q132::231070846::no_demo	Q132	231070846	Africa | Rural | Primary or No Education	4	no_demo	3
+Q132::124073485::no_demo	Q132	124073485	North America | Urban | Tertiary	4	no_demo	3
+Q132::320070586::no_demo	Q132	320070586	North America | Urban | Tertiary	4	no_demo	3
+Q132::124075955::no_demo	Q132	124075955	North America | Urban | Tertiary	4	no_demo	3
+Q132::840072460::no_demo	Q132	840072460	North America | Urban | Tertiary	4	no_demo	4
+Q132::124072655::no_demo	Q132	124072655	North America | Urban | Tertiary	4	no_demo	3
+Q132::76071590::no_demo	Q132	76071590	South America | Rural | Upper to Post Secondary	4	no_demo	3
+Q132::604070419::no_demo	Q132	604070419	South America | Rural | Upper to Post Secondary	4	no_demo	3
+Q132::218071049::no_demo	Q132	218071049	South America | Rural | Upper to Post Secondary	4	no_demo	3
+Q132::76071732::no_demo	Q132	76071732	South America | Rural | Upper to Post Secondary	4	no_demo	3
+Q132::604070727::no_demo	Q132	604070727	South America | Rural | Upper to Post Secondary	4	no_demo	3
+Q133::688070627::no_demo	Q133	688070627	Europe | Urban | Tertiary	2	no_demo	4
+Q133::688070852::no_demo	Q133	688070852	Europe | Urban | Tertiary	2	no_demo	3
+Q133::826071039::no_demo	Q133	826071039	Europe | Urban | Tertiary	2	no_demo	4
+Q133::804070128::no_demo	Q133	804070128	Europe | Urban | Tertiary	2	no_demo	3
+Q133::826071616::no_demo	Q133	826071616	Europe | Urban | Tertiary	2	no_demo	3
+Q133::643071652::no_demo	Q133	643071652	Europe | Rural | Lower Secondary	2	no_demo	4
+Q133::642071253::no_demo	Q133	642071253	Europe | Rural | Lower Secondary	2	no_demo	1
+Q133::826070698::no_demo	Q133	826070698	Europe | Rural | Lower Secondary	2	no_demo	3
+Q133::528070024::no_demo	Q133	528070024	Europe | Rural | Lower Secondary	2	no_demo	4
+Q133::196070090::no_demo	Q133	196070090	Europe | Rural | Lower Secondary	2	no_demo	4
+Q133::344070978::no_demo	Q133	344070978	Asia | Urban | Upper to Post Secondary	2	no_demo	3
+Q133::458070401::no_demo	Q133	458070401	Asia | Urban | Upper to Post Secondary	2	no_demo	3
+Q133::792071220::no_demo	Q133	792071220	Asia | Urban | Upper to Post Secondary	2	no_demo	4
+Q133::368070602::no_demo	Q133	368070602	Asia | Urban | Upper to Post Secondary	2	no_demo	4
+Q133::344071552::no_demo	Q133	344071552	Asia | Urban | Upper to Post Secondary	2	no_demo	3
+Q133::566071175::no_demo	Q133	566071175	Africa | Rural | Primary or No Education	2	no_demo	4
+Q133::404070963::no_demo	Q133	404070963	Africa | Rural | Primary or No Education	2	no_demo	2
+Q133::788070212::no_demo	Q133	788070212	Africa | Rural | Primary or No Education	2	no_demo	2
+Q133::788070056::no_demo	Q133	788070056	Africa | Rural | Primary or No Education	2	no_demo	2
+Q133::566070641::no_demo	Q133	566070641	Africa | Rural | Primary or No Education	2	no_demo	1
+Q133::124070615::no_demo	Q133	124070615	North America | Urban | Tertiary	2	no_demo	4
+Q133::630070986::no_demo	Q133	630070986	North America | Urban | Tertiary	2	no_demo	4
+Q133::840072850::no_demo	Q133	840072850	North America | Urban | Tertiary	2	no_demo	3
+Q133::124071221::no_demo	Q133	124071221	North America | Urban | Tertiary	2	no_demo	3
+Q133::124073119::no_demo	Q133	124073119	North America | Urban | Tertiary	2	no_demo	3
+Q133::152070921::no_demo	Q133	152070921	South America | Rural | Upper to Post Secondary	2	no_demo	4
+Q133::862070488::no_demo	Q133	862070488	South America | Rural | Upper to Post Secondary	2	no_demo	2
+Q133::152070241::no_demo	Q133	152070241	South America | Rural | Upper to Post Secondary	2	no_demo	3
+Q133::218071062::no_demo	Q133	218071062	South America | Rural | Upper to Post Secondary	2	no_demo	2
+Q133::32070985::no_demo	Q133	32070985	South America | Rural | Upper to Post Secondary	2	no_demo	3
+Q158::51070223::no_demo	Q158	51070223	Europe | Urban | Tertiary	8	no_demo	10
+Q158::300070274::no_demo	Q158	300070274	Europe | Urban | Tertiary	8	no_demo	10
+Q158::642070272::no_demo	Q158	642070272	Europe | Urban | Tertiary	8	no_demo	7
+Q158::196070897::no_demo	Q158	196070897	Europe | Urban | Tertiary	8	no_demo	1
+Q158::703071198::no_demo	Q158	703071198	Europe | Urban | Tertiary	8	no_demo	10
+Q158::703070629::no_demo	Q158	703070629	Europe | Rural | Lower Secondary	8	no_demo	8
+Q158::703070453::no_demo	Q158	703070453	Europe | Rural | Lower Secondary	8	no_demo	8
+Q158::826070266::no_demo	Q158	826070266	Europe | Rural | Lower Secondary	8	no_demo	7
+Q158::826071625::no_demo	Q158	826071625	Europe | Rural | Lower Secondary	8	no_demo	5
+Q158::703070414::no_demo	Q158	703070414	Europe | Rural | Lower Secondary	8	no_demo	10
+Q158::360070388::no_demo	Q158	360070388	Asia | Urban | Upper to Post Secondary	8	no_demo	8
+Q158::156070515::no_demo	Q158	156070515	Asia | Urban | Upper to Post Secondary	8	no_demo	6
+Q158::458070808::no_demo	Q158	458070808	Asia | Urban | Upper to Post Secondary	8	no_demo	8
+Q158::398070021::no_demo	Q158	398070021	Asia | Urban | Upper to Post Secondary	8	no_demo	5
+Q158::792070780::no_demo	Q158	792070780	Asia | Urban | Upper to Post Secondary	8	no_demo	8
+Q158::566070050::no_demo	Q158	566070050	Africa | Rural | Primary or No Education	8	no_demo	10
+Q158::818070283::no_demo	Q158	818070283	Africa | Rural | Primary or No Education	8	no_demo	8
+Q158::404071181::no_demo	Q158	404071181	Africa | Rural | Primary or No Education	8	no_demo	3
+Q158::504070674::no_demo	Q158	504070674	Africa | Rural | Primary or No Education	8	no_demo	7
+Q158::231070731::no_demo	Q158	231070731	Africa | Rural | Primary or No Education	8	no_demo	10
+Q158::840071654::no_demo	Q158	840071654	North America | Urban | Tertiary	8	no_demo	5
+Q158::630070824::no_demo	Q158	630070824	North America | Urban | Tertiary	8	no_demo	10
+Q158::840072805::no_demo	Q158	840072805	North America | Urban | Tertiary	8	no_demo	8
+Q158::124076065::no_demo	Q158	124076065	North America | Urban | Tertiary	8	no_demo	4
+Q158::630070132::no_demo	Q158	630070132	North America | Urban | Tertiary	8	no_demo	1
+Q158::152070737::no_demo	Q158	152070737	South America | Rural | Upper to Post Secondary	8	no_demo	7
+Q158::68070071::no_demo	Q158	68070071	South America | Rural | Upper to Post Secondary	8	no_demo	5
+Q158::604071224::no_demo	Q158	604071224	South America | Rural | Upper to Post Secondary	8	no_demo	6
+Q158::76070900::no_demo	Q158	76070900	South America | Rural | Upper to Post Secondary	8	no_demo	10
+Q158::76070557::no_demo	Q158	76070557	South America | Rural | Upper to Post Secondary	8	no_demo	6
+Q159::196070387::no_demo	Q159	196070387	Europe | Urban | Tertiary	8	no_demo	1
+Q159::826072359::no_demo	Q159	826072359	Europe | Urban | Tertiary	8	no_demo	10
+Q159::826072252::no_demo	Q159	826072252	Europe | Urban | Tertiary	8	no_demo	7
+Q159::196070109::no_demo	Q159	196070109	Europe | Urban | Tertiary	8	no_demo	9
+Q159::300070546::no_demo	Q159	300070546	Europe | Urban | Tertiary	8	no_demo	6
+Q159::642070938::no_demo	Q159	642070938	Europe | Rural | Lower Secondary	8	no_demo	10
+Q159::826071546::no_demo	Q159	826071546	Europe | Rural | Lower Secondary	8	no_demo	8
+Q159::203070948::no_demo	Q159	203070948	Europe | Rural | Lower Secondary	8	no_demo	8
+Q159::826072247::no_demo	Q159	826072247	Europe | Rural | Lower Secondary	8	no_demo	8
+Q159::703070629::no_demo	Q159	703070629	Europe | Rural | Lower Secondary	8	no_demo	8
+Q159::344070484::no_demo	Q159	344070484	Asia | Urban | Upper to Post Secondary	8	no_demo	8
+Q159::792071241::no_demo	Q159	792071241	Asia | Urban | Upper to Post Secondary	8	no_demo	10
+Q159::792071785::no_demo	Q159	792071785	Asia | Urban | Upper to Post Secondary	8	no_demo	10
+Q159::364071417::no_demo	Q159	364071417	Asia | Urban | Upper to Post Secondary	8	no_demo	6
+Q159::368070602::no_demo	Q159	368070602	Asia | Urban | Upper to Post Secondary	8	no_demo	10
+Q159::566070572::no_demo	Q159	566070572	Africa | Rural | Primary or No Education	8	no_demo	10
+Q159::231071017::no_demo	Q159	231071017	Africa | Rural | Primary or No Education	8	no_demo	10
+Q159::566070963::no_demo	Q159	566070963	Africa | Rural | Primary or No Education	8	no_demo	5
+Q159::788070214::no_demo	Q159	788070214	Africa | Rural | Primary or No Education	8	no_demo	5
+Q159::566070084::no_demo	Q159	566070084	Africa | Rural | Primary or No Education	8	no_demo	10
+Q159::630070824::no_demo	Q159	630070824	North America | Urban | Tertiary	8	no_demo	10
+Q159::630071196::no_demo	Q159	630071196	North America | Urban | Tertiary	8	no_demo	10
+Q159::124075179::no_demo	Q159	124075179	North America | Urban | Tertiary	8	no_demo	10
+Q159::124071848::no_demo	Q159	124071848	North America | Urban | Tertiary	8	no_demo	4
+Q159::320070283::no_demo	Q159	320070283	North America | Urban | Tertiary	8	no_demo	3
+Q159::170075196::no_demo	Q159	170075196	South America | Rural | Upper to Post Secondary	8	no_demo	6
+Q159::170075711::no_demo	Q159	170075711	South America | Rural | Upper to Post Secondary	8	no_demo	8
+Q159::604070597::no_demo	Q159	604070597	South America | Rural | Upper to Post Secondary	8	no_demo	4
+Q159::76070491::no_demo	Q159	76070491	South America | Rural | Upper to Post Secondary	8	no_demo	3
+Q159::218070728::no_demo	Q159	218070728	South America | Rural | Upper to Post Secondary	8	no_demo	5
+Q160::203070925::no_demo	Q160	203070925	Europe | Urban | Tertiary	5	no_demo	4
+Q160::826071947::no_demo	Q160	826071947	Europe | Urban | Tertiary	5	no_demo	3
+Q160::688071163::no_demo	Q160	688071163	Europe | Urban | Tertiary	5	no_demo	9
+Q160::203070799::no_demo	Q160	203070799	Europe | Urban | Tertiary	5	no_demo	1
+Q160::826071549::no_demo	Q160	826071549	Europe | Urban | Tertiary	5	no_demo	6
+Q160::642070096::no_demo	Q160	642070096	Europe | Rural | Lower Secondary	5	no_demo	9
+Q160::203070347::no_demo	Q160	203070347	Europe | Rural | Lower Secondary	5	no_demo	5
+Q160::643071520::no_demo	Q160	643071520	Europe | Rural | Lower Secondary	5	no_demo	3
+Q160::703070362::no_demo	Q160	703070362	Europe | Rural | Lower Secondary	5	no_demo	10
+Q160::528070024::no_demo	Q160	528070024	Europe | Rural | Lower Secondary	5	no_demo	6
+Q160::410070026::no_demo	Q160	410070026	Asia | Urban | Upper to Post Secondary	5	no_demo	4
+Q160::400070254::no_demo	Q160	400070254	Asia | Urban | Upper to Post Secondary	5	no_demo	7
+Q160::392071238::no_demo	Q160	392071238	Asia | Urban | Upper to Post Secondary	5	no_demo	9
+Q160::360070339::no_demo	Q160	360070339	Asia | Urban | Upper to Post Secondary	5	no_demo	1
+Q160::792070606::no_demo	Q160	792070606	Asia | Urban | Upper to Post Secondary	5	no_demo	5
+Q160::716070330::no_demo	Q160	716070330	Africa | Rural | Primary or No Education	5	no_demo	5
+Q160::231070692::no_demo	Q160	231070692	Africa | Rural | Primary or No Education	5	no_demo	10
+Q160::504070453::no_demo	Q160	504070453	Africa | Rural | Primary or No Education	5	no_demo	2
+Q160::504070842::no_demo	Q160	504070842	Africa | Rural | Primary or No Education	5	no_demo	10
+Q160::818070870::no_demo	Q160	818070870	Africa | Rural | Primary or No Education	5	no_demo	5
+Q160::124072397::no_demo	Q160	124072397	North America | Urban | Tertiary	5	no_demo	1
+Q160::630071124::no_demo	Q160	630071124	North America | Urban | Tertiary	5	no_demo	10
+Q160::558070287::no_demo	Q160	558070287	North America | Urban | Tertiary	5	no_demo	10
+Q160::320070459::no_demo	Q160	320070459	North America | Urban | Tertiary	5	no_demo	10
+Q160::124075463::no_demo	Q160	124075463	North America | Urban | Tertiary	5	no_demo	2
+Q160::218070707::no_demo	Q160	218070707	South America | Rural | Upper to Post Secondary	5	no_demo	10
+Q160::218070048::no_demo	Q160	218070048	South America | Rural | Upper to Post Secondary	5	no_demo	2
+Q160::170074294::no_demo	Q160	170074294	South America | Rural | Upper to Post Secondary	5	no_demo	1
+Q160::218070107::no_demo	Q160	218070107	South America | Rural | Upper to Post Secondary	5	no_demo	6
+Q160::218071062::no_demo	Q160	218071062	South America | Rural | Upper to Post Secondary	5	no_demo	8
+Q164::20070612::no_demo	Q164	20070612	Europe | Urban | Tertiary	8	no_demo	8
+Q164::20070134::no_demo	Q164	20070134	Europe | Urban | Tertiary	8	no_demo	10
+Q164::826070852::no_demo	Q164	826070852	Europe | Urban | Tertiary	8	no_demo	1
+Q164::276071320::no_demo	Q164	276071320	Europe | Urban | Tertiary	8	no_demo	8
+Q164::20070505::no_demo	Q164	20070505	Europe | Urban | Tertiary	8	no_demo	2
+Q164::703071097::no_demo	Q164	703071097	Europe | Rural | Lower Secondary	8	no_demo	9
+Q164::909070291::no_demo	Q164	909070291	Europe | Rural | Lower Secondary	8	no_demo	1
+Q164::643071654::no_demo	Q164	643071654	Europe | Rural | Lower Secondary	8	no_demo	6
+Q164::528070024::no_demo	Q164	528070024	Europe | Rural | Lower Secondary	8	no_demo	9
+Q164::203071091::no_demo	Q164	203071091	Europe | Rural | Lower Secondary	8	no_demo	1
+Q164::446070813::no_demo	Q164	446070813	Asia | Urban | Upper to Post Secondary	8	no_demo	5
+Q164::446070773::no_demo	Q164	446070773	Asia | Urban | Upper to Post Secondary	8	no_demo	1
+Q164::392070074::no_demo	Q164	392070074	Asia | Urban | Upper to Post Secondary	8	no_demo	4
+Q164::400070988::no_demo	Q164	400070988	Asia | Urban | Upper to Post Secondary	8	no_demo	10
+Q164::417071164::no_demo	Q164	417071164	Asia | Urban | Upper to Post Secondary	8	no_demo	10
+Q164::818070035::no_demo	Q164	818070035	Africa | Rural | Primary or No Education	8	no_demo	10
+Q164::716070330::no_demo	Q164	716070330	Africa | Rural | Primary or No Education	8	no_demo	10
+Q164::788071049::no_demo	Q164	788071049	Africa | Rural | Primary or No Education	8	no_demo	10
+Q164::566070866::no_demo	Q164	566070866	Africa | Rural | Primary or No Education	8	no_demo	10
+Q164::504070533::no_demo	Q164	504070533	Africa | Rural | Primary or No Education	8	no_demo	10
+Q164::124072376::no_demo	Q164	124072376	North America | Urban | Tertiary	8	no_demo	1
+Q164::320070523::no_demo	Q164	320070523	North America | Urban | Tertiary	8	no_demo	10
+Q164::124071831::no_demo	Q164	124071831	North America | Urban | Tertiary	8	no_demo	2
+Q164::124073058::no_demo	Q164	124073058	North America | Urban | Tertiary	8	no_demo	1
+Q164::558071133::no_demo	Q164	558071133	North America | Urban | Tertiary	8	no_demo	9
+Q164::218070707::no_demo	Q164	218070707	South America | Rural | Upper to Post Secondary	8	no_demo	10
+Q164::170070672::no_demo	Q164	170070672	South America | Rural | Upper to Post Secondary	8	no_demo	2
+Q164::76070907::no_demo	Q164	76070907	South America | Rural | Upper to Post Secondary	8	no_demo	7
+Q164::218070560::no_demo	Q164	218070560	South America | Rural | Upper to Post Secondary	8	no_demo	10
+Q164::68070071::no_demo	Q164	68070071	South America | Rural | Upper to Post Secondary	8	no_demo	6
+Q165::196070507::no_demo	Q165	196070507	Europe | Urban | Tertiary	1	no_demo	1
+Q165::300070274::no_demo	Q165	300070274	Europe | Urban | Tertiary	1	no_demo	1
+Q165::826070892::no_demo	Q165	826070892	Europe | Urban | Tertiary	1	no_demo	2
+Q165::826070316::no_demo	Q165	826070316	Europe | Urban | Tertiary	1	no_demo	1
+Q165::909070245::no_demo	Q165	909070245	Europe | Urban | Tertiary	1	no_demo	1
+Q165::909070291::no_demo	Q165	909070291	Europe | Rural | Lower Secondary	1	no_demo	2
+Q165::826071634::no_demo	Q165	826071634	Europe | Rural | Lower Secondary	1	no_demo	2
+Q165::688071169::no_demo	Q165	688071169	Europe | Rural | Lower Secondary	1	no_demo	1
+Q165::528072095::no_demo	Q165	528072095	Europe | Rural | Lower Secondary	1	no_demo	2
+Q165::643070420::no_demo	Q165	643070420	Europe | Rural | Lower Secondary	1	no_demo	1
+Q165::417071067::no_demo	Q165	417071067	Asia | Urban | Upper to Post Secondary	1	no_demo	1
+Q165::156072444::no_demo	Q165	156072444	Asia | Urban | Upper to Post Secondary	1	no_demo	2
+Q165::344071117::no_demo	Q165	344071117	Asia | Urban | Upper to Post Secondary	1	no_demo	2
+Q165::392070317::no_demo	Q165	392070317	Asia | Urban | Upper to Post Secondary	1	no_demo	2
+Q165::360072982::no_demo	Q165	360072982	Asia | Urban | Upper to Post Secondary	1	no_demo	1
+Q165::566071103::no_demo	Q165	566071103	Africa | Rural | Primary or No Education	1	no_demo	1
+Q165::566070084::no_demo	Q165	566070084	Africa | Rural | Primary or No Education	1	no_demo	1
+Q165::231070877::no_demo	Q165	231070877	Africa | Rural | Primary or No Education	1	no_demo	1
+Q165::231070692::no_demo	Q165	231070692	Africa | Rural | Primary or No Education	1	no_demo	1
+Q165::231070235::no_demo	Q165	231070235	Africa | Rural | Primary or No Education	1	no_demo	1
+Q165::630071124::no_demo	Q165	630071124	North America | Urban | Tertiary	1	no_demo	1
+Q165::320070612::no_demo	Q165	320070612	North America | Urban | Tertiary	1	no_demo	1
+Q165::840072421::no_demo	Q165	840072421	North America | Urban | Tertiary	1	no_demo	1
+Q165::558070714::no_demo	Q165	558070714	North America | Urban | Tertiary	1	no_demo	1
+Q165::320070316::no_demo	Q165	320070316	North America | Urban | Tertiary	1	no_demo	1
+Q165::32070936::no_demo	Q165	32070936	South America | Rural | Upper to Post Secondary	1	no_demo	1
+Q165::68071757::no_demo	Q165	68071757	South America | Rural | Upper to Post Secondary	1	no_demo	1
+Q165::218070707::no_demo	Q165	218070707	South America | Rural | Upper to Post Secondary	1	no_demo	1
+Q165::152070737::no_demo	Q165	152070737	South America | Rural | Upper to Post Secondary	1	no_demo	1
+Q165::76070122::no_demo	Q165	76070122	South America | Rural | Upper to Post Secondary	1	no_demo	1
+Q166::804070613::no_demo	Q166	804070613	Europe | Urban | Tertiary	1	no_demo	1
+Q166::826072276::no_demo	Q166	826072276	Europe | Urban | Tertiary	1	no_demo	2
+Q166::276071152::no_demo	Q166	276071152	Europe | Urban | Tertiary	1	no_demo	1
+Q166::276071463::no_demo	Q166	276071463	Europe | Urban | Tertiary	1	no_demo	2
+Q166::276070649::no_demo	Q166	276070649	Europe | Urban | Tertiary	1	no_demo	2
+Q166::909070291::no_demo	Q166	909070291	Europe | Rural | Lower Secondary	1	no_demo	1
+Q166::909070284::no_demo	Q166	909070284	Europe | Rural | Lower Secondary	1	no_demo	2
+Q166::826072255::no_demo	Q166	826072255	Europe | Rural | Lower Secondary	1	no_demo	1
+Q166::909070197::no_demo	Q166	909070197	Europe | Rural | Lower Secondary	1	no_demo	1
+Q166::703071097::no_demo	Q166	703071097	Europe | Rural | Lower Secondary	1	no_demo	1
+Q166::344071048::no_demo	Q166	344071048	Asia | Urban | Upper to Post Secondary	1	no_demo	1
+Q166::158070616::no_demo	Q166	158070616	Asia | Urban | Upper to Post Secondary	1	no_demo	1
+Q166::422071191::no_demo	Q166	422071191	Asia | Urban | Upper to Post Secondary	1	no_demo	1
+Q166::458070778::no_demo	Q166	458070778	Asia | Urban | Upper to Post Secondary	1	no_demo	1
+Q166::400070840::no_demo	Q166	400070840	Asia | Urban | Upper to Post Secondary	1	no_demo	2
+Q166::231070975::no_demo	Q166	231070975	Africa | Rural | Primary or No Education	1	no_demo	1
+Q166::404070956::no_demo	Q166	404070956	Africa | Rural | Primary or No Education	1	no_demo	1
+Q166::788070927::no_demo	Q166	788070927	Africa | Rural | Primary or No Education	1	no_demo	1
+Q166::504070901::no_demo	Q166	504070901	Africa | Rural | Primary or No Education	1	no_demo	1
+Q166::231070044::no_demo	Q166	231070044	Africa | Rural | Primary or No Education	1	no_demo	1
+Q166::558070714::no_demo	Q166	558070714	North America | Urban | Tertiary	1	no_demo	1
+Q166::840073075::no_demo	Q166	840073075	North America | Urban | Tertiary	1	no_demo	1
+Q166::124072397::no_demo	Q166	124072397	North America | Urban | Tertiary	1	no_demo	1
+Q166::124071008::no_demo	Q166	124071008	North America | Urban | Tertiary	1	no_demo	2
+Q166::124071424::no_demo	Q166	124071424	North America | Urban | Tertiary	1	no_demo	2
+Q166::170073482::no_demo	Q166	170073482	South America | Rural | Upper to Post Secondary	1	no_demo	1
+Q166::170070663::no_demo	Q166	170070663	South America | Rural | Upper to Post Secondary	1	no_demo	2
+Q166::604071290::no_demo	Q166	604071290	South America | Rural | Upper to Post Secondary	1	no_demo	1
+Q166::170070672::no_demo	Q166	170070672	South America | Rural | Upper to Post Secondary	1	no_demo	1
+Q166::76071070::no_demo	Q166	76071070	South America | Rural | Upper to Post Secondary	1	no_demo	1
+Q176::642070132::no_demo	Q176	642070132	Europe | Urban | Tertiary	6	no_demo	7
+Q176::688070859::no_demo	Q176	688070859	Europe | Urban | Tertiary	6	no_demo	10
+Q176::688070589::no_demo	Q176	688070589	Europe | Urban | Tertiary	6	no_demo	8
+Q176::20070612::no_demo	Q176	20070612	Europe | Urban | Tertiary	6	no_demo	5
+Q176::826070021::no_demo	Q176	826070021	Europe | Urban | Tertiary	6	no_demo	10
+Q176::643070475::no_demo	Q176	643070475	Europe | Rural | Lower Secondary	6	no_demo	5
+Q176::642070919::no_demo	Q176	642070919	Europe | Rural | Lower Secondary	6	no_demo	3
+Q176::203070023::no_demo	Q176	203070023	Europe | Rural | Lower Secondary	6	no_demo	4
+Q176::642070124::no_demo	Q176	642070124	Europe | Rural | Lower Secondary	6	no_demo	5
+Q176::703070143::no_demo	Q176	703070143	Europe | Rural | Lower Secondary	6	no_demo	10
+Q176::360071299::no_demo	Q176	360071299	Asia | Urban | Upper to Post Secondary	6	no_demo	5
+Q176::158070858::no_demo	Q176	158070858	Asia | Urban | Upper to Post Secondary	6	no_demo	4
+Q176::422070789::no_demo	Q176	422070789	Asia | Urban | Upper to Post Secondary	6	no_demo	8
+Q176::158070387::no_demo	Q176	158070387	Asia | Urban | Upper to Post Secondary	6	no_demo	5
+Q176::364071561::no_demo	Q176	364071561	Asia | Urban | Upper to Post Secondary	6	no_demo	7
+Q176::231070490::no_demo	Q176	231070490	Africa | Rural | Primary or No Education	6	no_demo	5
+Q176::566070764::no_demo	Q176	566070764	Africa | Rural | Primary or No Education	6	no_demo	7
+Q176::231070804::no_demo	Q176	231070804	Africa | Rural | Primary or No Education	6	no_demo	10
+Q176::231070172::no_demo	Q176	231070172	Africa | Rural | Primary or No Education	6	no_demo	5
+Q176::818070870::no_demo	Q176	818070870	Africa | Rural | Primary or No Education	6	no_demo	7
+Q176::124073840::no_demo	Q176	124073840	North America | Urban | Tertiary	6	no_demo	9
+Q176::124070258::no_demo	Q176	124070258	North America | Urban | Tertiary	6	no_demo	1
+Q176::630070813::no_demo	Q176	630070813	North America | Urban | Tertiary	6	no_demo	1
+Q176::320070358::no_demo	Q176	320070358	North America | Urban | Tertiary	6	no_demo	7
+Q176::484070988::no_demo	Q176	484070988	North America | Urban | Tertiary	6	no_demo	3
+Q176::218071061::no_demo	Q176	218071061	South America | Rural | Upper to Post Secondary	6	no_demo	3
+Q176::604070720::no_demo	Q176	604070720	South America | Rural | Upper to Post Secondary	6	no_demo	10
+Q176::604071224::no_demo	Q176	604071224	South America | Rural | Upper to Post Secondary	6	no_demo	5
+Q176::170071307::no_demo	Q176	170071307	South America | Rural | Upper to Post Secondary	6	no_demo	2
+Q176::218070253::no_demo	Q176	218070253	South America | Rural | Upper to Post Secondary	6	no_demo	6
+Q177::826070539::no_demo	Q177	826070539	Europe | Urban | Tertiary	6	no_demo	7
+Q177::688070512::no_demo	Q177	688070512	Europe | Urban | Tertiary	6	no_demo	3
+Q177::826070562::no_demo	Q177	826070562	Europe | Urban | Tertiary	6	no_demo	1
+Q177::826071947::no_demo	Q177	826071947	Europe | Urban | Tertiary	6	no_demo	1
+Q177::276070614::no_demo	Q177	276070614	Europe | Urban | Tertiary	6	no_demo	3
+Q177::703070895::no_demo	Q177	703070895	Europe | Rural | Lower Secondary	6	no_demo	1
+Q177::51070917::no_demo	Q177	51070917	Europe | Rural | Lower Secondary	6	no_demo	1
+Q177::642070088::no_demo	Q177	642070088	Europe | Rural | Lower Secondary	6	no_demo	1
+Q177::826071127::no_demo	Q177	826071127	Europe | Rural | Lower Secondary	6	no_demo	1
+Q177::703071097::no_demo	Q177	703071097	Europe | Rural | Lower Secondary	6	no_demo	8
+Q177::344071242::no_demo	Q177	344071242	Asia | Urban | Upper to Post Secondary	6	no_demo	5
+Q177::410070191::no_demo	Q177	410070191	Asia | Urban | Upper to Post Secondary	6	no_demo	5
+Q177::158070254::no_demo	Q177	158070254	Asia | Urban | Upper to Post Secondary	6	no_demo	1
+Q177::158070918::no_demo	Q177	158070918	Asia | Urban | Upper to Post Secondary	6	no_demo	1
+Q177::792071504::no_demo	Q177	792071504	Asia | Urban | Upper to Post Secondary	6	no_demo	1
+Q177::231070195::no_demo	Q177	231070195	Africa | Rural | Primary or No Education	6	no_demo	1
+Q177::818071071::no_demo	Q177	818071071	Africa | Rural | Primary or No Education	6	no_demo	3
+Q177::788070212::no_demo	Q177	788070212	Africa | Rural | Primary or No Education	6	no_demo	2
+Q177::231070350::no_demo	Q177	231070350	Africa | Rural | Primary or No Education	6	no_demo	1
+Q177::231070140::no_demo	Q177	231070140	Africa | Rural | Primary or No Education	6	no_demo	1
+Q177::840071531::no_demo	Q177	840071531	North America | Urban | Tertiary	6	no_demo	3
+Q177::320070977::no_demo	Q177	320070977	North America | Urban | Tertiary	6	no_demo	1
+Q177::484071249::no_demo	Q177	484071249	North America | Urban | Tertiary	6	no_demo	9
+Q177::630070450::no_demo	Q177	630070450	North America | Urban | Tertiary	6	no_demo	1
+Q177::840071667::no_demo	Q177	840071667	North America | Urban | Tertiary	6	no_demo	4
+Q177::170071768::no_demo	Q177	170071768	South America | Rural | Upper to Post Secondary	6	no_demo	8
+Q177::862070973::no_demo	Q177	862070973	South America | Rural | Upper to Post Secondary	6	no_demo	3
+Q177::152070215::no_demo	Q177	152070215	South America | Rural | Upper to Post Secondary	6	no_demo	8
+Q177::604071286::no_demo	Q177	604071286	South America | Rural | Upper to Post Secondary	6	no_demo	1
+Q177::68071803::no_demo	Q177	68071803	South America | Rural | Upper to Post Secondary	6	no_demo	7
+Q178::528072126::no_demo	Q178	528072126	Europe | Urban | Tertiary	6	no_demo	1
+Q178::688070894::no_demo	Q178	688070894	Europe | Urban | Tertiary	6	no_demo	6
+Q178::528072089::no_demo	Q178	528072089	Europe | Urban | Tertiary	6	no_demo	3
+Q178::203070799::no_demo	Q178	203070799	Europe | Urban | Tertiary	6	no_demo	10
+Q178::688070189::no_demo	Q178	688070189	Europe | Urban | Tertiary	6	no_demo	5
+Q178::703070666::no_demo	Q178	703070666	Europe | Rural | Lower Secondary	6	no_demo	1
+Q178::643070099::no_demo	Q178	643070099	Europe | Rural | Lower Secondary	6	no_demo	10
+Q178::703070351::no_demo	Q178	703070351	Europe | Rural | Lower Secondary	6	no_demo	7
+Q178::826071625::no_demo	Q178	826071625	Europe | Rural | Lower Secondary	6	no_demo	1
+Q178::826071634::no_demo	Q178	826071634	Europe | Rural | Lower Secondary	6	no_demo	1
+Q178::398071022::no_demo	Q178	398071022	Asia | Urban | Upper to Post Secondary	6	no_demo	1
+Q178::392070099::no_demo	Q178	392070099	Asia | Urban | Upper to Post Secondary	6	no_demo	1
+Q178::344070330::no_demo	Q178	344070330	Asia | Urban | Upper to Post Secondary	6	no_demo	1
+Q178::360072872::no_demo	Q178	360072872	Asia | Urban | Upper to Post Secondary	6	no_demo	2
+Q178::158070352::no_demo	Q178	158070352	Asia | Urban | Upper to Post Secondary	6	no_demo	1
+Q178::818070986::no_demo	Q178	818070986	Africa | Rural | Primary or No Education	6	no_demo	1
+Q178::716071161::no_demo	Q178	716071161	Africa | Rural | Primary or No Education	6	no_demo	2
+Q178::231070711::no_demo	Q178	231070711	Africa | Rural | Primary or No Education	6	no_demo	1
+Q178::231070195::no_demo	Q178	231070195	Africa | Rural | Primary or No Education	6	no_demo	1
+Q178::504070333::no_demo	Q178	504070333	Africa | Rural | Primary or No Education	6	no_demo	1
+Q178::630070293::no_demo	Q178	630070293	North America | Urban | Tertiary	6	no_demo	1
+Q178::124070575::no_demo	Q178	124070575	North America | Urban | Tertiary	6	no_demo	4
+Q178::124070701::no_demo	Q178	124070701	North America | Urban | Tertiary	6	no_demo	6
+Q178::124071732::no_demo	Q178	124071732	North America | Urban | Tertiary	6	no_demo	10
+Q178::840071135::no_demo	Q178	840071135	North America | Urban | Tertiary	6	no_demo	1
+Q178::862070168::no_demo	Q178	862070168	South America | Rural | Upper to Post Secondary	6	no_demo	1
+Q178::604071290::no_demo	Q178	604071290	South America | Rural | Upper to Post Secondary	6	no_demo	10
+Q178::218071068::no_demo	Q178	218071068	South America | Rural | Upper to Post Secondary	6	no_demo	1
+Q178::170074578::no_demo	Q178	170074578	South America | Rural | Upper to Post Secondary	6	no_demo	6
+Q178::152070737::no_demo	Q178	152070737	South America | Rural | Upper to Post Secondary	6	no_demo	2
+Q199::203070799::no_demo	Q199	203070799	Europe | Urban | Tertiary	3	no_demo	3
+Q199::826071698::no_demo	Q199	826071698	Europe | Urban | Tertiary	3	no_demo	2
+Q199::909070314::no_demo	Q199	909070314	Europe | Urban | Tertiary	3	no_demo	1
+Q199::826072276::no_demo	Q199	826072276	Europe | Urban | Tertiary	3	no_demo	2
+Q199::20070453::no_demo	Q199	20070453	Europe | Urban | Tertiary	3	no_demo	2
+Q199::300070647::no_demo	Q199	300070647	Europe | Rural | Lower Secondary	3	no_demo	2
+Q199::642070696::no_demo	Q199	642070696	Europe | Rural | Lower Secondary	3	no_demo	4
+Q199::826070045::no_demo	Q199	826070045	Europe | Rural | Lower Secondary	3	no_demo	4
+Q199::909070197::no_demo	Q199	909070197	Europe | Rural | Lower Secondary	3	no_demo	4
+Q199::703070171::no_demo	Q199	703070171	Europe | Rural | Lower Secondary	3	no_demo	4
+Q199::400070292::no_demo	Q199	400070292	Asia | Urban | Upper to Post Secondary	3	no_demo	2
+Q199::156070967::no_demo	Q199	156070967	Asia | Urban | Upper to Post Secondary	3	no_demo	2
+Q199::364071732::no_demo	Q199	364071732	Asia | Urban | Upper to Post Secondary	3	no_demo	2
+Q199::344071460::no_demo	Q199	344071460	Asia | Urban | Upper to Post Secondary	3	no_demo	3
+Q199::422070926::no_demo	Q199	422070926	Asia | Urban | Upper to Post Secondary	3	no_demo	3
+Q199::231070291::no_demo	Q199	231070291	Africa | Rural | Primary or No Education	3	no_demo	4
+Q199::231070424::no_demo	Q199	231070424	Africa | Rural | Primary or No Education	3	no_demo	2
+Q199::231070545::no_demo	Q199	231070545	Africa | Rural | Primary or No Education	3	no_demo	3
+Q199::788071045::no_demo	Q199	788071045	Africa | Rural | Primary or No Education	3	no_demo	3
+Q199::404070950::no_demo	Q199	404070950	Africa | Rural | Primary or No Education	3	no_demo	3
+Q199::124072633::no_demo	Q199	124072633	North America | Urban | Tertiary	3	no_demo	3
+Q199::320070066::no_demo	Q199	320070066	North America | Urban | Tertiary	3	no_demo	2
+Q199::124073127::no_demo	Q199	124073127	North America | Urban | Tertiary	3	no_demo	2
+Q199::840072460::no_demo	Q199	840072460	North America | Urban | Tertiary	3	no_demo	1
+Q199::630071184::no_demo	Q199	630071184	North America | Urban | Tertiary	3	no_demo	4
+Q199::170074249::no_demo	Q199	170074249	South America | Rural | Upper to Post Secondary	3	no_demo	3
+Q199::218070541::no_demo	Q199	218070541	South America | Rural | Upper to Post Secondary	3	no_demo	1
+Q199::218071068::no_demo	Q199	218071068	South America | Rural | Upper to Post Secondary	3	no_demo	2
+Q199::218070696::no_demo	Q199	218070696	South America | Rural | Upper to Post Secondary	3	no_demo	3
+Q199::604070716::no_demo	Q199	604070716	South America | Rural | Upper to Post Secondary	3	no_demo	4
+Q200::20070647::no_demo	Q200	20070647	Europe | Urban | Tertiary	2	no_demo	1
+Q200::826071698::no_demo	Q200	826071698	Europe | Urban | Tertiary	2	no_demo	1
+Q200::703070725::no_demo	Q200	703070725	Europe | Urban | Tertiary	2	no_demo	2
+Q200::300070383::no_demo	Q200	300070383	Europe | Urban | Tertiary	2	no_demo	2
+Q200::642070132::no_demo	Q200	642070132	Europe | Urban | Tertiary	2	no_demo	2
+Q200::826072505::no_demo	Q200	826072505	Europe | Rural | Lower Secondary	2	no_demo	2
+Q200::826070045::no_demo	Q200	826070045	Europe | Rural | Lower Secondary	2	no_demo	3
+Q200::703070367::no_demo	Q200	703070367	Europe | Rural | Lower Secondary	2	no_demo	2
+Q200::804070731::no_demo	Q200	804070731	Europe | Rural | Lower Secondary	2	no_demo	2
+Q200::703070559::no_demo	Q200	703070559	Europe | Rural | Lower Secondary	2	no_demo	2
+Q200::792070188::no_demo	Q200	792070188	Asia | Urban | Upper to Post Secondary	2	no_demo	2
+Q200::764070167::no_demo	Q200	764070167	Asia | Urban | Upper to Post Secondary	2	no_demo	3
+Q200::158070172::no_demo	Q200	158070172	Asia | Urban | Upper to Post Secondary	2	no_demo	2
+Q200::344071444::no_demo	Q200	344071444	Asia | Urban | Upper to Post Secondary	2	no_demo	1
+Q200::156071123::no_demo	Q200	156071123	Asia | Urban | Upper to Post Secondary	2	no_demo	2
+Q200::404070608::no_demo	Q200	404070608	Africa | Rural | Primary or No Education	2	no_demo	3
+Q200::231070970::no_demo	Q200	231070970	Africa | Rural | Primary or No Education	2	no_demo	3
+Q200::788071160::no_demo	Q200	788071160	Africa | Rural | Primary or No Education	2	no_demo	2
+Q200::404071046::no_demo	Q200	404071046	Africa | Rural | Primary or No Education	2	no_demo	2
+Q200::716070692::no_demo	Q200	716070692	Africa | Rural | Primary or No Education	2	no_demo	2
+Q200::320071024::no_demo	Q200	320071024	North America | Urban | Tertiary	2	no_demo	3
+Q200::840071654::no_demo	Q200	840071654	North America | Urban | Tertiary	2	no_demo	2
+Q200::840073398::no_demo	Q200	840073398	North America | Urban | Tertiary	2	no_demo	1
+Q200::124071848::no_demo	Q200	124071848	North America | Urban | Tertiary	2	no_demo	2
+Q200::124071403::no_demo	Q200	124071403	North America | Urban | Tertiary	2	no_demo	3
+Q200::604070727::no_demo	Q200	604070727	South America | Rural | Upper to Post Secondary	2	no_demo	3
+Q200::68071438::no_demo	Q200	68071438	South America | Rural | Upper to Post Secondary	2	no_demo	3
+Q200::32070936::no_demo	Q200	32070936	South America | Rural | Upper to Post Secondary	2	no_demo	1
+Q200::68071696::no_demo	Q200	68071696	South America | Rural | Upper to Post Secondary	2	no_demo	3
+Q200::68070652::no_demo	Q200	68070652	South America | Rural | Upper to Post Secondary	2	no_demo	2
+Q201::643070678::no_demo	Q201	643070678	Europe | Urban | Tertiary	1	no_demo	1
+Q201::276071486::no_demo	Q201	276071486	Europe | Urban | Tertiary	1	no_demo	4
+Q201::826071549::no_demo	Q201	826071549	Europe | Urban | Tertiary	1	no_demo	1
+Q201::528070686::no_demo	Q201	528070686	Europe | Urban | Tertiary	1	no_demo	5
+Q201::826071068::no_demo	Q201	826071068	Europe | Urban | Tertiary	1	no_demo	5
+Q201::300070760::no_demo	Q201	300070760	Europe | Rural | Lower Secondary	1	no_demo	5
+Q201::909070176::no_demo	Q201	909070176	Europe | Rural | Lower Secondary	1	no_demo	1
+Q201::703070205::no_demo	Q201	703070205	Europe | Rural | Lower Secondary	1	no_demo	3
+Q201::643071520::no_demo	Q201	643071520	Europe | Rural | Lower Secondary	1	no_demo	3
+Q201::826070421::no_demo	Q201	826070421	Europe | Rural | Lower Secondary	1	no_demo	2
+Q201::762070815::no_demo	Q201	762070815	Asia | Urban | Upper to Post Secondary	1	no_demo	5
+Q201::360072982::no_demo	Q201	360072982	Asia | Urban | Upper to Post Secondary	1	no_demo	5
+Q201::344070386::no_demo	Q201	344070386	Asia | Urban | Upper to Post Secondary	1	no_demo	1
+Q201::360070665::no_demo	Q201	360070665	Asia | Urban | Upper to Post Secondary	1	no_demo	1
+Q201::344071521::no_demo	Q201	344071521	Asia | Urban | Upper to Post Secondary	1	no_demo	1
+Q201::818070283::no_demo	Q201	818070283	Africa | Rural | Primary or No Education	1	no_demo	5
+Q201::818070860::no_demo	Q201	818070860	Africa | Rural | Primary or No Education	1	no_demo	5
+Q201::231070545::no_demo	Q201	231070545	Africa | Rural | Primary or No Education	1	no_demo	5
+Q201::788070589::no_demo	Q201	788070589	Africa | Rural | Primary or No Education	1	no_demo	5
+Q201::404070574::no_demo	Q201	404070574	Africa | Rural | Primary or No Education	1	no_demo	5
+Q201::320070471::no_demo	Q201	320070471	North America | Urban | Tertiary	1	no_demo	1
+Q201::320070995::no_demo	Q201	320070995	North America | Urban | Tertiary	1	no_demo	3
+Q201::320070937::no_demo	Q201	320070937	North America | Urban | Tertiary	1	no_demo	5
+Q201::840073207::no_demo	Q201	840073207	North America | Urban | Tertiary	1	no_demo	3
+Q201::840073388::no_demo	Q201	840073388	North America | Urban | Tertiary	1	no_demo	5
+Q201::76070907::no_demo	Q201	76070907	South America | Rural | Upper to Post Secondary	1	no_demo	1
+Q201::604070597::no_demo	Q201	604070597	South America | Rural | Upper to Post Secondary	1	no_demo	1
+Q201::76070388::no_demo	Q201	76070388	South America | Rural | Upper to Post Secondary	1	no_demo	1
+Q201::68071696::no_demo	Q201	68071696	South America | Rural | Upper to Post Secondary	1	no_demo	4
+Q201::152070921::no_demo	Q201	152070921	South America | Rural | Upper to Post Secondary	1	no_demo	1
+Q235::826072127::no_demo	Q235	826072127	Europe | Urban | Tertiary	2	no_demo	4
+Q235::688070512::no_demo	Q235	688070512	Europe | Urban | Tertiary	3	no_demo	2
+Q235::528070780::no_demo	Q235	528070780	Europe | Urban | Tertiary	3	no_demo	2
+Q235::528071729::no_demo	Q235	528071729	Europe | Urban | Tertiary	3	no_demo	3
+Q235::528071566::no_demo	Q235	528071566	Europe | Urban | Tertiary	3	no_demo	3
+Q235::203071047::no_demo	Q235	203071047	Europe | Rural | Lower Secondary	3	no_demo	4
+Q235::826070004::no_demo	Q235	826070004	Europe | Rural | Lower Secondary	3	no_demo	4
+Q235::528070024::no_demo	Q235	528070024	Europe | Rural | Lower Secondary	3	no_demo	4
+Q235::51071171::no_demo	Q235	51071171	Europe | Rural | Lower Secondary	3	no_demo	1
+Q235::51071198::no_demo	Q235	51071198	Europe | Rural | Lower Secondary	3	no_demo	2
+Q235::156072219::no_demo	Q235	156072219	Asia | Urban | Upper to Post Secondary	3	no_demo	2
+Q235::368070799::no_demo	Q235	368070799	Asia | Urban | Upper to Post Secondary	3	no_demo	1
+Q235::344070963::no_demo	Q235	344070963	Asia | Urban | Upper to Post Secondary	3	no_demo	2
+Q235::344071515::no_demo	Q235	344071515	Asia | Urban | Upper to Post Secondary	3	no_demo	4
+Q235::422070469::no_demo	Q235	422070469	Asia | Urban | Upper to Post Secondary	3	no_demo	4
+Q235::566070641::no_demo	Q235	566070641	Africa | Rural | Primary or No Education	3	no_demo	3
+Q235::716070330::no_demo	Q235	716070330	Africa | Rural | Primary or No Education	3	no_demo	3
+Q235::231070927::no_demo	Q235	231070927	Africa | Rural | Primary or No Education	3	no_demo	2
+Q235::231070504::no_demo	Q235	231070504	Africa | Rural | Primary or No Education	3	no_demo	3
+Q235::231070828::no_demo	Q235	231070828	Africa | Rural | Primary or No Education	3	no_demo	4
+Q235::840073175::no_demo	Q235	840073175	North America | Urban | Tertiary	3	no_demo	4
+Q235::840072222::no_demo	Q235	840072222	North America | Urban | Tertiary	3	no_demo	3
+Q235::320070120::no_demo	Q235	320070120	North America | Urban | Tertiary	3	no_demo	2
+Q235::124070282::no_demo	Q235	124070282	North America | Urban | Tertiary	3	no_demo	2
+Q235::124072402::no_demo	Q235	124072402	North America | Urban | Tertiary	3	no_demo	3
+Q235::152070639::no_demo	Q235	152070639	South America | Rural | Upper to Post Secondary	3	no_demo	4
+Q235::218070107::no_demo	Q235	218070107	South America | Rural | Upper to Post Secondary	3	no_demo	1
+Q235::32070993::no_demo	Q235	32070993	South America | Rural | Upper to Post Secondary	3	no_demo	4
+Q235::604070677::no_demo	Q235	604070677	South America | Rural | Upper to Post Secondary	3	no_demo	2
+Q235::76071070::no_demo	Q235	76071070	South America | Rural | Upper to Post Secondary	3	no_demo	3
+Q236::688070033::no_demo	Q236	688070033	Europe | Urban | Tertiary	2	no_demo	3
+Q236::20070612::no_demo	Q236	20070612	Europe | Urban | Tertiary	2	no_demo	2
+Q236::642071348::no_demo	Q236	642071348	Europe | Urban | Tertiary	2	no_demo	3
+Q236::300070037::no_demo	Q236	300070037	Europe | Urban | Tertiary	2	no_demo	3
+Q236::276071312::no_demo	Q236	276071312	Europe | Urban | Tertiary	2	no_demo	3
+Q236::196070090::no_demo	Q236	196070090	Europe | Rural | Lower Secondary	2	no_demo	2
+Q236::826072485::no_demo	Q236	826072485	Europe | Rural | Lower Secondary	2	no_demo	4
+Q236::703070834::no_demo	Q236	703070834	Europe | Rural | Lower Secondary	2	no_demo	1
+Q236::643071306::no_demo	Q236	643071306	Europe | Rural | Lower Secondary	2	no_demo	4
+Q236::703070414::no_demo	Q236	703070414	Europe | Rural | Lower Secondary	2	no_demo	2
+Q236::764070052::no_demo	Q236	764070052	Asia | Urban | Upper to Post Secondary	2	no_demo	1
+Q236::400071029::no_demo	Q236	400071029	Asia | Urban | Upper to Post Secondary	2	no_demo	3
+Q236::156072680::no_demo	Q236	156072680	Asia | Urban | Upper to Post Secondary	2	no_demo	2
+Q236::496070649::no_demo	Q236	496070649	Asia | Urban | Upper to Post Secondary	2	no_demo	3
+Q236::158070858::no_demo	Q236	158070858	Asia | Urban | Upper to Post Secondary	2	no_demo	4
+Q236::566071062::no_demo	Q236	566071062	Africa | Rural | Primary or No Education	2	no_demo	2
+Q236::231070404::no_demo	Q236	231070404	Africa | Rural | Primary or No Education	2	no_demo	1
+Q236::231070299::no_demo	Q236	231070299	Africa | Rural | Primary or No Education	2	no_demo	4
+Q236::231070711::no_demo	Q236	231070711	Africa | Rural | Primary or No Education	2	no_demo	4
+Q236::231070406::no_demo	Q236	231070406	Africa | Rural | Primary or No Education	2	no_demo	2
+Q236::558070031::no_demo	Q236	558070031	North America | Urban | Tertiary	2	no_demo	1
+Q236::124071368::no_demo	Q236	124071368	North America | Urban | Tertiary	2	no_demo	2
+Q236::124073504::no_demo	Q236	124073504	North America | Urban | Tertiary	2	no_demo	2
+Q236::630070968::no_demo	Q236	630070968	North America | Urban | Tertiary	2	no_demo	1
+Q236::840072309::no_demo	Q236	840072309	North America | Urban | Tertiary	2	no_demo	2
+Q236::862070531::no_demo	Q236	862070531	South America | Rural | Upper to Post Secondary	2	no_demo	1
+Q236::604071381::no_demo	Q236	604071381	South America | Rural | Upper to Post Secondary	2	no_demo	2
+Q236::604070716::no_demo	Q236	604070716	South America | Rural | Upper to Post Secondary	2	no_demo	2
+Q236::218070818::no_demo	Q236	218070818	South America | Rural | Upper to Post Secondary	2	no_demo	3
+Q236::604070735::no_demo	Q236	604070735	South America | Rural | Upper to Post Secondary	2	no_demo	2
+Q237::276070444::no_demo	Q237	276070444	Europe | Urban | Tertiary	4	no_demo	4
+Q237::51070223::no_demo	Q237	51070223	Europe | Urban | Tertiary	4	no_demo	1
+Q237::826071698::no_demo	Q237	826071698	Europe | Urban | Tertiary	4	no_demo	4
+Q237::528071729::no_demo	Q237	528071729	Europe | Urban | Tertiary	4	no_demo	4
+Q237::688071015::no_demo	Q237	688071015	Europe | Urban | Tertiary	4	no_demo	4
+Q237::826071525::no_demo	Q237	826071525	Europe | Rural | Lower Secondary	4	no_demo	2
+Q237::909070176::no_demo	Q237	909070176	Europe | Rural | Lower Secondary	4	no_demo	2
+Q237::688070607::no_demo	Q237	688070607	Europe | Rural | Lower Secondary	4	no_demo	4
+Q237::276071246::no_demo	Q237	276071246	Europe | Rural | Lower Secondary	4	no_demo	4
+Q237::703070143::no_demo	Q237	703070143	Europe | Rural | Lower Secondary	4	no_demo	2
+Q237::458070765::no_demo	Q237	458070765	Asia | Urban | Upper to Post Secondary	4	no_demo	3
+Q237::702070961::no_demo	Q237	702070961	Asia | Urban | Upper to Post Secondary	4	no_demo	1
+Q237::410070541::no_demo	Q237	410070541	Asia | Urban | Upper to Post Secondary	4	no_demo	3
+Q237::156072007::no_demo	Q237	156072007	Asia | Urban | Upper to Post Secondary	4	no_demo	2
+Q237::410070771::no_demo	Q237	410070771	Asia | Urban | Upper to Post Secondary	4	no_demo	3
+Q237::504070754::no_demo	Q237	504070754	Africa | Rural | Primary or No Education	4	no_demo	4
+Q237::788070589::no_demo	Q237	788070589	Africa | Rural | Primary or No Education	4	no_demo	4
+Q237::231071087::no_demo	Q237	231071087	Africa | Rural | Primary or No Education	4	no_demo	2
+Q237::231070927::no_demo	Q237	231070927	Africa | Rural | Primary or No Education	4	no_demo	4
+Q237::716070875::no_demo	Q237	716070875	Africa | Rural | Primary or No Education	4	no_demo	3
+Q237::840072812::no_demo	Q237	840072812	North America | Urban | Tertiary	4	no_demo	4
+Q237::124074318::no_demo	Q237	124074318	North America | Urban | Tertiary	4	no_demo	2
+Q237::124073530::no_demo	Q237	124073530	North America | Urban | Tertiary	4	no_demo	4
+Q237::484071076::no_demo	Q237	484071076	North America | Urban | Tertiary	4	no_demo	2
+Q237::840072814::no_demo	Q237	840072814	North America | Urban | Tertiary	4	no_demo	2
+Q237::32070953::no_demo	Q237	32070953	South America | Rural | Upper to Post Secondary	4	no_demo	4
+Q237::76071566::no_demo	Q237	76071566	South America | Rural | Upper to Post Secondary	4	no_demo	1
+Q237::218070034::no_demo	Q237	218070034	South America | Rural | Upper to Post Secondary	4	no_demo	3
+Q237::170076289::no_demo	Q237	170076289	South America | Rural | Upper to Post Secondary	4	no_demo	3
+Q237::170070426::no_demo	Q237	170070426	South America | Rural | Upper to Post Secondary	4	no_demo	4

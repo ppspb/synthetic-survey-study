@@ -1,0 +1,48 @@
+[
+  {
+    "folder": "qwen235b_v4",
+    "generated_summary": "/mnt/data/big_model_rectification_regenerated/qwen235b_v4/summary_v4.json",
+    "reference_summary": "/mnt/data/extract_v10/github_pages_bootstrap_story_v10/data/cerebras_qwen235b_rect_v4_summary.json",
+    "generated_sha256": "e4fa55dcf6db3bf42f0483d66bb074c4173677aa354ad3cf393721ffa2b8086c",
+    "reference_sha256": "e4fa55dcf6db3bf42f0483d66bb074c4173677aa354ad3cf393721ffa2b8086c",
+    "byte_identical": true,
+    "test_baseline_mean_w1": 0.17938675058500772,
+    "test_corrected_mean_w1": 0.17671008703658736,
+    "test_delta_mean_w1": -0.0026766635484203605,
+    "test_baseline_top_hit_rate": 0.4861111111111111,
+    "test_corrected_top_hit_rate": 0.5,
+    "selected_categories": [
+      "Economic Values",
+      "Perceptions about Science and Technology",
+      "Perceptions of Corruption",
+      "Perceptions of Migration",
+      "Perceptions of Security",
+      "Political Culture and Political Regimes"
+    ]
+  },
+  {
+    "folder": "llama31_8b_v5",
+    "generated_summary": "/mnt/data/big_model_rectification_regenerated/llama31_8b_v5/summary_v5.json",
+    "reference_summary": "/mnt/data/extract_v10/github_pages_bootstrap_story_v10/data/cerebras_llama31_rect_v5_summary.json",
+    "generated_sha256": "5f7b0be0169340f62a52dc90c8b01632e080ff0e4fb553cfebfa81e02793c406",
+    "reference_sha256": "3fbe9614e37d3af59554d644c123d6ef5cb5ca8d5584f9e487c861d148a9ad6e",
+    "byte_identical": false,
+    "test_baseline_mean_w1": 0.206104063117952,
+    "test_corrected_mean_w1": 0.19154301075711366,
+    "test_delta_mean_w1": -0.01456105236083835,
+    "test_baseline_top_hit_rate": 0.2638888888888889,
+    "test_corrected_top_hit_rate": 0.3194444444444444,
+    "selected_categories": [
+      "Happiness and Wellbeing",
+      "Perceptions about Science and Technology",
+      "Perceptions of Corruption",
+      "Perceptions of Migration",
+      "Perceptions of Security",
+      "Political Culture and Political Regimes",
+      "Political Interest and Political Participation",
+      "Religious Values",
+      "Social Capital, Trust and Organizational Membership",
+      "Social Values, Norms, Stereotypes"
+    ]
+  }
+]

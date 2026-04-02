@@ -1,0 +1,1081 @@
+ROW_KEY	QUESTION_ID	PARTICIPANT_ID	GROUP_KEY	MODEL_SCORE	prompt_mode	HUMAN_SCORE
+Q1::528071583::direct_persona	Q1	528071583	Europe | Urban | Tertiary	1	direct_persona	2
+Q1::909070272::direct_persona	Q1	909070272	Europe | Urban | Tertiary	1	direct_persona	1
+Q1::528071289::direct_persona	Q1	528071289	Europe | Urban | Tertiary	1	direct_persona	1
+Q1::528071879::direct_persona	Q1	528071879	Europe | Urban | Tertiary	1	direct_persona	1
+Q1::528071466::direct_persona	Q1	528071466	Europe | Urban | Tertiary	1	direct_persona	1
+Q1::826071121::direct_persona	Q1	826071121	Europe | Rural | Lower Secondary	1	direct_persona	1
+Q1::804070731::direct_persona	Q1	804070731	Europe | Rural | Lower Secondary	1	direct_persona	1
+Q1::703070894::direct_persona	Q1	703070894	Europe | Rural | Lower Secondary	1	direct_persona	1
+Q1::196070429::direct_persona	Q1	196070429	Europe | Rural | Lower Secondary	1	direct_persona	1
+Q1::642070088::direct_persona	Q1	642070088	Europe | Rural | Lower Secondary	1	direct_persona	1
+Q1::586070648::direct_persona	Q1	586070648	Asia | Urban | Upper to Post Secondary	1	direct_persona	1
+Q1::398070007::direct_persona	Q1	398070007	Asia | Urban | Upper to Post Secondary	1	direct_persona	1
+Q1::410070706::direct_persona	Q1	410070706	Asia | Urban | Upper to Post Secondary	1	direct_persona	1
+Q1::156070594::direct_persona	Q1	156070594	Asia | Urban | Upper to Post Secondary	1	direct_persona	1
+Q1::400070152::direct_persona	Q1	400070152	Asia | Urban | Upper to Post Secondary	1	direct_persona	1
+Q1::818071042::direct_persona	Q1	818071042	Africa | Rural | Primary or No Education	1	direct_persona	1
+Q1::231070731::direct_persona	Q1	231070731	Africa | Rural | Primary or No Education	1	direct_persona	1
+Q1::818070237::direct_persona	Q1	818070237	Africa | Rural | Primary or No Education	1	direct_persona	1
+Q1::788071187::direct_persona	Q1	788071187	Africa | Rural | Primary or No Education	1	direct_persona	1
+Q1::231070458::direct_persona	Q1	231070458	Africa | Rural | Primary or No Education	1	direct_persona	1
+Q1::484071076::direct_persona	Q1	484071076	North America | Urban | Tertiary	1	direct_persona	1
+Q1::124073018::direct_persona	Q1	124073018	North America | Urban | Tertiary	1	direct_persona	1
+Q1::124071008::direct_persona	Q1	124071008	North America | Urban | Tertiary	1	direct_persona	1
+Q1::840072850::direct_persona	Q1	840072850	North America | Urban | Tertiary	1	direct_persona	1
+Q1::320070283::direct_persona	Q1	320070283	North America | Urban | Tertiary	1	direct_persona	1
+Q1::68070399::direct_persona	Q1	68070399	South America | Urban | Lower Secondary	1	direct_persona	1
+Q1::170070054::direct_persona	Q1	170070054	South America | Urban | Lower Secondary	1	direct_persona	1
+Q1::152070494::direct_persona	Q1	152070494	South America | Urban | Lower Secondary	1	direct_persona	1
+Q1::32070430::direct_persona	Q1	32070430	South America | Urban | Lower Secondary	1	direct_persona	1
+Q1::170075035::direct_persona	Q1	170075035	South America | Urban | Lower Secondary	1	direct_persona	1
+Q2::642070845::direct_persona	Q2	642070845	Europe | Urban | Tertiary	3	direct_persona	2
+Q2::20070366::direct_persona	Q2	20070366	Europe | Urban | Tertiary	3	direct_persona	2
+Q2::276070875::direct_persona	Q2	276070875	Europe | Urban | Tertiary	3	direct_persona	2
+Q2::300070037::direct_persona	Q2	300070037	Europe | Urban | Tertiary	3	direct_persona	2
+Q2::276070072::direct_persona	Q2	276070072	Europe | Urban | Tertiary	3	direct_persona	2
+Q2::703070414::direct_persona	Q2	703070414	Europe | Rural | Lower Secondary	3	direct_persona	2
+Q2::826070421::direct_persona	Q2	826070421	Europe | Rural | Lower Secondary	3	direct_persona	1
+Q2::826071121::direct_persona	Q2	826071121	Europe | Rural | Lower Secondary	3	direct_persona	3
+Q2::203070948::direct_persona	Q2	203070948	Europe | Rural | Lower Secondary	3	direct_persona	1
+Q2::196070706::direct_persona	Q2	196070706	Europe | Rural | Lower Secondary	3	direct_persona	1
+Q2::702070734::direct_persona	Q2	702070734	Asia | Urban | Upper to Post Secondary	3	direct_persona	1
+Q2::496070317::direct_persona	Q2	496070317	Asia | Urban | Upper to Post Secondary	3	direct_persona	2
+Q2::392070125::direct_persona	Q2	392070125	Asia | Urban | Upper to Post Secondary	3	direct_persona	1
+Q2::608070097::direct_persona	Q2	608070097	Asia | Urban | Upper to Post Secondary	3	direct_persona	2
+Q2::364072376::direct_persona	Q2	364072376	Asia | Urban | Upper to Post Secondary	3	direct_persona	3
+Q2::404070991::direct_persona	Q2	404070991	Africa | Rural | Primary or No Education	1	direct_persona	2
+Q2::818070575::direct_persona	Q2	818070575	Africa | Rural | Primary or No Education	1	direct_persona	2
+Q2::231070595::direct_persona	Q2	231070595	Africa | Rural | Primary or No Education	1	direct_persona	1
+Q2::788071187::direct_persona	Q2	788071187	Africa | Rural | Primary or No Education	1	direct_persona	1
+Q2::231070195::direct_persona	Q2	231070195	Africa | Rural | Primary or No Education	1	direct_persona	2
+Q2::124073119::direct_persona	Q2	124073119	North America | Urban | Tertiary	1	direct_persona	1
+Q2::484071204::direct_persona	Q2	484071204	North America | Urban | Tertiary	1	direct_persona	2
+Q2::124073563::direct_persona	Q2	124073563	North America | Urban | Tertiary	1	direct_persona	1
+Q2::320070697::direct_persona	Q2	320070697	North America | Urban | Tertiary	1	direct_persona	1
+Q2::124071434::direct_persona	Q2	124071434	North America | Urban | Tertiary	1	direct_persona	2
+Q2::76071238::direct_persona	Q2	76071238	South America | Urban | Lower Secondary	1	direct_persona	2
+Q2::76071836::direct_persona	Q2	76071836	South America | Urban | Lower Secondary	1	direct_persona	1
+Q2::76071021::direct_persona	Q2	76071021	South America | Urban | Lower Secondary	1	direct_persona	2
+Q2::862070448::direct_persona	Q2	862070448	South America | Urban | Lower Secondary	1	direct_persona	2
+Q2::152070494::direct_persona	Q2	152070494	South America | Urban | Lower Secondary	1	direct_persona	4
+Q3::300070148::direct_persona	Q3	300070148	Europe | Urban | Tertiary	1	direct_persona	3
+Q3::688071163::direct_persona	Q3	688071163	Europe | Urban | Tertiary	1	direct_persona	1
+Q3::300071084::direct_persona	Q3	300071084	Europe | Urban | Tertiary	1	direct_persona	1
+Q3::20070124::direct_persona	Q3	20070124	Europe | Urban | Tertiary	1	direct_persona	2
+Q3::528071466::direct_persona	Q3	528071466	Europe | Urban | Tertiary	1	direct_persona	2
+Q3::826071095::direct_persona	Q3	826071095	Europe | Rural | Lower Secondary	3	direct_persona	2
+Q3::826070052::direct_persona	Q3	826070052	Europe | Rural | Lower Secondary	3	direct_persona	1
+Q3::826071676::direct_persona	Q3	826071676	Europe | Rural | Lower Secondary	3	direct_persona	2
+Q3::826070421::direct_persona	Q3	826070421	Europe | Rural | Lower Secondary	3	direct_persona	2
+Q3::51071198::direct_persona	Q3	51071198	Europe | Rural | Lower Secondary	3	direct_persona	2
+Q3::364072161::direct_persona	Q3	364072161	Asia | Urban | Upper to Post Secondary	1	direct_persona	1
+Q3::446070852::direct_persona	Q3	446070852	Asia | Urban | Upper to Post Secondary	1	direct_persona	2
+Q3::446070563::direct_persona	Q3	446070563	Asia | Urban | Upper to Post Secondary	1	direct_persona	2
+Q3::410070959::direct_persona	Q3	410070959	Asia | Urban | Upper to Post Secondary	1	direct_persona	1
+Q3::422070939::direct_persona	Q3	422070939	Asia | Urban | Upper to Post Secondary	1	direct_persona	3
+Q3::818070039::direct_persona	Q3	818070039	Africa | Rural | Primary or No Education	3	direct_persona	3
+Q3::404071234::direct_persona	Q3	404071234	Africa | Rural | Primary or No Education	3	direct_persona	2
+Q3::231070408::direct_persona	Q3	231070408	Africa | Rural | Primary or No Education	3	direct_persona	2
+Q3::231070458::direct_persona	Q3	231070458	Africa | Rural | Primary or No Education	3	direct_persona	1
+Q3::716071125::direct_persona	Q3	716071125	Africa | Rural | Primary or No Education	3	direct_persona	2
+Q3::840073467::direct_persona	Q3	840073467	North America | Urban | Tertiary	3	direct_persona	2
+Q3::124070203::direct_persona	Q3	124070203	North America | Urban | Tertiary	3	direct_persona	2
+Q3::840073207::direct_persona	Q3	840073207	North America | Urban | Tertiary	3	direct_persona	2
+Q3::484070040::direct_persona	Q3	484070040	North America | Urban | Tertiary	3	direct_persona	1
+Q3::124076065::direct_persona	Q3	124076065	North America | Urban | Tertiary	3	direct_persona	1
+Q3::68070102::direct_persona	Q3	68070102	South America | Urban | Lower Secondary	3	direct_persona	1
+Q3::152070570::direct_persona	Q3	152070570	South America | Urban | Lower Secondary	3	direct_persona	2
+Q3::76070379::direct_persona	Q3	76070379	South America | Urban | Lower Secondary	3	direct_persona	3
+Q3::32070066::direct_persona	Q3	32070066	South America | Urban | Lower Secondary	3	direct_persona	1
+Q3::76070059::direct_persona	Q3	76070059	South America | Urban | Lower Secondary	3	direct_persona	2
+Q46::51070402::direct_persona	Q46	51070402	Europe | Urban | Tertiary	3	direct_persona	3
+Q46::826070539::direct_persona	Q46	826070539	Europe | Urban | Tertiary	3	direct_persona	2
+Q46::642070475::direct_persona	Q46	642070475	Europe | Urban | Tertiary	3	direct_persona	2
+Q46::826070106::direct_persona	Q46	826070106	Europe | Urban | Tertiary	3	direct_persona	2
+Q46::276070659::direct_persona	Q46	276070659	Europe | Urban | Tertiary	3	direct_persona	2
+Q46::300070647::direct_persona	Q46	300070647	Europe | Rural | Lower Secondary	3	direct_persona	2
+Q46::276071246::direct_persona	Q46	276071246	Europe | Rural | Lower Secondary	3	direct_persona	2
+Q46::826072247::direct_persona	Q46	826072247	Europe | Rural | Lower Secondary	3	direct_persona	1
+Q46::703070553::direct_persona	Q46	703070553	Europe | Rural | Lower Secondary	3	direct_persona	3
+Q46::703070298::direct_persona	Q46	703070298	Europe | Rural | Lower Secondary	3	direct_persona	2
+Q46::458070872::direct_persona	Q46	458070872	Asia | Urban | Upper to Post Secondary	3	direct_persona	2
+Q46::368071160::direct_persona	Q46	368071160	Asia | Urban | Upper to Post Secondary	3	direct_persona	3
+Q46::586070659::direct_persona	Q46	586070659	Asia | Urban | Upper to Post Secondary	3	direct_persona	2
+Q46::156071692::direct_persona	Q46	156071692	Asia | Urban | Upper to Post Secondary	3	direct_persona	2
+Q46::702070276::direct_persona	Q46	702070276	Asia | Urban | Upper to Post Secondary	3	direct_persona	2
+Q46::231070763::direct_persona	Q46	231070763	Africa | Rural | Primary or No Education	3	direct_persona	1
+Q46::818071042::direct_persona	Q46	818071042	Africa | Rural | Primary or No Education	3	direct_persona	2
+Q46::566070050::direct_persona	Q46	566070050	Africa | Rural | Primary or No Education	3	direct_persona	3
+Q46::231070884::direct_persona	Q46	231070884	Africa | Rural | Primary or No Education	3	direct_persona	2
+Q46::231070700::direct_persona	Q46	231070700	Africa | Rural | Primary or No Education	3	direct_persona	2
+Q46::124073536::direct_persona	Q46	124073536	North America | Urban | Tertiary	3	direct_persona	2
+Q46::630070025::direct_persona	Q46	630070025	North America | Urban | Tertiary	3	direct_persona	2
+Q46::630071068::direct_persona	Q46	630071068	North America | Urban | Tertiary	3	direct_persona	3
+Q46::124072190::direct_persona	Q46	124072190	North America | Urban | Tertiary	3	direct_persona	1
+Q46::124070203::direct_persona	Q46	124070203	North America | Urban | Tertiary	3	direct_persona	2
+Q46::170076843::direct_persona	Q46	170076843	South America | Urban | Lower Secondary	3	direct_persona	3
+Q46::68070631::direct_persona	Q46	68070631	South America | Urban | Lower Secondary	3	direct_persona	3
+Q46::170076479::direct_persona	Q46	170076479	South America | Urban | Lower Secondary	3	direct_persona	1
+Q46::32070430::direct_persona	Q46	32070430	South America | Urban | Lower Secondary	3	direct_persona	2
+Q46::604071353::direct_persona	Q46	604071353	South America | Urban | Lower Secondary	3	direct_persona	1
+Q47::826071005::direct_persona	Q47	826071005	Europe | Urban | Tertiary	3	direct_persona	1
+Q47::276071398::direct_persona	Q47	276071398	Europe | Urban | Tertiary	3	direct_persona	1
+Q47::688071099::direct_persona	Q47	688071099	Europe | Urban | Tertiary	3	direct_persona	1
+Q47::528070083::direct_persona	Q47	528070083	Europe | Urban | Tertiary	3	direct_persona	2
+Q47::826071689::direct_persona	Q47	826071689	Europe | Urban | Tertiary	3	direct_persona	2
+Q47::703070414::direct_persona	Q47	703070414	Europe | Rural | Lower Secondary	3	direct_persona	3
+Q47::703070329::direct_persona	Q47	703070329	Europe | Rural | Lower Secondary	3	direct_persona	1
+Q47::300070760::direct_persona	Q47	300070760	Europe | Rural | Lower Secondary	3	direct_persona	2
+Q47::826071634::direct_persona	Q47	826071634	Europe | Rural | Lower Secondary	3	direct_persona	4
+Q47::643071654::direct_persona	Q47	643071654	Europe | Rural | Lower Secondary	3	direct_persona	2
+Q47::360071777::direct_persona	Q47	360071777	Asia | Urban | Upper to Post Secondary	3	direct_persona	2
+Q47::702071586::direct_persona	Q47	702071586	Asia | Urban | Upper to Post Secondary	3	direct_persona	2
+Q47::704070257::direct_persona	Q47	704070257	Asia | Urban | Upper to Post Secondary	3	direct_persona	3
+Q47::586070373::direct_persona	Q47	586070373	Asia | Urban | Upper to Post Secondary	3	direct_persona	1
+Q47::158071027::direct_persona	Q47	158071027	Asia | Urban | Upper to Post Secondary	3	direct_persona	1
+Q47::818071053::direct_persona	Q47	818071053	Africa | Rural | Primary or No Education	3	direct_persona	2
+Q47::788070927::direct_persona	Q47	788070927	Africa | Rural | Primary or No Education	3	direct_persona	4
+Q47::818070687::direct_persona	Q47	818070687	Africa | Rural | Primary or No Education	3	direct_persona	3
+Q47::504070533::direct_persona	Q47	504070533	Africa | Rural | Primary or No Education	3	direct_persona	4
+Q47::818070271::direct_persona	Q47	818070271	Africa | Rural | Primary or No Education	3	direct_persona	2
+Q47::840073487::direct_persona	Q47	840073487	North America | Urban | Tertiary	3	direct_persona	1
+Q47::124072187::direct_persona	Q47	124072187	North America | Urban | Tertiary	3	direct_persona	3
+Q47::124072453::direct_persona	Q47	124072453	North America | Urban | Tertiary	3	direct_persona	1
+Q47::320070929::direct_persona	Q47	320070929	North America | Urban | Tertiary	3	direct_persona	2
+Q47::124073448::direct_persona	Q47	124073448	North America | Urban | Tertiary	3	direct_persona	1
+Q47::32070430::direct_persona	Q47	32070430	South America | Urban | Lower Secondary	3	direct_persona	2
+Q47::170073788::direct_persona	Q47	170073788	South America | Urban | Lower Secondary	3	direct_persona	2
+Q47::68071255::direct_persona	Q47	68071255	South America | Urban | Lower Secondary	3	direct_persona	1
+Q47::32070668::direct_persona	Q47	32070668	South America | Urban | Lower Secondary	3	direct_persona	2
+Q47::170074168::direct_persona	Q47	170074168	South America | Urban | Lower Secondary	3	direct_persona	2
+Q48::642070132::direct_persona	Q48	642070132	Europe | Urban | Tertiary	7	direct_persona	8
+Q48::688070058::direct_persona	Q48	688070058	Europe | Urban | Tertiary	7	direct_persona	6
+Q48::804070887::direct_persona	Q48	804070887	Europe | Urban | Tertiary	7	direct_persona	5
+Q48::196070680::direct_persona	Q48	196070680	Europe | Urban | Tertiary	7	direct_persona	1
+Q48::528070554::direct_persona	Q48	528070554	Europe | Urban | Tertiary	7	direct_persona	7
+Q48::703070205::direct_persona	Q48	703070205	Europe | Rural | Lower Secondary	3	direct_persona	6
+Q48::826070045::direct_persona	Q48	826070045	Europe | Rural | Lower Secondary	3	direct_persona	8
+Q48::826071095::direct_persona	Q48	826071095	Europe | Rural | Lower Secondary	3	direct_persona	5
+Q48::203070203::direct_persona	Q48	203070203	Europe | Rural | Lower Secondary	3	direct_persona	9
+Q48::203070023::direct_persona	Q48	203070023	Europe | Rural | Lower Secondary	3	direct_persona	9
+Q48::360070748::direct_persona	Q48	360070748	Asia | Urban | Upper to Post Secondary	7	direct_persona	5
+Q48::392070580::direct_persona	Q48	392070580	Asia | Urban | Upper to Post Secondary	7	direct_persona	7
+Q48::368070632::direct_persona	Q48	368070632	Asia | Urban | Upper to Post Secondary	7	direct_persona	5
+Q48::156070293::direct_persona	Q48	156070293	Asia | Urban | Upper to Post Secondary	7	direct_persona	8
+Q48::702070711::direct_persona	Q48	702070711	Asia | Urban | Upper to Post Secondary	7	direct_persona	8
+Q48::231070545::direct_persona	Q48	231070545	Africa | Rural | Primary or No Education	4	direct_persona	9
+Q48::788070056::direct_persona	Q48	788070056	Africa | Rural | Primary or No Education	4	direct_persona	10
+Q48::566070764::direct_persona	Q48	566070764	Africa | Rural | Primary or No Education	4	direct_persona	7
+Q48::404070963::direct_persona	Q48	404070963	Africa | Rural | Primary or No Education	4	direct_persona	6
+Q48::504070335::direct_persona	Q48	504070335	Africa | Rural | Primary or No Education	4	direct_persona	5
+Q48::320070403::direct_persona	Q48	320070403	North America | Urban | Tertiary	8	direct_persona	1
+Q48::124071387::direct_persona	Q48	124071387	North America | Urban | Tertiary	8	direct_persona	7
+Q48::320070589::direct_persona	Q48	320070589	North America | Urban | Tertiary	8	direct_persona	8
+Q48::124071848::direct_persona	Q48	124071848	North America | Urban | Tertiary	8	direct_persona	7
+Q48::124071489::direct_persona	Q48	124071489	North America | Urban | Tertiary	8	direct_persona	7
+Q48::76070363::direct_persona	Q48	76070363	South America | Urban | Lower Secondary	6	direct_persona	10
+Q48::152070809::direct_persona	Q48	152070809	South America | Urban | Lower Secondary	6	direct_persona	4
+Q48::170075120::direct_persona	Q48	170075120	South America | Urban | Lower Secondary	6	direct_persona	10
+Q48::68071907::direct_persona	Q48	68071907	South America | Urban | Lower Secondary	6	direct_persona	5
+Q48::170073788::direct_persona	Q48	170073788	South America | Urban | Lower Secondary	6	direct_persona	10
+Q57::196070773::direct_persona	Q57	196070773	Europe | Urban | Tertiary	2	direct_persona	1
+Q57::642071348::direct_persona	Q57	642071348	Europe | Urban | Tertiary	2	direct_persona	2
+Q57::804070773::direct_persona	Q57	804070773	Europe | Urban | Tertiary	2	direct_persona	2
+Q57::688071147::direct_persona	Q57	688071147	Europe | Urban | Tertiary	2	direct_persona	2
+Q57::528070056::direct_persona	Q57	528070056	Europe | Urban | Tertiary	2	direct_persona	1
+Q57::643071087::direct_persona	Q57	643071087	Europe | Rural | Lower Secondary	1	direct_persona	2
+Q57::643071306::direct_persona	Q57	643071306	Europe | Rural | Lower Secondary	1	direct_persona	1
+Q57::196070537::direct_persona	Q57	196070537	Europe | Rural | Lower Secondary	1	direct_persona	2
+Q57::703070698::direct_persona	Q57	703070698	Europe | Rural | Lower Secondary	1	direct_persona	2
+Q57::826071546::direct_persona	Q57	826071546	Europe | Rural | Lower Secondary	1	direct_persona	1
+Q57::104070001::direct_persona	Q57	104070001	Asia | Urban | Upper to Post Secondary	2	direct_persona	2
+Q57::608070780::direct_persona	Q57	608070780	Asia | Urban | Upper to Post Secondary	2	direct_persona	2
+Q57::586070263::direct_persona	Q57	586070263	Asia | Urban | Upper to Post Secondary	2	direct_persona	1
+Q57::344071814::direct_persona	Q57	344071814	Asia | Urban | Upper to Post Secondary	2	direct_persona	2
+Q57::704070047::direct_persona	Q57	704070047	Asia | Urban | Upper to Post Secondary	2	direct_persona	1
+Q57::788070927::direct_persona	Q57	788070927	Africa | Rural | Primary or No Education	1	direct_persona	2
+Q57::231070927::direct_persona	Q57	231070927	Africa | Rural | Primary or No Education	1	direct_persona	2
+Q57::566070866::direct_persona	Q57	566070866	Africa | Rural | Primary or No Education	1	direct_persona	2
+Q57::231070213::direct_persona	Q57	231070213	Africa | Rural | Primary or No Education	1	direct_persona	2
+Q57::404070950::direct_persona	Q57	404070950	Africa | Rural | Primary or No Education	1	direct_persona	2
+Q57::630071154::direct_persona	Q57	630071154	North America | Urban | Tertiary	2	direct_persona	2
+Q57::840072074::direct_persona	Q57	840072074	North America | Urban | Tertiary	2	direct_persona	1
+Q57::840072901::direct_persona	Q57	840072901	North America | Urban | Tertiary	2	direct_persona	1
+Q57::840071498::direct_persona	Q57	840071498	North America | Urban | Tertiary	2	direct_persona	2
+Q57::840071852::direct_persona	Q57	840071852	North America | Urban | Tertiary	2	direct_persona	2
+Q57::604071131::direct_persona	Q57	604071131	South America | Urban | Lower Secondary	2	direct_persona	1
+Q57::32070510::direct_persona	Q57	32070510	South America | Urban | Lower Secondary	2	direct_persona	2
+Q57::76070363::direct_persona	Q57	76070363	South America | Urban | Lower Secondary	2	direct_persona	2
+Q57::152070632::direct_persona	Q57	152070632	South America | Urban | Lower Secondary	2	direct_persona	2
+Q57::152070523::direct_persona	Q57	152070523	South America | Urban | Lower Secondary	2	direct_persona	2
+Q58::528070056::direct_persona	Q58	528070056	Europe | Urban | Tertiary	1	direct_persona	1
+Q58::528070699::direct_persona	Q58	528070699	Europe | Urban | Tertiary	1	direct_persona	1
+Q58::826071581::direct_persona	Q58	826071581	Europe | Urban | Tertiary	1	direct_persona	1
+Q58::826072226::direct_persona	Q58	826072226	Europe | Urban | Tertiary	1	direct_persona	1
+Q58::688070389::direct_persona	Q58	688070389	Europe | Urban | Tertiary	1	direct_persona	1
+Q58::642070296::direct_persona	Q58	642070296	Europe | Rural | Lower Secondary	1	direct_persona	1
+Q58::643070475::direct_persona	Q58	643070475	Europe | Rural | Lower Secondary	1	direct_persona	1
+Q58::909070197::direct_persona	Q58	909070197	Europe | Rural | Lower Secondary	1	direct_persona	1
+Q58::703070230::direct_persona	Q58	703070230	Europe | Rural | Lower Secondary	1	direct_persona	2
+Q58::909070284::direct_persona	Q58	909070284	Europe | Rural | Lower Secondary	1	direct_persona	1
+Q58::344070408::direct_persona	Q58	344070408	Asia | Urban | Upper to Post Secondary	1	direct_persona	1
+Q58::496071263::direct_persona	Q58	496071263	Asia | Urban | Upper to Post Secondary	1	direct_persona	1
+Q58::360071304::direct_persona	Q58	360071304	Asia | Urban | Upper to Post Secondary	1	direct_persona	1
+Q58::410070061::direct_persona	Q58	410070061	Asia | Urban | Upper to Post Secondary	1	direct_persona	1
+Q58::702071267::direct_persona	Q58	702071267	Asia | Urban | Upper to Post Secondary	1	direct_persona	1
+Q58::231070172::direct_persona	Q58	231070172	Africa | Rural | Primary or No Education	1	direct_persona	1
+Q58::566070187::direct_persona	Q58	566070187	Africa | Rural | Primary or No Education	1	direct_persona	1
+Q58::788071029::direct_persona	Q58	788071029	Africa | Rural | Primary or No Education	1	direct_persona	2
+Q58::716070345::direct_persona	Q58	716070345	Africa | Rural | Primary or No Education	1	direct_persona	1
+Q58::788070063::direct_persona	Q58	788070063	Africa | Rural | Primary or No Education	1	direct_persona	1
+Q58::840073467::direct_persona	Q58	840073467	North America | Urban | Tertiary	1	direct_persona	1
+Q58::124070203::direct_persona	Q58	124070203	North America | Urban | Tertiary	1	direct_persona	1
+Q58::484070208::direct_persona	Q58	484070208	North America | Urban | Tertiary	1	direct_persona	1
+Q58::320070127::direct_persona	Q58	320070127	North America | Urban | Tertiary	1	direct_persona	1
+Q58::558070049::direct_persona	Q58	558070049	North America | Urban | Tertiary	1	direct_persona	1
+Q58::76070461::direct_persona	Q58	76070461	South America | Urban | Lower Secondary	1	direct_persona	2
+Q58::218071162::direct_persona	Q58	218071162	South America | Urban | Lower Secondary	1	direct_persona	1
+Q58::76071735::direct_persona	Q58	76071735	South America | Urban | Lower Secondary	1	direct_persona	1
+Q58::862070933::direct_persona	Q58	862070933	South America | Urban | Lower Secondary	1	direct_persona	1
+Q58::170073753::direct_persona	Q58	170073753	South America | Urban | Lower Secondary	1	direct_persona	2
+Q59::826072366::direct_persona	Q59	826072366	Europe | Urban | Tertiary	3	direct_persona	2
+Q59::703070268::direct_persona	Q59	703070268	Europe | Urban | Tertiary	3	direct_persona	2
+Q59::196070630::direct_persona	Q59	196070630	Europe | Urban | Tertiary	3	direct_persona	3
+Q59::196070938::direct_persona	Q59	196070938	Europe | Urban | Tertiary	3	direct_persona	2
+Q59::826071207::direct_persona	Q59	826071207	Europe | Urban | Tertiary	3	direct_persona	2
+Q59::642070696::direct_persona	Q59	642070696	Europe | Rural | Lower Secondary	3	direct_persona	2
+Q59::804071127::direct_persona	Q59	804071127	Europe | Rural | Lower Secondary	3	direct_persona	2
+Q59::203070083::direct_persona	Q59	203070083	Europe | Rural | Lower Secondary	3	direct_persona	1
+Q59::203070514::direct_persona	Q59	203070514	Europe | Rural | Lower Secondary	3	direct_persona	2
+Q59::826071676::direct_persona	Q59	826071676	Europe | Rural | Lower Secondary	3	direct_persona	2
+Q59::608070044::direct_persona	Q59	608070044	Asia | Urban | Upper to Post Secondary	3	direct_persona	2
+Q59::410071175::direct_persona	Q59	410071175	Asia | Urban | Upper to Post Secondary	3	direct_persona	1
+Q59::410070640::direct_persona	Q59	410070640	Asia | Urban | Upper to Post Secondary	3	direct_persona	2
+Q59::586070534::direct_persona	Q59	586070534	Asia | Urban | Upper to Post Secondary	3	direct_persona	3
+Q59::392070728::direct_persona	Q59	392070728	Asia | Urban | Upper to Post Secondary	3	direct_persona	2
+Q59::231071049::direct_persona	Q59	231071049	Africa | Rural | Primary or No Education	3	direct_persona	2
+Q59::566071062::direct_persona	Q59	566071062	Africa | Rural | Primary or No Education	3	direct_persona	1
+Q59::566070815::direct_persona	Q59	566070815	Africa | Rural | Primary or No Education	3	direct_persona	2
+Q59::404070950::direct_persona	Q59	404070950	Africa | Rural | Primary or No Education	3	direct_persona	2
+Q59::231070811::direct_persona	Q59	231070811	Africa | Rural | Primary or No Education	3	direct_persona	3
+Q59::840072891::direct_persona	Q59	840072891	North America | Urban | Tertiary	3	direct_persona	2
+Q59::630070345::direct_persona	Q59	630070345	North America | Urban | Tertiary	3	direct_persona	3
+Q59::840072165::direct_persona	Q59	840072165	North America | Urban | Tertiary	3	direct_persona	2
+Q59::124074779::direct_persona	Q59	124074779	North America | Urban | Tertiary	3	direct_persona	2
+Q59::630070829::direct_persona	Q59	630070829	North America | Urban | Tertiary	3	direct_persona	3
+Q59::604071131::direct_persona	Q59	604071131	South America | Urban | Lower Secondary	3	direct_persona	3
+Q59::862071193::direct_persona	Q59	862071193	South America | Urban | Lower Secondary	3	direct_persona	1
+Q59::76070798::direct_persona	Q59	76070798	South America | Urban | Lower Secondary	3	direct_persona	4
+Q59::862070922::direct_persona	Q59	862070922	South America | Urban | Lower Secondary	3	direct_persona	3
+Q59::170073487::direct_persona	Q59	170073487	South America | Urban | Lower Secondary	3	direct_persona	3
+Q106::826071549::direct_persona	Q106	826071549	Europe | Urban | Tertiary	8	direct_persona	4
+Q106::276071365::direct_persona	Q106	276071365	Europe | Urban | Tertiary	8	direct_persona	8
+Q106::642070319::direct_persona	Q106	642070319	Europe | Urban | Tertiary	8	direct_persona	10
+Q106::300070162::direct_persona	Q106	300070162	Europe | Urban | Tertiary	8	direct_persona	8
+Q106::688070852::direct_persona	Q106	688070852	Europe | Urban | Tertiary	8	direct_persona	4
+Q106::203071112::direct_persona	Q106	203071112	Europe | Rural | Lower Secondary	7	direct_persona	10
+Q106::642070866::direct_persona	Q106	642070866	Europe | Rural | Lower Secondary	7	direct_persona	10
+Q106::703070367::direct_persona	Q106	703070367	Europe | Rural | Lower Secondary	7	direct_persona	2
+Q106::203070347::direct_persona	Q106	203070347	Europe | Rural | Lower Secondary	7	direct_persona	8
+Q106::703070362::direct_persona	Q106	703070362	Europe | Rural | Lower Secondary	7	direct_persona	1
+Q106::360073144::direct_persona	Q106	360073144	Asia | Urban | Upper to Post Secondary	8	direct_persona	8
+Q106::344070978::direct_persona	Q106	344070978	Asia | Urban | Upper to Post Secondary	8	direct_persona	8
+Q106::702071635::direct_persona	Q106	702071635	Asia | Urban | Upper to Post Secondary	8	direct_persona	6
+Q106::417070994::direct_persona	Q106	417070994	Asia | Urban | Upper to Post Secondary	8	direct_persona	10
+Q106::410070925::direct_persona	Q106	410070925	Asia | Urban | Upper to Post Secondary	8	direct_persona	8
+Q106::231070555::direct_persona	Q106	231070555	Africa | Rural | Primary or No Education	8	direct_persona	9
+Q106::818070860::direct_persona	Q106	818070860	Africa | Rural | Primary or No Education	8	direct_persona	5
+Q106::716070318::direct_persona	Q106	716070318	Africa | Rural | Primary or No Education	8	direct_persona	10
+Q106::231070887::direct_persona	Q106	231070887	Africa | Rural | Primary or No Education	8	direct_persona	5
+Q106::231070371::direct_persona	Q106	231070371	Africa | Rural | Primary or No Education	8	direct_persona	1
+Q106::840072174::direct_persona	Q106	840072174	North America | Urban | Tertiary	7	direct_persona	5
+Q106::840073033::direct_persona	Q106	840073033	North America | Urban | Tertiary	7	direct_persona	5
+Q106::320070093::direct_persona	Q106	320070093	North America | Urban | Tertiary	7	direct_persona	5
+Q106::124074310::direct_persona	Q106	124074310	North America | Urban | Tertiary	7	direct_persona	7
+Q106::124072662::direct_persona	Q106	124072662	North America | Urban | Tertiary	7	direct_persona	4
+Q106::862070575::direct_persona	Q106	862070575	South America | Urban | Lower Secondary	7	direct_persona	4
+Q106::170074738::direct_persona	Q106	170074738	South America | Urban | Lower Secondary	7	direct_persona	5
+Q106::68071907::direct_persona	Q106	68071907	South America | Urban | Lower Secondary	7	direct_persona	9
+Q106::862070022::direct_persona	Q106	862070022	South America | Urban | Lower Secondary	7	direct_persona	10
+Q106::862070934::direct_persona	Q106	862070934	South America | Urban | Lower Secondary	7	direct_persona	5
+Q107::528070066::direct_persona	Q107	528070066	Europe | Urban | Tertiary	3	direct_persona	10
+Q107::203070784::direct_persona	Q107	203070784	Europe | Urban | Tertiary	3	direct_persona	8
+Q107::826070770::direct_persona	Q107	826070770	Europe | Urban | Tertiary	3	direct_persona	6
+Q107::300070455::direct_persona	Q107	300070455	Europe | Urban | Tertiary	3	direct_persona	6
+Q107::642070475::direct_persona	Q107	642070475	Europe | Urban | Tertiary	3	direct_persona	5
+Q107::642070866::direct_persona	Q107	642070866	Europe | Rural | Lower Secondary	3	direct_persona	1
+Q107::826070945::direct_persona	Q107	826070945	Europe | Rural | Lower Secondary	3	direct_persona	5
+Q107::203070448::direct_persona	Q107	203070448	Europe | Rural | Lower Secondary	3	direct_persona	3
+Q107::203070913::direct_persona	Q107	203070913	Europe | Rural | Lower Secondary	3	direct_persona	5
+Q107::643071623::direct_persona	Q107	643071623	Europe | Rural | Lower Secondary	3	direct_persona	6
+Q107::410070213::direct_persona	Q107	410070213	Asia | Urban | Upper to Post Secondary	3	direct_persona	3
+Q107::364071520::direct_persona	Q107	364071520	Asia | Urban | Upper to Post Secondary	3	direct_persona	5
+Q107::392070991::direct_persona	Q107	392070991	Asia | Urban | Upper to Post Secondary	3	direct_persona	3
+Q107::417071099::direct_persona	Q107	417071099	Asia | Urban | Upper to Post Secondary	3	direct_persona	5
+Q107::702070528::direct_persona	Q107	702070528	Asia | Urban | Upper to Post Secondary	3	direct_persona	3
+Q107::566071056::direct_persona	Q107	566071056	Africa | Rural | Primary or No Education	3	direct_persona	10
+Q107::566070866::direct_persona	Q107	566070866	Africa | Rural | Primary or No Education	3	direct_persona	9
+Q107::788070927::direct_persona	Q107	788070927	Africa | Rural | Primary or No Education	3	direct_persona	7
+Q107::716071211::direct_persona	Q107	716071211	Africa | Rural | Primary or No Education	3	direct_persona	10
+Q107::504070842::direct_persona	Q107	504070842	Africa | Rural | Primary or No Education	3	direct_persona	5
+Q107::630070132::direct_persona	Q107	630070132	North America | Urban | Tertiary	3	direct_persona	1
+Q107::124070383::direct_persona	Q107	124070383	North America | Urban | Tertiary	3	direct_persona	8
+Q107::124070601::direct_persona	Q107	124070601	North America | Urban | Tertiary	3	direct_persona	1
+Q107::630070968::direct_persona	Q107	630070968	North America | Urban | Tertiary	3	direct_persona	5
+Q107::484071595::direct_persona	Q107	484071595	North America | Urban | Tertiary	3	direct_persona	3
+Q107::604070260::direct_persona	Q107	604070260	South America | Urban | Lower Secondary	8	direct_persona	8
+Q107::862070933::direct_persona	Q107	862070933	South America | Urban | Lower Secondary	8	direct_persona	1
+Q107::32070430::direct_persona	Q107	32070430	South America | Urban | Lower Secondary	8	direct_persona	5
+Q107::32070052::direct_persona	Q107	32070052	South America | Urban | Lower Secondary	8	direct_persona	8
+Q107::862070930::direct_persona	Q107	862070930	South America | Urban | Lower Secondary	8	direct_persona	3
+Q108::642070899::direct_persona	Q108	642070899	Europe | Urban | Tertiary	7	direct_persona	10
+Q108::196070764::direct_persona	Q108	196070764	Europe | Urban | Tertiary	7	direct_persona	2
+Q108::688070062::direct_persona	Q108	688070062	Europe | Urban | Tertiary	7	direct_persona	10
+Q108::826071466::direct_persona	Q108	826071466	Europe | Urban | Tertiary	7	direct_persona	3
+Q108::826070182::direct_persona	Q108	826070182	Europe | Urban | Tertiary	7	direct_persona	6
+Q108::826072423::direct_persona	Q108	826072423	Europe | Rural | Lower Secondary	8	direct_persona	10
+Q108::703070693::direct_persona	Q108	703070693	Europe | Rural | Lower Secondary	8	direct_persona	1
+Q108::642070919::direct_persona	Q108	642070919	Europe | Rural | Lower Secondary	8	direct_persona	7
+Q108::703070927::direct_persona	Q108	703070927	Europe | Rural | Lower Secondary	8	direct_persona	7
+Q108::703070362::direct_persona	Q108	703070362	Europe | Rural | Lower Secondary	8	direct_persona	1
+Q108::702071786::direct_persona	Q108	702071786	Asia | Urban | Upper to Post Secondary	8	direct_persona	1
+Q108::446070892::direct_persona	Q108	446070892	Asia | Urban | Upper to Post Secondary	8	direct_persona	5
+Q108::422070816::direct_persona	Q108	422070816	Asia | Urban | Upper to Post Secondary	8	direct_persona	4
+Q108::762070168::direct_persona	Q108	762070168	Asia | Urban | Upper to Post Secondary	8	direct_persona	9
+Q108::792071148::direct_persona	Q108	792071148	Asia | Urban | Upper to Post Secondary	8	direct_persona	8
+Q108::231070943::direct_persona	Q108	231070943	Africa | Rural | Primary or No Education	3	direct_persona	1
+Q108::231070342::direct_persona	Q108	231070342	Africa | Rural | Primary or No Education	3	direct_persona	5
+Q108::231070280::direct_persona	Q108	231070280	Africa | Rural | Primary or No Education	3	direct_persona	2
+Q108::231070408::direct_persona	Q108	231070408	Africa | Rural | Primary or No Education	3	direct_persona	10
+Q108::231070291::direct_persona	Q108	231070291	Africa | Rural | Primary or No Education	3	direct_persona	8
+Q108::320070384::direct_persona	Q108	320070384	North America | Urban | Tertiary	8	direct_persona	6
+Q108::840073273::direct_persona	Q108	840073273	North America | Urban | Tertiary	8	direct_persona	5
+Q108::630070813::direct_persona	Q108	630070813	North America | Urban | Tertiary	8	direct_persona	10
+Q108::124072768::direct_persona	Q108	124072768	North America | Urban | Tertiary	8	direct_persona	4
+Q108::320070378::direct_persona	Q108	320070378	North America | Urban | Tertiary	8	direct_persona	9
+Q108::604071022::direct_persona	Q108	604071022	South America | Urban | Lower Secondary	7	direct_persona	10
+Q108::218070128::direct_persona	Q108	218070128	South America | Urban | Lower Secondary	7	direct_persona	8
+Q108::32070361::direct_persona	Q108	32070361	South America | Urban | Lower Secondary	7	direct_persona	6
+Q108::68071155::direct_persona	Q108	68071155	South America | Urban | Lower Secondary	7	direct_persona	2
+Q108::218070576::direct_persona	Q108	218070576	South America | Urban | Lower Secondary	7	direct_persona	9
+Q112::826071835::direct_persona	Q112	826071835	Europe | Urban | Tertiary	4	direct_persona	9
+Q112::20070828::direct_persona	Q112	20070828	Europe | Urban | Tertiary	4	direct_persona	3
+Q112::196070238::direct_persona	Q112	196070238	Europe | Urban | Tertiary	4	direct_persona	10
+Q112::196070612::direct_persona	Q112	196070612	Europe | Urban | Tertiary	4	direct_persona	10
+Q112::300070575::direct_persona	Q112	300070575	Europe | Urban | Tertiary	4	direct_persona	10
+Q112::642070296::direct_persona	Q112	642070296	Europe | Rural | Lower Secondary	4	direct_persona	3
+Q112::642071063::direct_persona	Q112	642071063	Europe | Rural | Lower Secondary	4	direct_persona	7
+Q112::643070538::direct_persona	Q112	643070538	Europe | Rural | Lower Secondary	4	direct_persona	9
+Q112::203070448::direct_persona	Q112	203070448	Europe | Rural | Lower Secondary	4	direct_persona	6
+Q112::203071112::direct_persona	Q112	203071112	Europe | Rural | Lower Secondary	4	direct_persona	8
+Q112::704071072::direct_persona	Q112	704071072	Asia | Urban | Upper to Post Secondary	4	direct_persona	9
+Q112::364072364::direct_persona	Q112	364072364	Asia | Urban | Upper to Post Secondary	4	direct_persona	3
+Q112::417070082::direct_persona	Q112	417070082	Asia | Urban | Upper to Post Secondary	4	direct_persona	10
+Q112::496070112::direct_persona	Q112	496070112	Asia | Urban | Upper to Post Secondary	4	direct_persona	6
+Q112::156071559::direct_persona	Q112	156071559	Asia | Urban | Upper to Post Secondary	4	direct_persona	4
+Q112::231070711::direct_persona	Q112	231070711	Africa | Rural | Primary or No Education	8	direct_persona	10
+Q112::566070050::direct_persona	Q112	566070050	Africa | Rural | Primary or No Education	8	direct_persona	10
+Q112::231070877::direct_persona	Q112	231070877	Africa | Rural | Primary or No Education	8	direct_persona	10
+Q112::788070056::direct_persona	Q112	788070056	Africa | Rural | Primary or No Education	8	direct_persona	10
+Q112::231070595::direct_persona	Q112	231070595	Africa | Rural | Primary or No Education	8	direct_persona	10
+Q112::840073175::direct_persona	Q112	840073175	North America | Urban | Tertiary	4	direct_persona	6
+Q112::630070293::direct_persona	Q112	630070293	North America | Urban | Tertiary	4	direct_persona	10
+Q112::124071522::direct_persona	Q112	124071522	North America | Urban | Tertiary	4	direct_persona	4
+Q112::320070283::direct_persona	Q112	320070283	North America | Urban | Tertiary	4	direct_persona	10
+Q112::630070260::direct_persona	Q112	630070260	North America | Urban | Tertiary	4	direct_persona	10
+Q112::32070826::direct_persona	Q112	32070826	South America | Urban | Lower Secondary	7	direct_persona	10
+Q112::68071520::direct_persona	Q112	68071520	South America | Urban | Lower Secondary	7	direct_persona	10
+Q112::218071141::direct_persona	Q112	218071141	South America | Urban | Lower Secondary	7	direct_persona	7
+Q112::32070608::direct_persona	Q112	32070608	South America | Urban | Lower Secondary	7	direct_persona	10
+Q112::32070331::direct_persona	Q112	32070331	South America | Urban | Lower Secondary	7	direct_persona	9
+Q113::826070078::direct_persona	Q113	826070078	Europe | Urban | Tertiary	3	direct_persona	2
+Q113::300070455::direct_persona	Q113	300070455	Europe | Urban | Tertiary	3	direct_persona	3
+Q113::196070897::direct_persona	Q113	196070897	Europe | Urban | Tertiary	3	direct_persona	2
+Q113::196070375::direct_persona	Q113	196070375	Europe | Urban | Tertiary	3	direct_persona	3
+Q113::51070898::direct_persona	Q113	51070898	Europe | Urban | Tertiary	3	direct_persona	3
+Q113::203070347::direct_persona	Q113	203070347	Europe | Rural | Lower Secondary	3	direct_persona	2
+Q113::203070448::direct_persona	Q113	203070448	Europe | Rural | Lower Secondary	3	direct_persona	2
+Q113::703070362::direct_persona	Q113	703070362	Europe | Rural | Lower Secondary	3	direct_persona	3
+Q113::703070698::direct_persona	Q113	703070698	Europe | Rural | Lower Secondary	3	direct_persona	2
+Q113::643070475::direct_persona	Q113	643070475	Europe | Rural | Lower Secondary	3	direct_persona	3
+Q113::496071422::direct_persona	Q113	496071422	Asia | Urban | Upper to Post Secondary	3	direct_persona	3
+Q113::410070072::direct_persona	Q113	410070072	Asia | Urban | Upper to Post Secondary	3	direct_persona	2
+Q113::392071147::direct_persona	Q113	392071147	Asia | Urban | Upper to Post Secondary	3	direct_persona	2
+Q113::392070305::direct_persona	Q113	392070305	Asia | Urban | Upper to Post Secondary	3	direct_persona	4
+Q113::702070600::direct_persona	Q113	702070600	Asia | Urban | Upper to Post Secondary	3	direct_persona	2
+Q113::231070044::direct_persona	Q113	231070044	Africa | Rural | Primary or No Education	3	direct_persona	3
+Q113::231070291::direct_persona	Q113	231070291	Africa | Rural | Primary or No Education	3	direct_persona	2
+Q113::716070880::direct_persona	Q113	716070880	Africa | Rural | Primary or No Education	3	direct_persona	3
+Q113::504070333::direct_persona	Q113	504070333	Africa | Rural | Primary or No Education	3	direct_persona	3
+Q113::404070950::direct_persona	Q113	404070950	Africa | Rural | Primary or No Education	3	direct_persona	2
+Q113::124073448::direct_persona	Q113	124073448	North America | Urban | Tertiary	3	direct_persona	3
+Q113::124070054::direct_persona	Q113	124070054	North America | Urban | Tertiary	3	direct_persona	2
+Q113::630070128::direct_persona	Q113	630070128	North America | Urban | Tertiary	3	direct_persona	2
+Q113::124072294::direct_persona	Q113	124072294	North America | Urban | Tertiary	3	direct_persona	2
+Q113::124070797::direct_persona	Q113	124070797	North America | Urban | Tertiary	3	direct_persona	3
+Q113::862070728::direct_persona	Q113	862070728	South America | Urban | Lower Secondary	3	direct_persona	3
+Q113::152070308::direct_persona	Q113	152070308	South America | Urban | Lower Secondary	3	direct_persona	4
+Q113::604071106::direct_persona	Q113	604071106	South America | Urban | Lower Secondary	3	direct_persona	3
+Q113::170073788::direct_persona	Q113	170073788	South America | Urban | Lower Secondary	3	direct_persona	4
+Q113::170073487::direct_persona	Q113	170073487	South America | Urban | Lower Secondary	3	direct_persona	4
+Q114::528070953::direct_persona	Q114	528070953	Europe | Urban | Tertiary	3	direct_persona	3
+Q114::909070279::direct_persona	Q114	909070279	Europe | Urban | Tertiary	3	direct_persona	2
+Q114::642070899::direct_persona	Q114	642070899	Europe | Urban | Tertiary	3	direct_persona	2
+Q114::826070021::direct_persona	Q114	826070021	Europe | Urban | Tertiary	3	direct_persona	4
+Q114::300070975::direct_persona	Q114	300070975	Europe | Urban | Tertiary	3	direct_persona	2
+Q114::196070706::direct_persona	Q114	196070706	Europe | Rural | Lower Secondary	3	direct_persona	3
+Q114::703070055::direct_persona	Q114	703070055	Europe | Rural | Lower Secondary	3	direct_persona	3
+Q114::203070083::direct_persona	Q114	203070083	Europe | Rural | Lower Secondary	3	direct_persona	2
+Q114::688071169::direct_persona	Q114	688071169	Europe | Rural | Lower Secondary	3	direct_persona	3
+Q114::51070040::direct_persona	Q114	51070040	Europe | Rural | Lower Secondary	3	direct_persona	4
+Q114::702070844::direct_persona	Q114	702070844	Asia | Urban | Upper to Post Secondary	3	direct_persona	3
+Q114::410070940::direct_persona	Q114	410070940	Asia | Urban | Upper to Post Secondary	3	direct_persona	3
+Q114::417070743::direct_persona	Q114	417070743	Asia | Urban | Upper to Post Secondary	3	direct_persona	2
+Q114::392070579::direct_persona	Q114	392070579	Asia | Urban | Upper to Post Secondary	3	direct_persona	1
+Q114::156072269::direct_persona	Q114	156072269	Asia | Urban | Upper to Post Secondary	3	direct_persona	2
+Q114::716070264::direct_persona	Q114	716070264	Africa | Rural | Primary or No Education	3	direct_persona	3
+Q114::231070481::direct_persona	Q114	231070481	Africa | Rural | Primary or No Education	3	direct_persona	1
+Q114::231071049::direct_persona	Q114	231071049	Africa | Rural | Primary or No Education	3	direct_persona	4
+Q114::504070334::direct_persona	Q114	504070334	Africa | Rural | Primary or No Education	3	direct_persona	4
+Q114::716070497::direct_persona	Q114	716070497	Africa | Rural | Primary or No Education	3	direct_persona	3
+Q114::124070719::direct_persona	Q114	124070719	North America | Urban | Tertiary	3	direct_persona	3
+Q114::124071196::direct_persona	Q114	124071196	North America | Urban | Tertiary	3	direct_persona	3
+Q114::840072503::direct_persona	Q114	840072503	North America | Urban | Tertiary	3	direct_persona	2
+Q114::124074707::direct_persona	Q114	124074707	North America | Urban | Tertiary	3	direct_persona	2
+Q114::320070316::direct_persona	Q114	320070316	North America | Urban | Tertiary	3	direct_persona	3
+Q114::218070403::direct_persona	Q114	218070403	South America | Urban | Lower Secondary	3	direct_persona	3
+Q114::32070674::direct_persona	Q114	32070674	South America | Urban | Lower Secondary	3	direct_persona	3
+Q114::76071361::direct_persona	Q114	76071361	South America | Urban | Lower Secondary	3	direct_persona	3
+Q114::604070260::direct_persona	Q114	604070260	South America | Urban | Lower Secondary	3	direct_persona	4
+Q114::862070899::direct_persona	Q114	862070899	South America | Urban | Lower Secondary	3	direct_persona	4
+Q121::300070127::direct_persona	Q121	300070127	Europe | Urban | Tertiary	4	direct_persona	3
+Q121::703071004::direct_persona	Q121	703071004	Europe | Urban | Tertiary	4	direct_persona	1
+Q121::196070765::direct_persona	Q121	196070765	Europe | Urban | Tertiary	4	direct_persona	3
+Q121::528070780::direct_persona	Q121	528070780	Europe | Urban | Tertiary	4	direct_persona	3
+Q121::528070872::direct_persona	Q121	528070872	Europe | Urban | Tertiary	4	direct_persona	4
+Q121::196070373::direct_persona	Q121	196070373	Europe | Rural | Lower Secondary	3	direct_persona	3
+Q121::300070967::direct_persona	Q121	300070967	Europe | Rural | Lower Secondary	3	direct_persona	3
+Q121::703070834::direct_persona	Q121	703070834	Europe | Rural | Lower Secondary	3	direct_persona	4
+Q121::826070421::direct_persona	Q121	826070421	Europe | Rural | Lower Secondary	3	direct_persona	3
+Q121::703070559::direct_persona	Q121	703070559	Europe | Rural | Lower Secondary	3	direct_persona	3
+Q121::458071111::direct_persona	Q121	458071111	Asia | Urban | Upper to Post Secondary	4	direct_persona	3
+Q121::704070797::direct_persona	Q121	704070797	Asia | Urban | Upper to Post Secondary	4	direct_persona	4
+Q121::446070110::direct_persona	Q121	446070110	Asia | Urban | Upper to Post Secondary	4	direct_persona	3
+Q121::702072010::direct_persona	Q121	702072010	Asia | Urban | Upper to Post Secondary	4	direct_persona	2
+Q121::364072081::direct_persona	Q121	364072081	Asia | Urban | Upper to Post Secondary	4	direct_persona	2
+Q121::818070956::direct_persona	Q121	818070956	Africa | Rural | Primary or No Education	3	direct_persona	3
+Q121::566071175::direct_persona	Q121	566071175	Africa | Rural | Primary or No Education	3	direct_persona	4
+Q121::566071145::direct_persona	Q121	566071145	Africa | Rural | Primary or No Education	3	direct_persona	3
+Q121::504070335::direct_persona	Q121	504070335	Africa | Rural | Primary or No Education	3	direct_persona	3
+Q121::716070590::direct_persona	Q121	716070590	Africa | Rural | Primary or No Education	3	direct_persona	3
+Q121::840072291::direct_persona	Q121	840072291	North America | Urban | Tertiary	4	direct_persona	5
+Q121::840073220::direct_persona	Q121	840073220	North America | Urban | Tertiary	4	direct_persona	5
+Q121::840071019::direct_persona	Q121	840071019	North America | Urban | Tertiary	4	direct_persona	5
+Q121::840072531::direct_persona	Q121	840072531	North America | Urban | Tertiary	4	direct_persona	4
+Q121::840072159::direct_persona	Q121	840072159	North America | Urban | Tertiary	4	direct_persona	4
+Q121::170074738::direct_persona	Q121	170074738	South America | Urban | Lower Secondary	3	direct_persona	3
+Q121::170074222::direct_persona	Q121	170074222	South America | Urban | Lower Secondary	3	direct_persona	2
+Q121::152070523::direct_persona	Q121	152070523	South America | Urban | Lower Secondary	3	direct_persona	4
+Q121::604070243::direct_persona	Q121	604070243	South America | Urban | Lower Secondary	3	direct_persona	4
+Q121::862070702::direct_persona	Q121	862070702	South America | Urban | Lower Secondary	3	direct_persona	3
+Q122::909070382::direct_persona	Q122	909070382	Europe | Urban | Tertiary	1	direct_persona	2
+Q122::826071378::direct_persona	Q122	826071378	Europe | Urban | Tertiary	1	direct_persona	2
+Q122::826070754::direct_persona	Q122	826070754	Europe | Urban | Tertiary	1	direct_persona	1
+Q122::300070386::direct_persona	Q122	300070386	Europe | Urban | Tertiary	1	direct_persona	0
+Q122::642070379::direct_persona	Q122	642070379	Europe | Urban | Tertiary	1	direct_persona	2
+Q122::203070887::direct_persona	Q122	203070887	Europe | Rural | Lower Secondary	1	direct_persona	1
+Q122::826071625::direct_persona	Q122	826071625	Europe | Rural | Lower Secondary	1	direct_persona	1
+Q122::826070698::direct_persona	Q122	826070698	Europe | Rural | Lower Secondary	1	direct_persona	1
+Q122::826071546::direct_persona	Q122	826071546	Europe | Rural | Lower Secondary	1	direct_persona	2
+Q122::826071429::direct_persona	Q122	826071429	Europe | Rural | Lower Secondary	1	direct_persona	2
+Q122::398070643::direct_persona	Q122	398070643	Asia | Urban | Upper to Post Secondary	1	direct_persona	0
+Q122::702070773::direct_persona	Q122	702070773	Asia | Urban | Upper to Post Secondary	1	direct_persona	0
+Q122::446070289::direct_persona	Q122	446070289	Asia | Urban | Upper to Post Secondary	1	direct_persona	1
+Q122::392070305::direct_persona	Q122	392070305	Asia | Urban | Upper to Post Secondary	1	direct_persona	2
+Q122::392071182::direct_persona	Q122	392071182	Asia | Urban | Upper to Post Secondary	1	direct_persona	2
+Q122::231070763::direct_persona	Q122	231070763	Africa | Rural | Primary or No Education	1	direct_persona	2
+Q122::566070151::direct_persona	Q122	566070151	Africa | Rural | Primary or No Education	1	direct_persona	2
+Q122::716071088::direct_persona	Q122	716071088	Africa | Rural | Primary or No Education	1	direct_persona	2
+Q122::231070895::direct_persona	Q122	231070895	Africa | Rural | Primary or No Education	1	direct_persona	0
+Q122::504070674::direct_persona	Q122	504070674	Africa | Rural | Primary or No Education	1	direct_persona	0
+Q122::124074624::direct_persona	Q122	124074624	North America | Urban | Tertiary	1	direct_persona	2
+Q122::840073472::direct_persona	Q122	840073472	North America | Urban | Tertiary	1	direct_persona	2
+Q122::320070056::direct_persona	Q122	320070056	North America | Urban | Tertiary	1	direct_persona	1
+Q122::124071851::direct_persona	Q122	124071851	North America | Urban | Tertiary	1	direct_persona	2
+Q122::840073033::direct_persona	Q122	840073033	North America | Urban | Tertiary	1	direct_persona	2
+Q122::68070169::direct_persona	Q122	68070169	South America | Urban | Lower Secondary	1	direct_persona	2
+Q122::604071131::direct_persona	Q122	604071131	South America | Urban | Lower Secondary	1	direct_persona	2
+Q122::152070570::direct_persona	Q122	152070570	South America | Urban | Lower Secondary	1	direct_persona	0
+Q122::32070360::direct_persona	Q122	32070360	South America | Urban | Lower Secondary	1	direct_persona	0
+Q122::170074168::direct_persona	Q122	170074168	South America | Urban | Lower Secondary	1	direct_persona	0
+Q123::643071667::direct_persona	Q123	643071667	Europe | Urban | Tertiary	1	direct_persona	2
+Q123::688070523::direct_persona	Q123	688070523	Europe | Urban | Tertiary	1	direct_persona	0
+Q123::20070046::direct_persona	Q123	20070046	Europe | Urban | Tertiary	1	direct_persona	2
+Q123::528070865::direct_persona	Q123	528070865	Europe | Urban | Tertiary	1	direct_persona	2
+Q123::196070408::direct_persona	Q123	196070408	Europe | Urban | Tertiary	1	direct_persona	2
+Q123::826070421::direct_persona	Q123	826070421	Europe | Rural | Lower Secondary	1	direct_persona	2
+Q123::203070541::direct_persona	Q123	203070541	Europe | Rural | Lower Secondary	1	direct_persona	1
+Q123::703071001::direct_persona	Q123	703071001	Europe | Rural | Lower Secondary	1	direct_persona	0
+Q123::528070024::direct_persona	Q123	528070024	Europe | Rural | Lower Secondary	1	direct_persona	2
+Q123::642070866::direct_persona	Q123	642070866	Europe | Rural | Lower Secondary	1	direct_persona	1
+Q123::156070776::direct_persona	Q123	156070776	Asia | Urban | Upper to Post Secondary	1	direct_persona	2
+Q123::104070845::direct_persona	Q123	104070845	Asia | Urban | Upper to Post Secondary	1	direct_persona	0
+Q123::608070208::direct_persona	Q123	608070208	Asia | Urban | Upper to Post Secondary	1	direct_persona	2
+Q123::702071758::direct_persona	Q123	702071758	Asia | Urban | Upper to Post Secondary	1	direct_persona	1
+Q123::344070052::direct_persona	Q123	344070052	Asia | Urban | Upper to Post Secondary	1	direct_persona	2
+Q123::716070272::direct_persona	Q123	716070272	Africa | Rural | Primary or No Education	1	direct_persona	0
+Q123::504070335::direct_persona	Q123	504070335	Africa | Rural | Primary or No Education	1	direct_persona	0
+Q123::404070569::direct_persona	Q123	404070569	Africa | Rural | Primary or No Education	1	direct_persona	1
+Q123::231070213::direct_persona	Q123	231070213	Africa | Rural | Primary or No Education	1	direct_persona	2
+Q123::231070136::direct_persona	Q123	231070136	Africa | Rural | Primary or No Education	1	direct_persona	2
+Q123::320070876::direct_persona	Q123	320070876	North America | Urban | Tertiary	1	direct_persona	0
+Q123::840072119::direct_persona	Q123	840072119	North America | Urban | Tertiary	1	direct_persona	1
+Q123::124075822::direct_persona	Q123	124075822	North America | Urban | Tertiary	1	direct_persona	1
+Q123::124070063::direct_persona	Q123	124070063	North America | Urban | Tertiary	1	direct_persona	2
+Q123::840071424::direct_persona	Q123	840071424	North America | Urban | Tertiary	1	direct_persona	2
+Q123::862071157::direct_persona	Q123	862071157	South America | Urban | Lower Secondary	1	direct_persona	2
+Q123::170075163::direct_persona	Q123	170075163	South America | Urban | Lower Secondary	1	direct_persona	2
+Q123::152070632::direct_persona	Q123	152070632	South America | Urban | Lower Secondary	1	direct_persona	2
+Q123::68070996::direct_persona	Q123	68070996	South America | Urban | Lower Secondary	1	direct_persona	2
+Q123::170074624::direct_persona	Q123	170074624	South America | Urban | Lower Secondary	1	direct_persona	2
+Q131::826072226::direct_persona	Q131	826072226	Europe | Urban | Tertiary	3	direct_persona	3
+Q131::826071491::direct_persona	Q131	826071491	Europe | Urban | Tertiary	3	direct_persona	3
+Q131::196070109::direct_persona	Q131	196070109	Europe | Urban | Tertiary	3	direct_persona	1
+Q131::276070072::direct_persona	Q131	276070072	Europe | Urban | Tertiary	3	direct_persona	2
+Q131::826070539::direct_persona	Q131	826070539	Europe | Urban | Tertiary	3	direct_persona	2
+Q131::642070096::direct_persona	Q131	642070096	Europe | Rural | Lower Secondary	2	direct_persona	1
+Q131::642070696::direct_persona	Q131	642070696	Europe | Rural | Lower Secondary	2	direct_persona	2
+Q131::826070004::direct_persona	Q131	826070004	Europe | Rural | Lower Secondary	2	direct_persona	4
+Q131::909070028::direct_persona	Q131	909070028	Europe | Rural | Lower Secondary	2	direct_persona	2
+Q131::203070887::direct_persona	Q131	203070887	Europe | Rural | Lower Secondary	2	direct_persona	2
+Q131::586070370::direct_persona	Q131	586070370	Asia | Urban | Upper to Post Secondary	3	direct_persona	2
+Q131::392071004::direct_persona	Q131	392071004	Asia | Urban | Upper to Post Secondary	3	direct_persona	4
+Q131::702070005::direct_persona	Q131	702070005	Asia | Urban | Upper to Post Secondary	3	direct_persona	1
+Q131::398070287::direct_persona	Q131	398070287	Asia | Urban | Upper to Post Secondary	3	direct_persona	2
+Q131::417071180::direct_persona	Q131	417071180	Asia | Urban | Upper to Post Secondary	3	direct_persona	1
+Q131::818070642::direct_persona	Q131	818070642	Africa | Rural | Primary or No Education	1	direct_persona	2
+Q131::504070294::direct_persona	Q131	504070294	Africa | Rural | Primary or No Education	1	direct_persona	2
+Q131::716070630::direct_persona	Q131	716070630	Africa | Rural | Primary or No Education	1	direct_persona	2
+Q131::818070271::direct_persona	Q131	818070271	Africa | Rural | Primary or No Education	1	direct_persona	2
+Q131::231070430::direct_persona	Q131	231070430	Africa | Rural | Primary or No Education	1	direct_persona	2
+Q131::840072868::direct_persona	Q131	840072868	North America | Urban | Tertiary	3	direct_persona	3
+Q131::840071482::direct_persona	Q131	840071482	North America | Urban | Tertiary	3	direct_persona	2
+Q131::840072805::direct_persona	Q131	840072805	North America | Urban | Tertiary	3	direct_persona	2
+Q131::630070164::direct_persona	Q131	630070164	North America | Urban | Tertiary	3	direct_persona	2
+Q131::840072980::direct_persona	Q131	840072980	North America | Urban | Tertiary	3	direct_persona	2
+Q131::68070996::direct_persona	Q131	68070996	South America | Urban | Lower Secondary	3	direct_persona	3
+Q131::68070620::direct_persona	Q131	68070620	South America | Urban | Lower Secondary	3	direct_persona	4
+Q131::152070308::direct_persona	Q131	152070308	South America | Urban | Lower Secondary	3	direct_persona	4
+Q131::76070110::direct_persona	Q131	76070110	South America | Urban | Lower Secondary	3	direct_persona	3
+Q131::76070355::direct_persona	Q131	76070355	South America | Urban | Lower Secondary	3	direct_persona	3
+Q132::276070653::direct_persona	Q132	276070653	Europe | Urban | Tertiary	4	direct_persona	3
+Q132::528072089::direct_persona	Q132	528072089	Europe | Urban | Tertiary	4	direct_persona	4
+Q132::826070150::direct_persona	Q132	826070150	Europe | Urban | Tertiary	4	direct_persona	4
+Q132::909070272::direct_persona	Q132	909070272	Europe | Urban | Tertiary	4	direct_persona	3
+Q132::804070128::direct_persona	Q132	804070128	Europe | Urban | Tertiary	4	direct_persona	4
+Q132::51070146::direct_persona	Q132	51070146	Europe | Rural | Lower Secondary	4	direct_persona	1
+Q132::643071643::direct_persona	Q132	643071643	Europe | Rural | Lower Secondary	4	direct_persona	4
+Q132::826071540::direct_persona	Q132	826071540	Europe | Rural | Lower Secondary	4	direct_persona	3
+Q132::703070143::direct_persona	Q132	703070143	Europe | Rural | Lower Secondary	4	direct_persona	4
+Q132::826071429::direct_persona	Q132	826071429	Europe | Rural | Lower Secondary	4	direct_persona	2
+Q132::702070855::direct_persona	Q132	702070855	Asia | Urban | Upper to Post Secondary	3	direct_persona	3
+Q132::704070254::direct_persona	Q132	704070254	Asia | Urban | Upper to Post Secondary	3	direct_persona	3
+Q132::496071442::direct_persona	Q132	496071442	Asia | Urban | Upper to Post Secondary	3	direct_persona	3
+Q132::446070936::direct_persona	Q132	446070936	Asia | Urban | Upper to Post Secondary	3	direct_persona	4
+Q132::344070190::direct_persona	Q132	344070190	Asia | Urban | Upper to Post Secondary	3	direct_persona	4
+Q132::716070330::direct_persona	Q132	716070330	Africa | Rural | Primary or No Education	1	direct_persona	3
+Q132::716070185::direct_persona	Q132	716070185	Africa | Rural | Primary or No Education	1	direct_persona	3
+Q132::566070957::direct_persona	Q132	566070957	Africa | Rural | Primary or No Education	1	direct_persona	2
+Q132::504070533::direct_persona	Q132	504070533	Africa | Rural | Primary or No Education	1	direct_persona	4
+Q132::231070846::direct_persona	Q132	231070846	Africa | Rural | Primary or No Education	1	direct_persona	3
+Q132::124073485::direct_persona	Q132	124073485	North America | Urban | Tertiary	3	direct_persona	3
+Q132::320070586::direct_persona	Q132	320070586	North America | Urban | Tertiary	3	direct_persona	3
+Q132::124075955::direct_persona	Q132	124075955	North America | Urban | Tertiary	3	direct_persona	3
+Q132::840072460::direct_persona	Q132	840072460	North America | Urban | Tertiary	3	direct_persona	4
+Q132::124072655::direct_persona	Q132	124072655	North America | Urban | Tertiary	3	direct_persona	3
+Q132::218070576::direct_persona	Q132	218070576	South America | Urban | Lower Secondary	3	direct_persona	3
+Q132::152070523::direct_persona	Q132	152070523	South America | Urban | Lower Secondary	3	direct_persona	2
+Q132::862071193::direct_persona	Q132	862071193	South America | Urban | Lower Secondary	3	direct_persona	4
+Q132::68070092::direct_persona	Q132	68070092	South America | Urban | Lower Secondary	3	direct_persona	4
+Q132::32070886::direct_persona	Q132	32070886	South America | Urban | Lower Secondary	3	direct_persona	4
+Q133::688070627::direct_persona	Q133	688070627	Europe | Urban | Tertiary	3	direct_persona	4
+Q133::688070852::direct_persona	Q133	688070852	Europe | Urban | Tertiary	3	direct_persona	3
+Q133::826071039::direct_persona	Q133	826071039	Europe | Urban | Tertiary	3	direct_persona	4
+Q133::804070128::direct_persona	Q133	804070128	Europe | Urban | Tertiary	3	direct_persona	3
+Q133::826071616::direct_persona	Q133	826071616	Europe | Urban | Tertiary	3	direct_persona	3
+Q133::643071652::direct_persona	Q133	643071652	Europe | Rural | Lower Secondary	4	direct_persona	4
+Q133::642071253::direct_persona	Q133	642071253	Europe | Rural | Lower Secondary	4	direct_persona	1
+Q133::826070698::direct_persona	Q133	826070698	Europe | Rural | Lower Secondary	4	direct_persona	3
+Q133::528070024::direct_persona	Q133	528070024	Europe | Rural | Lower Secondary	4	direct_persona	4
+Q133::196070090::direct_persona	Q133	196070090	Europe | Rural | Lower Secondary	4	direct_persona	4
+Q133::344070978::direct_persona	Q133	344070978	Asia | Urban | Upper to Post Secondary	3	direct_persona	3
+Q133::458070401::direct_persona	Q133	458070401	Asia | Urban | Upper to Post Secondary	3	direct_persona	3
+Q133::792071220::direct_persona	Q133	792071220	Asia | Urban | Upper to Post Secondary	3	direct_persona	4
+Q133::368070602::direct_persona	Q133	368070602	Asia | Urban | Upper to Post Secondary	3	direct_persona	4
+Q133::344071552::direct_persona	Q133	344071552	Asia | Urban | Upper to Post Secondary	3	direct_persona	3
+Q133::566071175::direct_persona	Q133	566071175	Africa | Rural | Primary or No Education	1	direct_persona	4
+Q133::404070963::direct_persona	Q133	404070963	Africa | Rural | Primary or No Education	1	direct_persona	2
+Q133::788070212::direct_persona	Q133	788070212	Africa | Rural | Primary or No Education	1	direct_persona	2
+Q133::788070056::direct_persona	Q133	788070056	Africa | Rural | Primary or No Education	1	direct_persona	2
+Q133::566070641::direct_persona	Q133	566070641	Africa | Rural | Primary or No Education	1	direct_persona	1
+Q133::124070615::direct_persona	Q133	124070615	North America | Urban | Tertiary	3	direct_persona	4
+Q133::630070986::direct_persona	Q133	630070986	North America | Urban | Tertiary	3	direct_persona	4
+Q133::840072850::direct_persona	Q133	840072850	North America | Urban | Tertiary	3	direct_persona	3
+Q133::124071221::direct_persona	Q133	124071221	North America | Urban | Tertiary	3	direct_persona	3
+Q133::124073119::direct_persona	Q133	124073119	North America | Urban | Tertiary	3	direct_persona	3
+Q133::604070858::direct_persona	Q133	604070858	South America | Urban | Lower Secondary	2	direct_persona	3
+Q133::862070022::direct_persona	Q133	862070022	South America | Urban | Lower Secondary	2	direct_persona	3
+Q133::68070761::direct_persona	Q133	68070761	South America | Urban | Lower Secondary	2	direct_persona	4
+Q133::862070577::direct_persona	Q133	862070577	South America | Urban | Lower Secondary	2	direct_persona	3
+Q133::862070119::direct_persona	Q133	862070119	South America | Urban | Lower Secondary	2	direct_persona	3
+Q158::51070223::direct_persona	Q158	51070223	Europe | Urban | Tertiary	8	direct_persona	10
+Q158::300070274::direct_persona	Q158	300070274	Europe | Urban | Tertiary	8	direct_persona	10
+Q158::642070272::direct_persona	Q158	642070272	Europe | Urban | Tertiary	8	direct_persona	7
+Q158::196070897::direct_persona	Q158	196070897	Europe | Urban | Tertiary	8	direct_persona	1
+Q158::703071198::direct_persona	Q158	703071198	Europe | Urban | Tertiary	8	direct_persona	10
+Q158::703070629::direct_persona	Q158	703070629	Europe | Rural | Lower Secondary	6	direct_persona	8
+Q158::703070453::direct_persona	Q158	703070453	Europe | Rural | Lower Secondary	6	direct_persona	8
+Q158::826070266::direct_persona	Q158	826070266	Europe | Rural | Lower Secondary	6	direct_persona	7
+Q158::826071625::direct_persona	Q158	826071625	Europe | Rural | Lower Secondary	6	direct_persona	5
+Q158::703070414::direct_persona	Q158	703070414	Europe | Rural | Lower Secondary	6	direct_persona	10
+Q158::360070388::direct_persona	Q158	360070388	Asia | Urban | Upper to Post Secondary	8	direct_persona	8
+Q158::156070515::direct_persona	Q158	156070515	Asia | Urban | Upper to Post Secondary	8	direct_persona	6
+Q158::458070808::direct_persona	Q158	458070808	Asia | Urban | Upper to Post Secondary	8	direct_persona	8
+Q158::398070021::direct_persona	Q158	398070021	Asia | Urban | Upper to Post Secondary	8	direct_persona	5
+Q158::792070780::direct_persona	Q158	792070780	Asia | Urban | Upper to Post Secondary	8	direct_persona	8
+Q158::566070050::direct_persona	Q158	566070050	Africa | Rural | Primary or No Education	3	direct_persona	10
+Q158::818070283::direct_persona	Q158	818070283	Africa | Rural | Primary or No Education	3	direct_persona	8
+Q158::404071181::direct_persona	Q158	404071181	Africa | Rural | Primary or No Education	3	direct_persona	3
+Q158::504070674::direct_persona	Q158	504070674	Africa | Rural | Primary or No Education	3	direct_persona	7
+Q158::231070731::direct_persona	Q158	231070731	Africa | Rural | Primary or No Education	3	direct_persona	10
+Q158::840071654::direct_persona	Q158	840071654	North America | Urban | Tertiary	8	direct_persona	5
+Q158::630070824::direct_persona	Q158	630070824	North America | Urban | Tertiary	8	direct_persona	10
+Q158::840072805::direct_persona	Q158	840072805	North America | Urban | Tertiary	8	direct_persona	8
+Q158::124076065::direct_persona	Q158	124076065	North America | Urban | Tertiary	8	direct_persona	4
+Q158::630070132::direct_persona	Q158	630070132	North America | Urban | Tertiary	8	direct_persona	1
+Q158::32070060::direct_persona	Q158	32070060	South America | Urban | Lower Secondary	7	direct_persona	8
+Q158::604071106::direct_persona	Q158	604071106	South America | Urban | Lower Secondary	7	direct_persona	10
+Q158::32070066::direct_persona	Q158	32070066	South America | Urban | Lower Secondary	7	direct_persona	5
+Q158::68070933::direct_persona	Q158	68070933	South America | Urban | Lower Secondary	7	direct_persona	8
+Q158::218070576::direct_persona	Q158	218070576	South America | Urban | Lower Secondary	7	direct_persona	8
+Q159::196070387::direct_persona	Q159	196070387	Europe | Urban | Tertiary	6	direct_persona	1
+Q159::826072359::direct_persona	Q159	826072359	Europe | Urban | Tertiary	6	direct_persona	10
+Q159::826072252::direct_persona	Q159	826072252	Europe | Urban | Tertiary	6	direct_persona	7
+Q159::196070109::direct_persona	Q159	196070109	Europe | Urban | Tertiary	6	direct_persona	9
+Q159::300070546::direct_persona	Q159	300070546	Europe | Urban | Tertiary	6	direct_persona	6
+Q159::642070938::direct_persona	Q159	642070938	Europe | Rural | Lower Secondary	6	direct_persona	10
+Q159::826071546::direct_persona	Q159	826071546	Europe | Rural | Lower Secondary	6	direct_persona	8
+Q159::203070948::direct_persona	Q159	203070948	Europe | Rural | Lower Secondary	6	direct_persona	8
+Q159::826072247::direct_persona	Q159	826072247	Europe | Rural | Lower Secondary	6	direct_persona	8
+Q159::703070629::direct_persona	Q159	703070629	Europe | Rural | Lower Secondary	6	direct_persona	8
+Q159::344070484::direct_persona	Q159	344070484	Asia | Urban | Upper to Post Secondary	6	direct_persona	8
+Q159::792071241::direct_persona	Q159	792071241	Asia | Urban | Upper to Post Secondary	6	direct_persona	10
+Q159::792071785::direct_persona	Q159	792071785	Asia | Urban | Upper to Post Secondary	6	direct_persona	10
+Q159::364071417::direct_persona	Q159	364071417	Asia | Urban | Upper to Post Secondary	6	direct_persona	6
+Q159::368070602::direct_persona	Q159	368070602	Asia | Urban | Upper to Post Secondary	6	direct_persona	10
+Q159::566070572::direct_persona	Q159	566070572	Africa | Rural | Primary or No Education	6	direct_persona	10
+Q159::231071017::direct_persona	Q159	231071017	Africa | Rural | Primary or No Education	6	direct_persona	10
+Q159::566070963::direct_persona	Q159	566070963	Africa | Rural | Primary or No Education	6	direct_persona	5
+Q159::788070214::direct_persona	Q159	788070214	Africa | Rural | Primary or No Education	6	direct_persona	5
+Q159::566070084::direct_persona	Q159	566070084	Africa | Rural | Primary or No Education	6	direct_persona	10
+Q159::630070824::direct_persona	Q159	630070824	North America | Urban | Tertiary	6	direct_persona	10
+Q159::630071196::direct_persona	Q159	630071196	North America | Urban | Tertiary	6	direct_persona	10
+Q159::124075179::direct_persona	Q159	124075179	North America | Urban | Tertiary	6	direct_persona	10
+Q159::124071848::direct_persona	Q159	124071848	North America | Urban | Tertiary	6	direct_persona	4
+Q159::320070283::direct_persona	Q159	320070283	North America | Urban | Tertiary	6	direct_persona	3
+Q159::604071125::direct_persona	Q159	604071125	South America | Urban | Lower Secondary	8	direct_persona	9
+Q159::76071699::direct_persona	Q159	76071699	South America | Urban | Lower Secondary	8	direct_persona	7
+Q159::170071533::direct_persona	Q159	170071533	South America | Urban | Lower Secondary	8	direct_persona	5
+Q159::68070631::direct_persona	Q159	68070631	South America | Urban | Lower Secondary	8	direct_persona	1
+Q159::76071238::direct_persona	Q159	76071238	South America | Urban | Lower Secondary	8	direct_persona	7
+Q160::203070925::direct_persona	Q160	203070925	Europe | Urban | Tertiary	3	direct_persona	4
+Q160::826071947::direct_persona	Q160	826071947	Europe | Urban | Tertiary	3	direct_persona	3
+Q160::688071163::direct_persona	Q160	688071163	Europe | Urban | Tertiary	3	direct_persona	9
+Q160::203070799::direct_persona	Q160	203070799	Europe | Urban | Tertiary	3	direct_persona	1
+Q160::826071549::direct_persona	Q160	826071549	Europe | Urban | Tertiary	3	direct_persona	6
+Q160::642070096::direct_persona	Q160	642070096	Europe | Rural | Lower Secondary	6	direct_persona	9
+Q160::203070347::direct_persona	Q160	203070347	Europe | Rural | Lower Secondary	6	direct_persona	5
+Q160::643071520::direct_persona	Q160	643071520	Europe | Rural | Lower Secondary	6	direct_persona	3
+Q160::703070362::direct_persona	Q160	703070362	Europe | Rural | Lower Secondary	6	direct_persona	10
+Q160::528070024::direct_persona	Q160	528070024	Europe | Rural | Lower Secondary	6	direct_persona	6
+Q160::410070026::direct_persona	Q160	410070026	Asia | Urban | Upper to Post Secondary	6	direct_persona	4
+Q160::400070254::direct_persona	Q160	400070254	Asia | Urban | Upper to Post Secondary	6	direct_persona	7
+Q160::392071238::direct_persona	Q160	392071238	Asia | Urban | Upper to Post Secondary	6	direct_persona	9
+Q160::360070339::direct_persona	Q160	360070339	Asia | Urban | Upper to Post Secondary	6	direct_persona	1
+Q160::792070606::direct_persona	Q160	792070606	Asia | Urban | Upper to Post Secondary	6	direct_persona	5
+Q160::716070330::direct_persona	Q160	716070330	Africa | Rural | Primary or No Education	9	direct_persona	5
+Q160::231070692::direct_persona	Q160	231070692	Africa | Rural | Primary or No Education	9	direct_persona	10
+Q160::504070453::direct_persona	Q160	504070453	Africa | Rural | Primary or No Education	9	direct_persona	2
+Q160::504070842::direct_persona	Q160	504070842	Africa | Rural | Primary or No Education	9	direct_persona	10
+Q160::818070870::direct_persona	Q160	818070870	Africa | Rural | Primary or No Education	9	direct_persona	5
+Q160::124072397::direct_persona	Q160	124072397	North America | Urban | Tertiary	6	direct_persona	1
+Q160::630071124::direct_persona	Q160	630071124	North America | Urban | Tertiary	6	direct_persona	10
+Q160::558070287::direct_persona	Q160	558070287	North America | Urban | Tertiary	6	direct_persona	10
+Q160::320070459::direct_persona	Q160	320070459	North America | Urban | Tertiary	6	direct_persona	10
+Q160::124075463::direct_persona	Q160	124075463	North America | Urban | Tertiary	6	direct_persona	2
+Q160::76071390::direct_persona	Q160	76071390	South America | Urban | Lower Secondary	4	direct_persona	3
+Q160::170073788::direct_persona	Q160	170073788	South America | Urban | Lower Secondary	4	direct_persona	1
+Q160::32070006::direct_persona	Q160	32070006	South America | Urban | Lower Secondary	4	direct_persona	10
+Q160::76070461::direct_persona	Q160	76070461	South America | Urban | Lower Secondary	4	direct_persona	1
+Q160::218070403::direct_persona	Q160	218070403	South America | Urban | Lower Secondary	4	direct_persona	6
+Q164::20070612::direct_persona	Q164	20070612	Europe | Urban | Tertiary	4	direct_persona	8
+Q164::20070134::direct_persona	Q164	20070134	Europe | Urban | Tertiary	4	direct_persona	10
+Q164::826070852::direct_persona	Q164	826070852	Europe | Urban | Tertiary	4	direct_persona	1
+Q164::276071320::direct_persona	Q164	276071320	Europe | Urban | Tertiary	4	direct_persona	8
+Q164::20070505::direct_persona	Q164	20070505	Europe | Urban | Tertiary	4	direct_persona	2
+Q164::703071097::direct_persona	Q164	703071097	Europe | Rural | Lower Secondary	1	direct_persona	9
+Q164::909070291::direct_persona	Q164	909070291	Europe | Rural | Lower Secondary	1	direct_persona	1
+Q164::643071654::direct_persona	Q164	643071654	Europe | Rural | Lower Secondary	1	direct_persona	6
+Q164::528070024::direct_persona	Q164	528070024	Europe | Rural | Lower Secondary	1	direct_persona	9
+Q164::203071091::direct_persona	Q164	203071091	Europe | Rural | Lower Secondary	1	direct_persona	1
+Q164::446070813::direct_persona	Q164	446070813	Asia | Urban | Upper to Post Secondary	8	direct_persona	5
+Q164::446070773::direct_persona	Q164	446070773	Asia | Urban | Upper to Post Secondary	8	direct_persona	1
+Q164::392070074::direct_persona	Q164	392070074	Asia | Urban | Upper to Post Secondary	8	direct_persona	4
+Q164::400070988::direct_persona	Q164	400070988	Asia | Urban | Upper to Post Secondary	8	direct_persona	10
+Q164::417071164::direct_persona	Q164	417071164	Asia | Urban | Upper to Post Secondary	8	direct_persona	10
+Q164::818070035::direct_persona	Q164	818070035	Africa | Rural | Primary or No Education	9	direct_persona	10
+Q164::716070330::direct_persona	Q164	716070330	Africa | Rural | Primary or No Education	9	direct_persona	10
+Q164::788071049::direct_persona	Q164	788071049	Africa | Rural | Primary or No Education	9	direct_persona	10
+Q164::566070866::direct_persona	Q164	566070866	Africa | Rural | Primary or No Education	9	direct_persona	10
+Q164::504070533::direct_persona	Q164	504070533	Africa | Rural | Primary or No Education	9	direct_persona	10
+Q164::124072376::direct_persona	Q164	124072376	North America | Urban | Tertiary	4	direct_persona	1
+Q164::320070523::direct_persona	Q164	320070523	North America | Urban | Tertiary	4	direct_persona	10
+Q164::124071831::direct_persona	Q164	124071831	North America | Urban | Tertiary	4	direct_persona	2
+Q164::124073058::direct_persona	Q164	124073058	North America | Urban | Tertiary	4	direct_persona	1
+Q164::558071133::direct_persona	Q164	558071133	North America | Urban | Tertiary	4	direct_persona	9
+Q164::862070448::direct_persona	Q164	862070448	South America | Urban | Lower Secondary	6	direct_persona	8
+Q164::170071279::direct_persona	Q164	170071279	South America | Urban | Lower Secondary	6	direct_persona	10
+Q164::76070363::direct_persona	Q164	76070363	South America | Urban | Lower Secondary	6	direct_persona	10
+Q164::170077747::direct_persona	Q164	170077747	South America | Urban | Lower Secondary	6	direct_persona	10
+Q164::76071094::direct_persona	Q164	76071094	South America | Urban | Lower Secondary	6	direct_persona	10
+Q165::196070507::direct_persona	Q165	196070507	Europe | Urban | Tertiary	1	direct_persona	1
+Q165::300070274::direct_persona	Q165	300070274	Europe | Urban | Tertiary	1	direct_persona	1
+Q165::826070892::direct_persona	Q165	826070892	Europe | Urban | Tertiary	1	direct_persona	2
+Q165::826070316::direct_persona	Q165	826070316	Europe | Urban | Tertiary	1	direct_persona	1
+Q165::909070245::direct_persona	Q165	909070245	Europe | Urban | Tertiary	1	direct_persona	1
+Q165::909070291::direct_persona	Q165	909070291	Europe | Rural | Lower Secondary	1	direct_persona	2
+Q165::826071634::direct_persona	Q165	826071634	Europe | Rural | Lower Secondary	1	direct_persona	2
+Q165::688071169::direct_persona	Q165	688071169	Europe | Rural | Lower Secondary	1	direct_persona	1
+Q165::528072095::direct_persona	Q165	528072095	Europe | Rural | Lower Secondary	1	direct_persona	2
+Q165::643070420::direct_persona	Q165	643070420	Europe | Rural | Lower Secondary	1	direct_persona	1
+Q165::417071067::direct_persona	Q165	417071067	Asia | Urban | Upper to Post Secondary	1	direct_persona	1
+Q165::156072444::direct_persona	Q165	156072444	Asia | Urban | Upper to Post Secondary	1	direct_persona	2
+Q165::344071117::direct_persona	Q165	344071117	Asia | Urban | Upper to Post Secondary	1	direct_persona	2
+Q165::392070317::direct_persona	Q165	392070317	Asia | Urban | Upper to Post Secondary	1	direct_persona	2
+Q165::360072982::direct_persona	Q165	360072982	Asia | Urban | Upper to Post Secondary	1	direct_persona	1
+Q165::566071103::direct_persona	Q165	566071103	Africa | Rural | Primary or No Education	1	direct_persona	1
+Q165::566070084::direct_persona	Q165	566070084	Africa | Rural | Primary or No Education	1	direct_persona	1
+Q165::231070877::direct_persona	Q165	231070877	Africa | Rural | Primary or No Education	1	direct_persona	1
+Q165::231070692::direct_persona	Q165	231070692	Africa | Rural | Primary or No Education	1	direct_persona	1
+Q165::231070235::direct_persona	Q165	231070235	Africa | Rural | Primary or No Education	1	direct_persona	1
+Q165::630071124::direct_persona	Q165	630071124	North America | Urban | Tertiary	1	direct_persona	1
+Q165::320070612::direct_persona	Q165	320070612	North America | Urban | Tertiary	1	direct_persona	1
+Q165::840072421::direct_persona	Q165	840072421	North America | Urban | Tertiary	1	direct_persona	1
+Q165::558070714::direct_persona	Q165	558070714	North America | Urban | Tertiary	1	direct_persona	1
+Q165::320070316::direct_persona	Q165	320070316	North America | Urban | Tertiary	1	direct_persona	1
+Q165::76070059::direct_persona	Q165	76070059	South America | Urban | Lower Secondary	2	direct_persona	1
+Q165::32070430::direct_persona	Q165	32070430	South America | Urban | Lower Secondary	2	direct_persona	1
+Q165::76071633::direct_persona	Q165	76071633	South America | Urban | Lower Secondary	2	direct_persona	1
+Q165::862070447::direct_persona	Q165	862070447	South America | Urban | Lower Secondary	2	direct_persona	1
+Q165::76071434::direct_persona	Q165	76071434	South America | Urban | Lower Secondary	2	direct_persona	1
+Q166::804070613::direct_persona	Q166	804070613	Europe | Urban | Tertiary	1	direct_persona	1
+Q166::826072276::direct_persona	Q166	826072276	Europe | Urban | Tertiary	1	direct_persona	2
+Q166::276071152::direct_persona	Q166	276071152	Europe | Urban | Tertiary	1	direct_persona	1
+Q166::276071463::direct_persona	Q166	276071463	Europe | Urban | Tertiary	1	direct_persona	2
+Q166::276070649::direct_persona	Q166	276070649	Europe | Urban | Tertiary	1	direct_persona	2
+Q166::909070291::direct_persona	Q166	909070291	Europe | Rural | Lower Secondary	1	direct_persona	1
+Q166::909070284::direct_persona	Q166	909070284	Europe | Rural | Lower Secondary	1	direct_persona	2
+Q166::826072255::direct_persona	Q166	826072255	Europe | Rural | Lower Secondary	1	direct_persona	1
+Q166::909070197::direct_persona	Q166	909070197	Europe | Rural | Lower Secondary	1	direct_persona	1
+Q166::703071097::direct_persona	Q166	703071097	Europe | Rural | Lower Secondary	1	direct_persona	1
+Q166::344071048::direct_persona	Q166	344071048	Asia | Urban | Upper to Post Secondary	1	direct_persona	1
+Q166::158070616::direct_persona	Q166	158070616	Asia | Urban | Upper to Post Secondary	1	direct_persona	1
+Q166::422071191::direct_persona	Q166	422071191	Asia | Urban | Upper to Post Secondary	1	direct_persona	1
+Q166::458070778::direct_persona	Q166	458070778	Asia | Urban | Upper to Post Secondary	1	direct_persona	1
+Q166::400070840::direct_persona	Q166	400070840	Asia | Urban | Upper to Post Secondary	1	direct_persona	2
+Q166::231070975::direct_persona	Q166	231070975	Africa | Rural | Primary or No Education	1	direct_persona	1
+Q166::404070956::direct_persona	Q166	404070956	Africa | Rural | Primary or No Education	1	direct_persona	1
+Q166::788070927::direct_persona	Q166	788070927	Africa | Rural | Primary or No Education	1	direct_persona	1
+Q166::504070901::direct_persona	Q166	504070901	Africa | Rural | Primary or No Education	1	direct_persona	1
+Q166::231070044::direct_persona	Q166	231070044	Africa | Rural | Primary or No Education	1	direct_persona	1
+Q166::558070714::direct_persona	Q166	558070714	North America | Urban | Tertiary	1	direct_persona	1
+Q166::840073075::direct_persona	Q166	840073075	North America | Urban | Tertiary	1	direct_persona	1
+Q166::124072397::direct_persona	Q166	124072397	North America | Urban | Tertiary	1	direct_persona	1
+Q166::124071008::direct_persona	Q166	124071008	North America | Urban | Tertiary	1	direct_persona	2
+Q166::124071424::direct_persona	Q166	124071424	North America | Urban | Tertiary	1	direct_persona	2
+Q166::32070493::direct_persona	Q166	32070493	South America | Urban | Lower Secondary	1	direct_persona	1
+Q166::604070052::direct_persona	Q166	604070052	South America | Urban | Lower Secondary	1	direct_persona	1
+Q166::862070922::direct_persona	Q166	862070922	South America | Urban | Lower Secondary	1	direct_persona	1
+Q166::68071373::direct_persona	Q166	68071373	South America | Urban | Lower Secondary	1	direct_persona	1
+Q166::76071094::direct_persona	Q166	76071094	South America | Urban | Lower Secondary	1	direct_persona	2
+Q176::642070132::direct_persona	Q176	642070132	Europe | Urban | Tertiary	4	direct_persona	7
+Q176::688070859::direct_persona	Q176	688070859	Europe | Urban | Tertiary	4	direct_persona	10
+Q176::688070589::direct_persona	Q176	688070589	Europe | Urban | Tertiary	4	direct_persona	8
+Q176::20070612::direct_persona	Q176	20070612	Europe | Urban | Tertiary	4	direct_persona	5
+Q176::826070021::direct_persona	Q176	826070021	Europe | Urban | Tertiary	4	direct_persona	10
+Q176::643070475::direct_persona	Q176	643070475	Europe | Rural | Lower Secondary	4	direct_persona	5
+Q176::642070919::direct_persona	Q176	642070919	Europe | Rural | Lower Secondary	4	direct_persona	3
+Q176::203070023::direct_persona	Q176	203070023	Europe | Rural | Lower Secondary	4	direct_persona	4
+Q176::642070124::direct_persona	Q176	642070124	Europe | Rural | Lower Secondary	4	direct_persona	5
+Q176::703070143::direct_persona	Q176	703070143	Europe | Rural | Lower Secondary	4	direct_persona	10
+Q176::360071299::direct_persona	Q176	360071299	Asia | Urban | Upper to Post Secondary	6	direct_persona	5
+Q176::158070858::direct_persona	Q176	158070858	Asia | Urban | Upper to Post Secondary	6	direct_persona	4
+Q176::422070789::direct_persona	Q176	422070789	Asia | Urban | Upper to Post Secondary	6	direct_persona	8
+Q176::158070387::direct_persona	Q176	158070387	Asia | Urban | Upper to Post Secondary	6	direct_persona	5
+Q176::364071561::direct_persona	Q176	364071561	Asia | Urban | Upper to Post Secondary	6	direct_persona	7
+Q176::231070490::direct_persona	Q176	231070490	Africa | Rural | Primary or No Education	8	direct_persona	5
+Q176::566070764::direct_persona	Q176	566070764	Africa | Rural | Primary or No Education	8	direct_persona	7
+Q176::231070804::direct_persona	Q176	231070804	Africa | Rural | Primary or No Education	8	direct_persona	10
+Q176::231070172::direct_persona	Q176	231070172	Africa | Rural | Primary or No Education	8	direct_persona	5
+Q176::818070870::direct_persona	Q176	818070870	Africa | Rural | Primary or No Education	8	direct_persona	7
+Q176::124073840::direct_persona	Q176	124073840	North America | Urban | Tertiary	4	direct_persona	9
+Q176::124070258::direct_persona	Q176	124070258	North America | Urban | Tertiary	4	direct_persona	1
+Q176::630070813::direct_persona	Q176	630070813	North America | Urban | Tertiary	4	direct_persona	1
+Q176::320070358::direct_persona	Q176	320070358	North America | Urban | Tertiary	4	direct_persona	7
+Q176::484070988::direct_persona	Q176	484070988	North America | Urban | Tertiary	4	direct_persona	3
+Q176::862070899::direct_persona	Q176	862070899	South America | Urban | Lower Secondary	4	direct_persona	10
+Q176::76070084::direct_persona	Q176	76070084	South America | Urban | Lower Secondary	4	direct_persona	6
+Q176::32070520::direct_persona	Q176	32070520	South America | Urban | Lower Secondary	4	direct_persona	7
+Q176::32070430::direct_persona	Q176	32070430	South America | Urban | Lower Secondary	4	direct_persona	3
+Q176::68071155::direct_persona	Q176	68071155	South America | Urban | Lower Secondary	4	direct_persona	2
+Q177::826070539::direct_persona	Q177	826070539	Europe | Urban | Tertiary	1	direct_persona	7
+Q177::688070512::direct_persona	Q177	688070512	Europe | Urban | Tertiary	1	direct_persona	3
+Q177::826070562::direct_persona	Q177	826070562	Europe | Urban | Tertiary	1	direct_persona	1
+Q177::826071947::direct_persona	Q177	826071947	Europe | Urban | Tertiary	1	direct_persona	1
+Q177::276070614::direct_persona	Q177	276070614	Europe | Urban | Tertiary	1	direct_persona	3
+Q177::703070895::direct_persona	Q177	703070895	Europe | Rural | Lower Secondary	1	direct_persona	1
+Q177::51070917::direct_persona	Q177	51070917	Europe | Rural | Lower Secondary	1	direct_persona	1
+Q177::642070088::direct_persona	Q177	642070088	Europe | Rural | Lower Secondary	1	direct_persona	1
+Q177::826071127::direct_persona	Q177	826071127	Europe | Rural | Lower Secondary	1	direct_persona	1
+Q177::703071097::direct_persona	Q177	703071097	Europe | Rural | Lower Secondary	1	direct_persona	8
+Q177::344071242::direct_persona	Q177	344071242	Asia | Urban | Upper to Post Secondary	1	direct_persona	5
+Q177::410070191::direct_persona	Q177	410070191	Asia | Urban | Upper to Post Secondary	1	direct_persona	5
+Q177::158070254::direct_persona	Q177	158070254	Asia | Urban | Upper to Post Secondary	1	direct_persona	1
+Q177::158070918::direct_persona	Q177	158070918	Asia | Urban | Upper to Post Secondary	1	direct_persona	1
+Q177::792071504::direct_persona	Q177	792071504	Asia | Urban | Upper to Post Secondary	1	direct_persona	1
+Q177::231070195::direct_persona	Q177	231070195	Africa | Rural | Primary or No Education	1	direct_persona	1
+Q177::818071071::direct_persona	Q177	818071071	Africa | Rural | Primary or No Education	1	direct_persona	3
+Q177::788070212::direct_persona	Q177	788070212	Africa | Rural | Primary or No Education	1	direct_persona	2
+Q177::231070350::direct_persona	Q177	231070350	Africa | Rural | Primary or No Education	1	direct_persona	1
+Q177::231070140::direct_persona	Q177	231070140	Africa | Rural | Primary or No Education	1	direct_persona	1
+Q177::840071531::direct_persona	Q177	840071531	North America | Urban | Tertiary	1	direct_persona	3
+Q177::320070977::direct_persona	Q177	320070977	North America | Urban | Tertiary	1	direct_persona	1
+Q177::484071249::direct_persona	Q177	484071249	North America | Urban | Tertiary	1	direct_persona	9
+Q177::630070450::direct_persona	Q177	630070450	North America | Urban | Tertiary	1	direct_persona	1
+Q177::840071667::direct_persona	Q177	840071667	North America | Urban | Tertiary	1	direct_persona	4
+Q177::152070308::direct_persona	Q177	152070308	South America | Urban | Lower Secondary	1	direct_persona	8
+Q177::32070669::direct_persona	Q177	32070669	South America | Urban | Lower Secondary	1	direct_persona	10
+Q177::76071246::direct_persona	Q177	76071246	South America | Urban | Lower Secondary	1	direct_persona	3
+Q177::604070243::direct_persona	Q177	604070243	South America | Urban | Lower Secondary	1	direct_persona	2
+Q177::152070198::direct_persona	Q177	152070198	South America | Urban | Lower Secondary	1	direct_persona	9
+Q178::528072126::direct_persona	Q178	528072126	Europe | Urban | Tertiary	4	direct_persona	1
+Q178::688070894::direct_persona	Q178	688070894	Europe | Urban | Tertiary	4	direct_persona	6
+Q178::528072089::direct_persona	Q178	528072089	Europe | Urban | Tertiary	4	direct_persona	3
+Q178::203070799::direct_persona	Q178	203070799	Europe | Urban | Tertiary	4	direct_persona	10
+Q178::688070189::direct_persona	Q178	688070189	Europe | Urban | Tertiary	4	direct_persona	5
+Q178::703070666::direct_persona	Q178	703070666	Europe | Rural | Lower Secondary	3	direct_persona	1
+Q178::643070099::direct_persona	Q178	643070099	Europe | Rural | Lower Secondary	3	direct_persona	10
+Q178::703070351::direct_persona	Q178	703070351	Europe | Rural | Lower Secondary	3	direct_persona	7
+Q178::826071625::direct_persona	Q178	826071625	Europe | Rural | Lower Secondary	3	direct_persona	1
+Q178::826071634::direct_persona	Q178	826071634	Europe | Rural | Lower Secondary	3	direct_persona	1
+Q178::398071022::direct_persona	Q178	398071022	Asia | Urban | Upper to Post Secondary	3	direct_persona	1
+Q178::392070099::direct_persona	Q178	392070099	Asia | Urban | Upper to Post Secondary	3	direct_persona	1
+Q178::344070330::direct_persona	Q178	344070330	Asia | Urban | Upper to Post Secondary	3	direct_persona	1
+Q178::360072872::direct_persona	Q178	360072872	Asia | Urban | Upper to Post Secondary	3	direct_persona	2
+Q178::158070352::direct_persona	Q178	158070352	Asia | Urban | Upper to Post Secondary	3	direct_persona	1
+Q178::818070986::direct_persona	Q178	818070986	Africa | Rural | Primary or No Education	3	direct_persona	1
+Q178::716071161::direct_persona	Q178	716071161	Africa | Rural | Primary or No Education	3	direct_persona	2
+Q178::231070711::direct_persona	Q178	231070711	Africa | Rural | Primary or No Education	3	direct_persona	1
+Q178::231070195::direct_persona	Q178	231070195	Africa | Rural | Primary or No Education	3	direct_persona	1
+Q178::504070333::direct_persona	Q178	504070333	Africa | Rural | Primary or No Education	3	direct_persona	1
+Q178::630070293::direct_persona	Q178	630070293	North America | Urban | Tertiary	3	direct_persona	1
+Q178::124070575::direct_persona	Q178	124070575	North America | Urban | Tertiary	3	direct_persona	4
+Q178::124070701::direct_persona	Q178	124070701	North America | Urban | Tertiary	3	direct_persona	6
+Q178::124071732::direct_persona	Q178	124071732	North America | Urban | Tertiary	3	direct_persona	10
+Q178::840071135::direct_persona	Q178	840071135	North America | Urban | Tertiary	3	direct_persona	1
+Q178::32070493::direct_persona	Q178	32070493	South America | Urban | Lower Secondary	3	direct_persona	3
+Q178::170074738::direct_persona	Q178	170074738	South America | Urban | Lower Secondary	3	direct_persona	10
+Q178::218070472::direct_persona	Q178	218070472	South America | Urban | Lower Secondary	3	direct_persona	4
+Q178::170071533::direct_persona	Q178	170071533	South America | Urban | Lower Secondary	3	direct_persona	1
+Q178::76071633::direct_persona	Q178	76071633	South America | Urban | Lower Secondary	3	direct_persona	5
+Q199::203070799::direct_persona	Q199	203070799	Europe | Urban | Tertiary	3	direct_persona	3
+Q199::826071698::direct_persona	Q199	826071698	Europe | Urban | Tertiary	3	direct_persona	2
+Q199::909070314::direct_persona	Q199	909070314	Europe | Urban | Tertiary	3	direct_persona	1
+Q199::826072276::direct_persona	Q199	826072276	Europe | Urban | Tertiary	3	direct_persona	2
+Q199::20070453::direct_persona	Q199	20070453	Europe | Urban | Tertiary	3	direct_persona	2
+Q199::300070647::direct_persona	Q199	300070647	Europe | Rural | Lower Secondary	3	direct_persona	2
+Q199::642070696::direct_persona	Q199	642070696	Europe | Rural | Lower Secondary	3	direct_persona	4
+Q199::826070045::direct_persona	Q199	826070045	Europe | Rural | Lower Secondary	3	direct_persona	4
+Q199::909070197::direct_persona	Q199	909070197	Europe | Rural | Lower Secondary	3	direct_persona	4
+Q199::703070171::direct_persona	Q199	703070171	Europe | Rural | Lower Secondary	3	direct_persona	4
+Q199::400070292::direct_persona	Q199	400070292	Asia | Urban | Upper to Post Secondary	3	direct_persona	2
+Q199::156070967::direct_persona	Q199	156070967	Asia | Urban | Upper to Post Secondary	3	direct_persona	2
+Q199::364071732::direct_persona	Q199	364071732	Asia | Urban | Upper to Post Secondary	3	direct_persona	2
+Q199::344071460::direct_persona	Q199	344071460	Asia | Urban | Upper to Post Secondary	3	direct_persona	3
+Q199::422070926::direct_persona	Q199	422070926	Asia | Urban | Upper to Post Secondary	3	direct_persona	3
+Q199::231070291::direct_persona	Q199	231070291	Africa | Rural | Primary or No Education	3	direct_persona	4
+Q199::231070424::direct_persona	Q199	231070424	Africa | Rural | Primary or No Education	3	direct_persona	2
+Q199::231070545::direct_persona	Q199	231070545	Africa | Rural | Primary or No Education	3	direct_persona	3
+Q199::788071045::direct_persona	Q199	788071045	Africa | Rural | Primary or No Education	3	direct_persona	3
+Q199::404070950::direct_persona	Q199	404070950	Africa | Rural | Primary or No Education	3	direct_persona	3
+Q199::124072633::direct_persona	Q199	124072633	North America | Urban | Tertiary	3	direct_persona	3
+Q199::320070066::direct_persona	Q199	320070066	North America | Urban | Tertiary	3	direct_persona	2
+Q199::124073127::direct_persona	Q199	124073127	North America | Urban | Tertiary	3	direct_persona	2
+Q199::840072460::direct_persona	Q199	840072460	North America | Urban | Tertiary	3	direct_persona	1
+Q199::630071184::direct_persona	Q199	630071184	North America | Urban | Tertiary	3	direct_persona	4
+Q199::170072572::direct_persona	Q199	170072572	South America | Urban | Lower Secondary	3	direct_persona	4
+Q199::32070522::direct_persona	Q199	32070522	South America | Urban | Lower Secondary	3	direct_persona	4
+Q199::604071125::direct_persona	Q199	604071125	South America | Urban | Lower Secondary	3	direct_persona	2
+Q199::32070895::direct_persona	Q199	32070895	South America | Urban | Lower Secondary	3	direct_persona	2
+Q199::152070198::direct_persona	Q199	152070198	South America | Urban | Lower Secondary	3	direct_persona	4
+Q200::20070647::direct_persona	Q200	20070647	Europe | Urban | Tertiary	3	direct_persona	1
+Q200::826071698::direct_persona	Q200	826071698	Europe | Urban | Tertiary	3	direct_persona	1
+Q200::703070725::direct_persona	Q200	703070725	Europe | Urban | Tertiary	3	direct_persona	2
+Q200::300070383::direct_persona	Q200	300070383	Europe | Urban | Tertiary	3	direct_persona	2
+Q200::642070132::direct_persona	Q200	642070132	Europe | Urban | Tertiary	3	direct_persona	2
+Q200::826072505::direct_persona	Q200	826072505	Europe | Rural | Lower Secondary	3	direct_persona	2
+Q200::826070045::direct_persona	Q200	826070045	Europe | Rural | Lower Secondary	3	direct_persona	3
+Q200::703070367::direct_persona	Q200	703070367	Europe | Rural | Lower Secondary	3	direct_persona	2
+Q200::804070731::direct_persona	Q200	804070731	Europe | Rural | Lower Secondary	3	direct_persona	2
+Q200::703070559::direct_persona	Q200	703070559	Europe | Rural | Lower Secondary	3	direct_persona	2
+Q200::792070188::direct_persona	Q200	792070188	Asia | Urban | Upper to Post Secondary	3	direct_persona	2
+Q200::764070167::direct_persona	Q200	764070167	Asia | Urban | Upper to Post Secondary	3	direct_persona	3
+Q200::158070172::direct_persona	Q200	158070172	Asia | Urban | Upper to Post Secondary	3	direct_persona	2
+Q200::344071444::direct_persona	Q200	344071444	Asia | Urban | Upper to Post Secondary	3	direct_persona	1
+Q200::156071123::direct_persona	Q200	156071123	Asia | Urban | Upper to Post Secondary	3	direct_persona	2
+Q200::404070608::direct_persona	Q200	404070608	Africa | Rural | Primary or No Education	3	direct_persona	3
+Q200::231070970::direct_persona	Q200	231070970	Africa | Rural | Primary or No Education	3	direct_persona	3
+Q200::788071160::direct_persona	Q200	788071160	Africa | Rural | Primary or No Education	3	direct_persona	2
+Q200::404071046::direct_persona	Q200	404071046	Africa | Rural | Primary or No Education	3	direct_persona	2
+Q200::716070692::direct_persona	Q200	716070692	Africa | Rural | Primary or No Education	3	direct_persona	2
+Q200::320071024::direct_persona	Q200	320071024	North America | Urban | Tertiary	3	direct_persona	3
+Q200::840071654::direct_persona	Q200	840071654	North America | Urban | Tertiary	3	direct_persona	2
+Q200::840073398::direct_persona	Q200	840073398	North America | Urban | Tertiary	3	direct_persona	1
+Q200::124071848::direct_persona	Q200	124071848	North America | Urban | Tertiary	3	direct_persona	2
+Q200::124071403::direct_persona	Q200	124071403	North America | Urban | Tertiary	3	direct_persona	3
+Q200::218070472::direct_persona	Q200	218070472	South America | Urban | Lower Secondary	3	direct_persona	3
+Q200::76070044::direct_persona	Q200	76070044	South America | Urban | Lower Secondary	3	direct_persona	3
+Q200::32070520::direct_persona	Q200	32070520	South America | Urban | Lower Secondary	3	direct_persona	2
+Q200::170074168::direct_persona	Q200	170074168	South America | Urban | Lower Secondary	3	direct_persona	3
+Q200::170076843::direct_persona	Q200	170076843	South America | Urban | Lower Secondary	3	direct_persona	2
+Q201::643070678::direct_persona	Q201	643070678	Europe | Urban | Tertiary	5	direct_persona	1
+Q201::276071486::direct_persona	Q201	276071486	Europe | Urban | Tertiary	5	direct_persona	4
+Q201::826071549::direct_persona	Q201	826071549	Europe | Urban | Tertiary	5	direct_persona	1
+Q201::528070686::direct_persona	Q201	528070686	Europe | Urban | Tertiary	5	direct_persona	5
+Q201::826071068::direct_persona	Q201	826071068	Europe | Urban | Tertiary	5	direct_persona	5
+Q201::300070760::direct_persona	Q201	300070760	Europe | Rural | Lower Secondary	5	direct_persona	5
+Q201::909070176::direct_persona	Q201	909070176	Europe | Rural | Lower Secondary	5	direct_persona	1
+Q201::703070205::direct_persona	Q201	703070205	Europe | Rural | Lower Secondary	5	direct_persona	3
+Q201::643071520::direct_persona	Q201	643071520	Europe | Rural | Lower Secondary	5	direct_persona	3
+Q201::826070421::direct_persona	Q201	826070421	Europe | Rural | Lower Secondary	5	direct_persona	2
+Q201::762070815::direct_persona	Q201	762070815	Asia | Urban | Upper to Post Secondary	5	direct_persona	5
+Q201::360072982::direct_persona	Q201	360072982	Asia | Urban | Upper to Post Secondary	5	direct_persona	5
+Q201::344070386::direct_persona	Q201	344070386	Asia | Urban | Upper to Post Secondary	5	direct_persona	1
+Q201::360070665::direct_persona	Q201	360070665	Asia | Urban | Upper to Post Secondary	5	direct_persona	1
+Q201::344071521::direct_persona	Q201	344071521	Asia | Urban | Upper to Post Secondary	5	direct_persona	1
+Q201::818070283::direct_persona	Q201	818070283	Africa | Rural | Primary or No Education	5	direct_persona	5
+Q201::818070860::direct_persona	Q201	818070860	Africa | Rural | Primary or No Education	5	direct_persona	5
+Q201::231070545::direct_persona	Q201	231070545	Africa | Rural | Primary or No Education	5	direct_persona	5
+Q201::788070589::direct_persona	Q201	788070589	Africa | Rural | Primary or No Education	5	direct_persona	5
+Q201::404070574::direct_persona	Q201	404070574	Africa | Rural | Primary or No Education	5	direct_persona	5
+Q201::320070471::direct_persona	Q201	320070471	North America | Urban | Tertiary	5	direct_persona	1
+Q201::320070995::direct_persona	Q201	320070995	North America | Urban | Tertiary	5	direct_persona	3
+Q201::320070937::direct_persona	Q201	320070937	North America | Urban | Tertiary	5	direct_persona	5
+Q201::840073207::direct_persona	Q201	840073207	North America | Urban | Tertiary	5	direct_persona	3
+Q201::840073388::direct_persona	Q201	840073388	North America | Urban | Tertiary	5	direct_persona	5
+Q201::32070340::direct_persona	Q201	32070340	South America | Urban | Lower Secondary	5	direct_persona	5
+Q201::68071606::direct_persona	Q201	68071606	South America | Urban | Lower Secondary	5	direct_persona	1
+Q201::76071248::direct_persona	Q201	76071248	South America | Urban | Lower Secondary	5	direct_persona	1
+Q201::862070728::direct_persona	Q201	862070728	South America | Urban | Lower Secondary	5	direct_persona	5
+Q201::218070128::direct_persona	Q201	218070128	South America | Urban | Lower Secondary	5	direct_persona	2
+Q235::826072127::direct_persona	Q235	826072127	Europe | Urban | Tertiary	4	direct_persona	4
+Q235::688070512::direct_persona	Q235	688070512	Europe | Urban | Tertiary	4	direct_persona	2
+Q235::528070780::direct_persona	Q235	528070780	Europe | Urban | Tertiary	4	direct_persona	2
+Q235::528071729::direct_persona	Q235	528071729	Europe | Urban | Tertiary	4	direct_persona	3
+Q235::528071566::direct_persona	Q235	528071566	Europe | Urban | Tertiary	4	direct_persona	3
+Q235::203071047::direct_persona	Q235	203071047	Europe | Rural | Lower Secondary	3	direct_persona	4
+Q235::826070004::direct_persona	Q235	826070004	Europe | Rural | Lower Secondary	3	direct_persona	4
+Q235::528070024::direct_persona	Q235	528070024	Europe | Rural | Lower Secondary	3	direct_persona	4
+Q235::51071171::direct_persona	Q235	51071171	Europe | Rural | Lower Secondary	3	direct_persona	1
+Q235::51071198::direct_persona	Q235	51071198	Europe | Rural | Lower Secondary	3	direct_persona	2
+Q235::156072219::direct_persona	Q235	156072219	Asia | Urban | Upper to Post Secondary	4	direct_persona	2
+Q235::368070799::direct_persona	Q235	368070799	Asia | Urban | Upper to Post Secondary	4	direct_persona	1
+Q235::344070963::direct_persona	Q235	344070963	Asia | Urban | Upper to Post Secondary	4	direct_persona	2
+Q235::344071515::direct_persona	Q235	344071515	Asia | Urban | Upper to Post Secondary	4	direct_persona	4
+Q235::422070469::direct_persona	Q235	422070469	Asia | Urban | Upper to Post Secondary	4	direct_persona	4
+Q235::566070641::direct_persona	Q235	566070641	Africa | Rural | Primary or No Education	2	direct_persona	3
+Q235::716070330::direct_persona	Q235	716070330	Africa | Rural | Primary or No Education	2	direct_persona	3
+Q235::231070927::direct_persona	Q235	231070927	Africa | Rural | Primary or No Education	2	direct_persona	2
+Q235::231070504::direct_persona	Q235	231070504	Africa | Rural | Primary or No Education	2	direct_persona	3
+Q235::231070828::direct_persona	Q235	231070828	Africa | Rural | Primary or No Education	2	direct_persona	4
+Q235::840073175::direct_persona	Q235	840073175	North America | Urban | Tertiary	4	direct_persona	4
+Q235::840072222::direct_persona	Q235	840072222	North America | Urban | Tertiary	4	direct_persona	3
+Q235::320070120::direct_persona	Q235	320070120	North America | Urban | Tertiary	4	direct_persona	2
+Q235::124070282::direct_persona	Q235	124070282	North America | Urban | Tertiary	4	direct_persona	2
+Q235::124072402::direct_persona	Q235	124072402	North America | Urban | Tertiary	4	direct_persona	3
+Q235::218070403::direct_persona	Q235	218070403	South America | Urban | Lower Secondary	2	direct_persona	2
+Q235::68070608::direct_persona	Q235	68070608	South America | Urban | Lower Secondary	2	direct_persona	2
+Q235::68071606::direct_persona	Q235	68071606	South America | Urban | Lower Secondary	2	direct_persona	1
+Q235::152070809::direct_persona	Q235	152070809	South America | Urban | Lower Secondary	2	direct_persona	2
+Q235::76071390::direct_persona	Q235	76071390	South America | Urban | Lower Secondary	2	direct_persona	2
+Q236::688070033::direct_persona	Q236	688070033	Europe | Urban | Tertiary	3	direct_persona	3
+Q236::20070612::direct_persona	Q236	20070612	Europe | Urban | Tertiary	3	direct_persona	2
+Q236::642071348::direct_persona	Q236	642071348	Europe | Urban | Tertiary	3	direct_persona	3
+Q236::300070037::direct_persona	Q236	300070037	Europe | Urban | Tertiary	3	direct_persona	3
+Q236::276071312::direct_persona	Q236	276071312	Europe | Urban | Tertiary	3	direct_persona	3
+Q236::196070090::direct_persona	Q236	196070090	Europe | Rural | Lower Secondary	2	direct_persona	2
+Q236::826072485::direct_persona	Q236	826072485	Europe | Rural | Lower Secondary	2	direct_persona	4
+Q236::703070834::direct_persona	Q236	703070834	Europe | Rural | Lower Secondary	2	direct_persona	1
+Q236::643071306::direct_persona	Q236	643071306	Europe | Rural | Lower Secondary	2	direct_persona	4
+Q236::703070414::direct_persona	Q236	703070414	Europe | Rural | Lower Secondary	2	direct_persona	2
+Q236::764070052::direct_persona	Q236	764070052	Asia | Urban | Upper to Post Secondary	3	direct_persona	1
+Q236::400071029::direct_persona	Q236	400071029	Asia | Urban | Upper to Post Secondary	3	direct_persona	3
+Q236::156072680::direct_persona	Q236	156072680	Asia | Urban | Upper to Post Secondary	3	direct_persona	2
+Q236::496070649::direct_persona	Q236	496070649	Asia | Urban | Upper to Post Secondary	3	direct_persona	3
+Q236::158070858::direct_persona	Q236	158070858	Asia | Urban | Upper to Post Secondary	3	direct_persona	4
+Q236::566071062::direct_persona	Q236	566071062	Africa | Rural | Primary or No Education	3	direct_persona	2
+Q236::231070404::direct_persona	Q236	231070404	Africa | Rural | Primary or No Education	3	direct_persona	1
+Q236::231070299::direct_persona	Q236	231070299	Africa | Rural | Primary or No Education	3	direct_persona	4
+Q236::231070711::direct_persona	Q236	231070711	Africa | Rural | Primary or No Education	3	direct_persona	4
+Q236::231070406::direct_persona	Q236	231070406	Africa | Rural | Primary or No Education	3	direct_persona	2
+Q236::558070031::direct_persona	Q236	558070031	North America | Urban | Tertiary	3	direct_persona	1
+Q236::124071368::direct_persona	Q236	124071368	North America | Urban | Tertiary	3	direct_persona	2
+Q236::124073504::direct_persona	Q236	124073504	North America | Urban | Tertiary	3	direct_persona	2
+Q236::630070968::direct_persona	Q236	630070968	North America | Urban | Tertiary	3	direct_persona	1
+Q236::840072309::direct_persona	Q236	840072309	North America | Urban | Tertiary	3	direct_persona	2
+Q236::76070397::direct_persona	Q236	76070397	South America | Urban | Lower Secondary	2	direct_persona	2
+Q236::170071279::direct_persona	Q236	170071279	South America | Urban | Lower Secondary	2	direct_persona	1
+Q236::218071162::direct_persona	Q236	218071162	South America | Urban | Lower Secondary	2	direct_persona	1
+Q236::32070493::direct_persona	Q236	32070493	South America | Urban | Lower Secondary	2	direct_persona	3
+Q236::862070096::direct_persona	Q236	862070096	South America | Urban | Lower Secondary	2	direct_persona	2
+Q237::276070444::direct_persona	Q237	276070444	Europe | Urban | Tertiary	4	direct_persona	4
+Q237::51070223::direct_persona	Q237	51070223	Europe | Urban | Tertiary	4	direct_persona	1
+Q237::826071698::direct_persona	Q237	826071698	Europe | Urban | Tertiary	4	direct_persona	4
+Q237::528071729::direct_persona	Q237	528071729	Europe | Urban | Tertiary	4	direct_persona	4
+Q237::688071015::direct_persona	Q237	688071015	Europe | Urban | Tertiary	4	direct_persona	4
+Q237::826071525::direct_persona	Q237	826071525	Europe | Rural | Lower Secondary	4	direct_persona	2
+Q237::909070176::direct_persona	Q237	909070176	Europe | Rural | Lower Secondary	4	direct_persona	2
+Q237::688070607::direct_persona	Q237	688070607	Europe | Rural | Lower Secondary	4	direct_persona	4
+Q237::276071246::direct_persona	Q237	276071246	Europe | Rural | Lower Secondary	4	direct_persona	4
+Q237::703070143::direct_persona	Q237	703070143	Europe | Rural | Lower Secondary	4	direct_persona	2
+Q237::458070765::direct_persona	Q237	458070765	Asia | Urban | Upper to Post Secondary	4	direct_persona	3
+Q237::702070961::direct_persona	Q237	702070961	Asia | Urban | Upper to Post Secondary	4	direct_persona	1
+Q237::410070541::direct_persona	Q237	410070541	Asia | Urban | Upper to Post Secondary	4	direct_persona	3
+Q237::156072007::direct_persona	Q237	156072007	Asia | Urban | Upper to Post Secondary	4	direct_persona	2
+Q237::410070771::direct_persona	Q237	410070771	Asia | Urban | Upper to Post Secondary	4	direct_persona	3
+Q237::504070754::direct_persona	Q237	504070754	Africa | Rural | Primary or No Education	3	direct_persona	4
+Q237::788070589::direct_persona	Q237	788070589	Africa | Rural | Primary or No Education	3	direct_persona	4
+Q237::231071087::direct_persona	Q237	231071087	Africa | Rural | Primary or No Education	3	direct_persona	2
+Q237::231070927::direct_persona	Q237	231070927	Africa | Rural | Primary or No Education	3	direct_persona	4
+Q237::716070875::direct_persona	Q237	716070875	Africa | Rural | Primary or No Education	3	direct_persona	3
+Q237::840072812::direct_persona	Q237	840072812	North America | Urban | Tertiary	4	direct_persona	4
+Q237::124074318::direct_persona	Q237	124074318	North America | Urban | Tertiary	4	direct_persona	2
+Q237::124073530::direct_persona	Q237	124073530	North America | Urban | Tertiary	4	direct_persona	4
+Q237::484071076::direct_persona	Q237	484071076	North America | Urban | Tertiary	4	direct_persona	2
+Q237::840072814::direct_persona	Q237	840072814	North America | Urban | Tertiary	4	direct_persona	2
+Q237::218071162::direct_persona	Q237	218071162	South America | Urban | Lower Secondary	4	direct_persona	4
+Q237::68070631::direct_persona	Q237	68070631	South America | Urban | Lower Secondary	4	direct_persona	3
+Q237::152070308::direct_persona	Q237	152070308	South America | Urban | Lower Secondary	4	direct_persona	4
+Q237::32070193::direct_persona	Q237	32070193	South America | Urban | Lower Secondary	4	direct_persona	3
+Q237::76070044::direct_persona	Q237	76070044	South America | Urban | Lower Secondary	4	direct_persona	3

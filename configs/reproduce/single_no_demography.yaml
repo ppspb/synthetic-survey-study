@@ -1,0 +1,62 @@
+api:
+  base_url: ${OPENAI_BASE_URL:-http://127.0.0.1:1234/v1}
+  api_key: ${OPENAI_API_KEY:-lm-studio}
+  model: ${MODEL_NAME:-qwen3.5-4b}
+  temperature: 0
+  max_retries: 3
+  timeout_seconds: 120
+
+paths:
+  data_dir: "data"
+  samples_file: "samples.tsv"
+  question_metadata_file: "question_metadata.json"
+  outputs_dir: "outputs"
+  full_value_qa_file: "/mnt/data/F00011356-WVS_Cross-National_Wave_7_csv_v6_0.zip"
+
+benchmark:
+  prompt_modes:
+    - direct_persona
+    - interview_direct
+    - interview_state_guided
+  questions:
+    - Q1
+    - Q46
+    - Q57
+    - Q71
+    - Q106
+    - Q158
+    - Q164
+    - Q199
+  groups:
+    - continent: "Europe"
+      urban_rural: "Urban"
+      education: "Tertiary"
+    - continent: "Europe"
+      urban_rural: "Rural"
+      education: "Lower Secondary"
+    - continent: "Asia"
+      urban_rural: "Urban"
+      education: "Upper to Post Secondary"
+    - continent: "Africa"
+      urban_rural: "Rural"
+      education: "Primary or No Education"
+  participants_per_group_question: 5
+  explanation_max_words: 25
+  random_seed: 42
+  continue_on_error: true
+
+judge:
+  enabled: true
+  use_llm: false
+  llm_model: "nvidia/nemotron-3-nano-4b"
+  max_retries: 2
+  fail_on_judge_error: false
+
+robustness:
+  perturbations:
+    - original
+    - frame_minimal
+    - question_paraphrase
+    - reverse_anchor_order
+  compare_to: "original"
+  continue_on_error: true

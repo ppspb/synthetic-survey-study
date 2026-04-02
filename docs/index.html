@@ -1,0 +1,1561 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Synthetic Survey Study</title>
+  <meta name="description" content="Исследовательский кейс о synthetic survey systems.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet">
+
+  <style>
+    :root {
+      --bg: #ffffff;
+      --bg2: #f9f9f9;
+      --sf: #ffffff;
+      --sf2: #f3f4f6;
+
+      --tx: #111827;
+      --tx2: #374151;
+      --tx3: #6b7280;
+
+      --bd: #e5e7eb;
+      --bd2: #d1d5db;
+      --bd-dark: #374151;
+
+      --acc: #dc2626;
+      --acc-bg: #fef2f2;
+      --grn: #059669;
+      --grn-bg: #ecfdf5;
+      --blue: #2563eb;
+
+      --r: 8px;
+      --rs: 6px;
+      --max: 960px;
+      --gap: clamp(64px, 8vw, 96px);
+    }
+
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Inter', system-ui, -apple-system, sans-serif;
+      font-size: 16px;
+      line-height: 1.65;
+      color: var(--tx2);
+      background: var(--bg);
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a {
+      color: var(--blue);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .w {
+      width: min(calc(100% - 40px), var(--max));
+      margin: 0 auto;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4 {
+      font-family: 'Inter', system-ui, sans-serif;
+      line-height: 1.25;
+      color: var(--tx);
+      font-weight: 700;
+    }
+
+    h1 {
+      font-size: clamp(32px, 6vw, 48px);
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      font-size: clamp(24px, 4vw, 32px);
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      margin-bottom: 24px;
+    }
+
+    h3 {
+      font-size: 20px;
+      margin-bottom: 12px;
+    }
+
+    h4 {
+      font-size: 16px;
+      margin-bottom: 8px;
+    }
+
+    main section[id] {
+      scroll-margin-top: 80px;
+    }
+
+    /* === КОД И ЛОГИ === */
+    code {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.85em;
+      padding: 2px 6px;
+      border-radius: var(--rs);
+      background: var(--sf2);
+      border: 1px solid var(--bd);
+      color: var(--tx);
+    }
+
+    .raw {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 13px;
+      line-height: 1.6;
+      background: #0d1117;
+      /* GitHub Dark */
+      color: #c9d1d9;
+      padding: 16px 20px;
+      border-radius: var(--rs);
+      overflow-x: auto;
+      white-space: pre-wrap;
+      word-break: break-word;
+      border: 1px solid #30363d;
+      margin-top: 12px;
+      margin-bottom: 12px;
+    }
+
+    /* === HEADER === */
+    .hd {
+      position: sticky;
+      top: 0;
+      z-index: 40;
+      background: rgba(255, 255, 255, 0.95);
+      border-bottom: 1px solid var(--bd);
+      backdrop-filter: blur(8px);
+    }
+
+    .hd-bar {
+      min-height: 60px;
+      display: flex;
+      align-items: center;
+      gap: 24px;
+    }
+
+    .logo {
+      font-weight: 800;
+      font-size: 16px;
+      color: var(--tx);
+      letter-spacing: -0.01em;
+      flex-shrink: 0;
+    }
+
+    /* Горизонтальный скролл меню для мобилок */
+    .hd-bar nav {
+      display: flex;
+      gap: 4px;
+      overflow-x: auto;
+      white-space: nowrap;
+      padding-bottom: 2px;
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+
+    .hd-bar nav::-webkit-scrollbar {
+      display: none;
+    }
+
+    .hd-bar nav a {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--tx3);
+      padding: 6px 12px;
+      border-radius: var(--rs);
+      transition: background 0.15s, color 0.15s;
+    }
+
+    .hd-bar nav a:hover,
+    .hd-bar nav a.active {
+      color: var(--tx);
+      background: var(--bg2);
+      text-decoration: none;
+    }
+
+    /* === HERO === */
+    .hero {
+      padding: 80px 0 40px;
+    }
+
+    .lead {
+      font-size: 20px;
+      line-height: 1.6;
+      color: var(--tx2);
+      max-width: 50ch;
+      margin-bottom: 24px;
+    }
+
+    .hero-stats {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      margin-top: 48px;
+    }
+
+    .hs {
+      padding: 24px;
+      border: 1px solid var(--bd);
+      border-radius: var(--r);
+      background: var(--sf);
+    }
+
+    .hs-lb {
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: var(--tx3);
+      letter-spacing: 0.05em;
+      margin-bottom: 12px;
+    }
+
+    .hs-v {
+      font-size: 32px;
+      font-weight: 800;
+      line-height: 1;
+      margin-bottom: 12px;
+      color: var(--tx);
+    }
+
+    .hs p {
+      font-size: 14px;
+      margin: 0;
+    }
+
+    /* === SECTIONS === */
+    .sec {
+      padding: var(--gap) 0;
+      border-top: 1px solid var(--bd);
+    }
+
+    .sec:first-of-type {
+      border-top: none;
+    }
+
+    .prose {
+      max-width: 65ch;
+      margin-bottom: 16px;
+    }
+
+    .prose strong {
+      font-weight: 600;
+      color: var(--tx);
+    }
+
+    /* === CONCEPTS === */
+    .concepts {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+      margin: 32px 0;
+    }
+
+    .concept {
+      padding: 20px;
+      border: 1px solid var(--bd);
+      border-radius: var(--r);
+      background: var(--sf2);
+    }
+
+    .concept h3 {
+      font-size: 16px;
+      margin-bottom: 8px;
+    }
+
+    .concept p {
+      font-size: 14px;
+      margin: 0;
+    }
+
+    /* === CALLOUTS === */
+    .note {
+      margin: 24px 0;
+      padding: 24px;
+      border-left: 4px solid var(--tx);
+      background: var(--sf2);
+      border-radius: 0 var(--r) var(--r) 0;
+    }
+
+    .note-tag {
+      display: block;
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-bottom: 12px;
+      letter-spacing: 0.05em;
+    }
+
+    .note ul {
+      padding-left: 20px;
+      margin-top: 12px;
+    }
+
+    .note li {
+      margin-bottom: 8px;
+    }
+
+    .takeaway {
+      margin-top: 24px;
+      padding: 20px;
+      background: var(--sf2);
+      border: 1px solid var(--bd);
+      border-left: 4px solid var(--tx);
+      border-radius: var(--rs);
+      font-size: 15px;
+    }
+
+    /* === TABLES === */
+    .tbl-wrap {
+      margin: 24px 0;
+      overflow-x: auto;
+      border: 1px solid var(--bd);
+      border-radius: var(--r);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      min-width: 600px;
+    }
+
+    th,
+    td {
+      padding: 14px 20px;
+      border-bottom: 1px solid var(--bd);
+      text-align: left;
+      font-size: 15px;
+    }
+
+    th {
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      background: var(--sf2);
+      color: var(--tx3);
+      letter-spacing: 0.02em;
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    /* === GRIDS & BOXES === */
+    .g2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      margin: 16px 0;
+    }
+
+    .g3 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+      margin: 16px 0;
+    }
+
+    .box {
+      padding: 20px;
+      border: 1px solid var(--bd);
+      border-radius: var(--rs);
+      background: var(--sf);
+    }
+
+    .box h4 {
+      font-size: 12px;
+      text-transform: uppercase;
+      color: var(--tx3);
+      margin-bottom: 12px;
+      letter-spacing: 0.05em;
+    }
+
+    .box p {
+      margin: 0;
+      font-size: 14px;
+    }
+
+    /* === DOTS (LIKERT SCALE) === */
+    .dots {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 12px;
+    }
+
+    .dots span {
+      width: 34px;
+      height: 34px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      font-weight: 700;
+      font-size: 14px;
+      background: var(--sf2);
+      border: 1px solid var(--bd2);
+      color: var(--tx);
+    }
+
+    .dots.highlight span {
+      background: var(--tx);
+      color: #fff;
+      border-color: var(--tx);
+    }
+
+    .dots.error span {
+      background: var(--acc-bg);
+      color: var(--acc);
+      border-color: var(--acc);
+    }
+
+    /* === PROFILES === */
+    .profiles {
+      display: grid;
+      gap: 20px;
+      margin: 32px 0;
+    }
+
+    .profile {
+      display: grid;
+      grid-template-columns: 240px 1fr;
+      gap: 32px;
+      padding: 32px;
+      border: 1px solid var(--bd);
+      border-radius: var(--r);
+      background: var(--sf);
+    }
+
+    .profile-s {
+      border-right: 1px solid var(--bd);
+      padding-right: 24px;
+    }
+
+    .profile-s h3 {
+      font-size: 22px;
+      margin-top: 8px;
+      margin-bottom: 12px;
+    }
+
+    .pill {
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      padding: 4px 10px;
+      border-radius: 999px;
+      background: var(--sf2);
+      border: 1px solid var(--bd);
+      display: inline-block;
+      letter-spacing: 0.02em;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 6px 10px;
+      border: 1px solid var(--bd);
+      background: var(--bg2);
+      font-size: 14px;
+      font-weight: 600;
+      border-radius: var(--rs);
+    }
+
+    .pfacts {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+      margin-top: 20px;
+    }
+
+    .pf {
+      font-size: 14px;
+    }
+
+    .pf strong {
+      display: block;
+      font-size: 12px;
+      text-transform: uppercase;
+      margin-bottom: 6px;
+      color: var(--tx3);
+      letter-spacing: 0.02em;
+    }
+
+    /* === STEPS === */
+    .steps {
+      display: grid;
+      gap: 16px;
+      margin: 32px 0;
+    }
+
+    .step {
+      display: grid;
+      grid-template-columns: 40px 1fr;
+      gap: 24px;
+      padding: 24px;
+      border: 1px solid var(--bd);
+      border-radius: var(--r);
+      background: var(--sf);
+    }
+
+    .step-n {
+      width: 40px;
+      height: 40px;
+      background: var(--tx);
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 18px;
+      border-radius: 50%;
+    }
+
+    /* === CASES (HEAVY BLOCKS) === */
+    .cases-wrap {
+      display: grid;
+      gap: 64px;
+      margin-top: 48px;
+    }
+
+    .case {
+      border: 1px solid var(--bd);
+      border-top: 4px solid var(--tx);
+      border-radius: var(--r);
+      background: var(--sf);
+    }
+
+    .case-hd {
+      padding: 32px;
+      border-bottom: 1px solid var(--bd);
+      background: var(--sf2);
+    }
+
+    .case-id {
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--tx3);
+      text-transform: uppercase;
+      display: block;
+      margin-bottom: 12px;
+      letter-spacing: 0.05em;
+    }
+
+    .case-hd h3 {
+      font-size: 22px;
+      margin-bottom: 16px;
+    }
+
+    .case-bd {
+      padding: 32px;
+    }
+
+    .case-q {
+      font-size: 16px;
+      padding: 20px;
+      border: 1px solid var(--bd);
+      background: var(--sf);
+      margin-bottom: 32px;
+      border-radius: var(--rs);
+    }
+
+    .case-step {
+      padding: 32px 0;
+      border-top: 1px solid var(--bd);
+      display: grid;
+      grid-template-columns: 32px 1fr;
+      gap: 24px;
+    }
+
+    .case-step:first-of-type {
+      border-top: none;
+      padding-top: 0;
+    }
+
+    .cs-n {
+      width: 32px;
+      height: 32px;
+      background: var(--sf2);
+      border: 1px solid var(--bd2);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 14px;
+      border-radius: 50%;
+    }
+
+    /* === DETAILS / ACCORDION === */
+    details {
+      border: 1px solid var(--bd);
+      border-radius: var(--r);
+      margin-bottom: 12px;
+      background: var(--sf);
+      transition: background 0.2s;
+    }
+
+    summary {
+      padding: 16px 20px;
+      font-weight: 600;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      list-style: none;
+      font-size: 16px;
+      border-radius: var(--r);
+    }
+
+    summary:hover {
+      background: var(--bg2);
+    }
+
+    summary::-webkit-details-marker {
+      display: none;
+    }
+
+    summary::before {
+      content: "+";
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 18px;
+      font-weight: bold;
+      color: var(--tx3);
+    }
+
+    details[open] summary::before {
+      content: "−";
+    }
+
+    details[open] summary {
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+    }
+
+    .det-b {
+      padding: 0 20px 20px;
+    }
+
+    /* === FOOTER === */
+    .footer {
+      padding: 64px 0;
+      background: var(--bg2);
+      border-top: 1px solid var(--bd);
+      margin-top: 64px;
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 32px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 12px 24px;
+      background: var(--sf);
+      border: 1px solid var(--bd-dark);
+      color: var(--tx);
+      font-weight: 600;
+      border-radius: var(--rs);
+      font-size: 15px;
+    }
+
+    .btn:hover {
+      background: var(--tx);
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .btn svg {
+      fill: currentColor;
+    }
+
+    @media(max-width: 900px) {
+      .hero-stats {
+        grid-template-columns: 1fr;
+      }
+
+      .profile {
+        grid-template-columns: 1fr;
+        gap: 16px;
+      }
+
+      .profile-s {
+        border-right: none;
+        border-bottom: 1px solid var(--bd);
+        padding-bottom: 24px;
+      }
+
+      .pfacts {
+        grid-template-columns: 1fr;
+      }
+
+      .g2,
+      .g3 {
+        grid-template-columns: 1fr;
+      }
+
+      .concepts {
+        grid-template-columns: 1fr;
+      }
+
+      .footer-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+
+  </header>
+
+  <main>
+    <!-- ═ HERO ═ -->
+    <section class="hero" id="hero">
+      <div class="w">
+        <h1>Правдоподобный ответ — еще не правдоподобная группа.</h1>
+        <p class="lead">Качество симуляции опросов оценивается не по одному ответу нейросети, а по тому, как она
+          имитирует <strong>поведение целой демографической группы.</strong> Если модель раз за разом выдает один и тот
+          же шаблонный вариант — она не воспроизводит реальных людей.</p>
+        <p class="lead">Чтобы группа стала «живой», ответы моделей проходят через три этапа: отказ от генерации одного
+          ответа, переход к <strong>распределению вероятностей</strong> по шкале и <strong>математическую
+            коррекцию</strong>.</p>
+
+        <div class="hero-stats">
+          <div class="hs">
+            <div class="hs-lb">Схлопывание</div>
+            <div class="hs-v">100% → 1.9%</div>
+            <p>Доля групп, где нейросеть штамповала один и тот же ответ на всех респондентов.</p>
+          </div>
+          <div class="hs">
+            <div class="hs-lb">Разброс мнений</div>
+            <div class="hs-v">1.00 → 3.03</div>
+            <p>Среднее число разных ответов внутри одной группы по одному вопросу.</p>
+          </div>
+          <div class="hs">
+            <div class="hs-lb">Ошибка <i>W</i><sub>1</sub></div>
+            <div class="hs-v">0.215 → 0.183</div>
+            <p>Среднее расхождение между распределением ответов модели и реальных людей.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═ МЕТОДОЛОГИЯ ═ -->
+    <section class="sec" id="methodology">
+      <div class="w">
+        <h2>Как устроена проверка</h2>
+        <p class="prose">Базовая единица сравнения в бенчмарке — <strong>ячейка</strong> (вопрос анкеты +
+          демографическая группа). Именно на уровне ячеек становится видно, где ломается языковая модель.</p>
+
+        <div class="concepts">
+          <article class="concept">
+            <h3>Группа</h3>
+            <p>Социальный профиль из трех признаков: континент, тип поселения (urban/rural) и уровень образования.</p>
+          </article>
+          <article class="concept">
+            <h3>Ячейка</h3>
+            <p>Один конкретный вопрос для одной конкретной группы. Пример: Europe | Rural | Lower Secondary.</p>
+          </article>
+          <article class="concept">
+            <h3>Распределение</h3>
+            <p>Генерация вероятностей по всей шкале ответов вместо выбора одного «идеального» варианта.</p>
+          </article>
+        </div>
+
+        <div class="note">
+          <span class="note-tag">Критерии оценки</span>
+          Качество симуляции оценивается по структуре ответов внутри ячейки. Одиночный правдоподобный ответ ничего не
+          значит. Поведение модели проверяется по трем критериям:
+          <ul>
+            <li><strong>Сохраняется ли разброс.</strong> Появляются ли разные мнения внутри одной группы.</li>
+            <li><strong>Куда смещается масса.</strong> В какой части шкалы собирается основная доля ответов.</li>
+            <li><strong>Как выглядит профиль ошибки.</strong> Одинаково ли сильно модель промахивается на разных темах и
+              группах.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═ ПРОБЛЕМА (СХЛОПЫВАНИЕ) ═ -->
+    <section class="sec" id="problem">
+      <div class="w">
+        <h2>В раннем режиме модель выдавала одинаковые ответы</h2>
+        <p class="prose">Если оценивать модель только по средней ошибке (<i>W</i><sub>1</sub>), генерация одиночных
+          ответов выглядела терпимо. Проблема скрывалась внутри ячеек: <strong>вместо группы с разбросом мнений
+            получался один шаблонный респондент</strong>, клонированный много раз.</p>
+
+        <div class="tbl-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Режим генерации</th>
+                <th>Ошибка <i>W</i><sub>1</sub></th>
+                <th>Схлопнутые группы</th>
+                <th>Уникальных ответов</th>
+                <th>Результат</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Один ответ</strong></td>
+                <td>0.215</td>
+                <td>100%</td>
+                <td>1.00</td>
+                <td>Метрика выглядит приемлемо, но социологии нет: вся группа состоит из одного продублированного
+                  ответа.</td>
+              </tr>
+              <tr>
+                <td><strong>Распределение</strong></td>
+                <td>0.183</td>
+                <td>1.9%</td>
+                <td>3.03</td>
+                <td>Схлопывание почти исчезает. В группе появляется правдоподобный разброс мнений.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═ МЕТРИКА W1 ═ -->
+    <section class="sec" id="metric">
+      <div class="w">
+        <h2>Как измеряется ошибка: метрика <i>W</i><sub>1</sub></h2>
+        <p class="prose">Расхождение между ответами модели и реальных людей оценивается метрикой
+          <strong><i>W</i><sub>1</sub> (Wasserstein-1)</strong>. Стандартные метрики совпадения считают любые промахи
+          равноценными, тогда как <i>W</i><sub>1</sub> учитывает физическое расстояние между оценками на шкале.
+          Перепутать оценку «4» и «5» — это небольшая погрешность, а выбрать «1» вместо «5» — грубая ошибка.
+        </p>
+
+        <div class="box" style="margin: 24px 0;">
+          <h4>Как читать значение</h4>
+          <p>Значение <i>W</i><sub>1</sub> показывает, какую долю ответов нужно сдвинуть на один шаг по шкале, чтобы
+            распределение модели идеально совпало с человеческим. Например, <strong><i>W</i><sub>1</sub> = 0.2</strong>
+            означает, что в среднем 20% ответов промахнулись на один пункт. Чем ближе к нулю, тем точнее симуляция.</p>
+        </div>
+
+        <h3>Пример: вопрос о влиянии иммигрантов</h3>
+        <p class="prose">На шкале от 1 до 5 реальные люди чаще всего выбирают вариант «3». До коррекции модель ошибалась
+          и завышала долю негативных оценок. Алгоритм сдвинул массу вероятностей вправо. Ошибка снизилась более чем в
+          четыре раза.</p>
+
+        <pre class="raw">Оценки на шкале:  [ 1 ]   [ 2 ]   [ 3 ]   [ 4 ]   [ 5 ]
+
+Люди (цель):        0%      0%     80%     20%      0%
+
+Модель (до):       35%     30%     20%     10%      5%   [ W₁ = 0.275 ]
+Модель (после):     4%     11%     63%     17%      5%   [ W₁ = 0.062 ]</pre>
+      </div>
+    </section>
+
+    <!-- ═ ПАЙПЛАЙН (Q236) ═ -->
+    <section class="sec" id="pipeline">
+      <div class="w">
+        <h2>Маршрут проекта на вопросе Q236</h2>
+        <p class="prose">На одном вопросе виден весь пайплайн. Сначала модель перестает штамповать один и тот же ответ.
+          Затем она строит распределение по шкале. После этого становится виден системный сдвиг, и только тогда имеет
+          смысл математическая коррекция.</p>
+
+        <div class="box" style="margin-bottom: 32px; border-left: 4px solid var(--tx);">
+          <strong>Вопрос:</strong> On a scale of 1 to 4, 1 meaning 'Very good' and 4 meaning 'Very bad', how do you view
+          having experts, not government, make decisions according to what they think is best for the country?
+        </div>
+
+        <div class="step">
+          <div class="step-n">1</div>
+          <div>
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+              <h3>Наивный одноответный режим</h3>
+              <span class="badge"><i>W</i><sub>1</sub>: 0.333</span>
+            </div>
+            <p class="prose">Нейросеть выбирает один вариант и штампует его для всей группы. Отдельная реплика звучит
+              логично, но группа получается плоской и нереалистичной.</p>
+            <div class="g2">
+              <div>
+                <h4>Люди</h4>
+                <div class="dots highlight"><span>2</span><span>4</span><span>1</span><span>4</span><span>2</span></div>
+              </div>
+              <div>
+                <h4>Модель</h4>
+                <div class="dots error"><span>2</span><span>2</span><span>2</span><span>2</span><span>2</span></div>
+              </div>
+            </div>
+            <pre
+              class="raw">{"rationale": "I trust experts more than politicians, so I'd say it's pretty good.", "answer_score": 2}</pre>
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="step-n">2</div>
+          <div>
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+              <h3>Режим распределения</h3>
+              <span class="badge"><i>W</i><sub>1</sub>: 0.200</span>
+            </div>
+            <p class="prose">Алгоритм запрашивает вероятности ответов. В группу возвращается разнообразие мнений.
+              Становится видно, что модель системно тянет массу в сторону низких значений шкалы.</p>
+            <div class="g2">
+              <div>
+                <h4>Сэмплы модели</h4>
+                <div class="dots"><span>1</span><span>1</span><span>2</span><span>2</span><span>2</span></div>
+              </div>
+              <div>
+                <h4>Распределение модели</h4>
+                <p>1: 35% | 2: 40% | 3: 15% | 4: 10%</p>
+              </div>
+            </div>
+            <pre
+              class="raw">{"option_probs": {"1": 0.35, "2": 0.4, "3": 0.15, "4": 0.1}, "most_likely_answer": 2, "rationale_short": "Lower secondary education in rural Europe often correlates with skepticism toward technocratic governance."}</pre>
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="step-n">3</div>
+          <div>
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+              <h3>После Rectification</h3>
+              <span class="badge"><i>W</i><sub>1</sub>: 0.082</span>
+            </div>
+            <p class="prose">Математическая коррекция берет готовое распределение из Шага 2 и сдвигает его центр ближе к
+              реальному человеческому профилю. Разнообразие сохранено, ошибка снижена.</p>
+            <div class="g2">
+              <div>
+                <h4>Сэмплы после коррекции</h4>
+                <div class="dots highlight"><span>4</span><span>1</span><span>2</span><span>3</span><span>2</span></div>
+              </div>
+              <div>
+                <h4>Скорректированное распределение</h4>
+                <p>1: 21.3% | 2: 45.9% | 3: 9.0% | 4: 23.9%</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ═ АЛГОРИТМ RECTIFICATION ═ -->
+    <section class="sec" id="rectification">
+      <div class="w">
+        <h2>Как работает слой коррекции (Rectification)</h2>
+        <p class="prose">Алгоритм коррекции не генерирует ответы заново. Он берет вероятности, выданные языковой
+          моделью, и применяет табличный слой на scikit-learn, чтобы предсказать и исправить системный сдвиг.</p>
+
+        <div class="steps">
+          <article class="step">
+            <div class="step-n">1</div>
+            <div>
+              <h3>Сборка таблицы признаков</h3>
+              <p class="prose">Из логов формируется табличная запись: категория вопроса, континент, тип поселения,
+                образование и среднее значение ответа модели на шкале.</p>
+            </div>
+          </article>
+          <article class="step">
+            <div class="step-n">2</div>
+            <div>
+              <h3>Предсказание человеческого центра (Ridge)</h3>
+              <p class="prose">Алгоритм (Ridge-регрессия) учится предсказывать, где на шкале находится реальный
+                «человеческий центр» (<code>human_norm_mean</code>) для похожих демографических групп и тем.</p>
+              <pre class="raw">pre = ColumnTransformer([
+    ('num', StandardScaler(), ['model_norm_mean']),
+    ('cat', OneHotEncoder(handle_unknown='ignore'),
+        ['category', 'Continent', 'Urban_Rural', 'Education'])
+])
+model = Pipeline([('pre', pre), ('reg', Ridge(alpha=10.0))])</pre>
+            </div>
+          </article>
+          <article class="step">
+            <div class="step-n">3</div>
+            <div>
+              <h3>Экспоненциальный наклон распределения</h3>
+              <p class="prose">Алгоритм берет сырое распределение LLM и мягко наклоняет его экспоненциальным весом так,
+                чтобы его среднее совпало с предсказанным человеческим.</p>
+              <pre class="raw">w = p * exp(lambda * idx)
+w = w / w.sum()</pre>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═ ПРОФИЛИ ОШИБКИ ═ -->
+    <section class="sec" id="profiles">
+      <div class="w">
+        <h2>Как ошибаются разные модели</h2>
+        <p class="prose">У каждой модели свой рисунок промаха. Важно понимать, где распределение получается слишком
+          плоским, куда смещается масса ответов и на каких демографических группах ломается логика.</p>
+
+        <div class="profiles">
+          <article class="profile">
+            <div class="profile-s">
+              <span class="pill">Внешняя модель</span>
+              <h3>Qwen 3 235B</h3>
+              <div class="badge">0.179 → 0.177 <i>W</i><sub>1</sub></div>
+            </div>
+            <div class="profile-m">
+              <p class="prose">Самая сильная модель бенчмарка. Ошибка изначально низкая, поэтому алгоритм работает здесь
+                не как ремонт, а как ювелирная доводка.</p>
+              <div class="pfacts">
+                <div class="pf"><strong>Где ломается</strong>Самая сложная тема — безопасность (0.330). Дальше идут
+                  political culture (0.285) и political participation (0.265). Самые сложные группы — <i>South America |
+                    Urban | Lower Secondary</i> (0.247), <i>North America | Urban | Tertiary</i> (0.237) и <i>Africa |
+                    Rural | Primary or No Education</i> (0.225).</div>
+                <div class="pf"><strong>Что дает коррекция</strong>Сильнее всего коррекция улучшает тему миграции: 0.316
+                  → 0.144. Самой сложной темой после коррекции остается безопасность: 0.291. Самые трудные группы после
+                  коррекции — <i>South America | Urban | Lower Secondary</i> (0.200) и <i>Africa | Rural | Primary or No
+                    Education</i> (0.178).</div>
+                <div class="pf"><strong>Вывод</strong>Ошибка модели компактна. Она собрана в нескольких темах и группах,
+                  поэтому коррекция работает как точная доводка, а не как перестройка всего распределения.</div>
+              </div>
+            </div>
+          </article>
+
+          <article class="profile">
+            <div class="profile-s">
+              <span class="pill">Локальная модель</span>
+              <h3>Qwen 3.5 4B</h3>
+              <div class="badge">0.225 → 0.203 <i>W</i><sub>1</sub></div>
+            </div>
+            <div class="profile-m">
+              <p class="prose">Среди локальных веток это самый заметный выигрыш на held-out test. Ошибка собрана вокруг
+                нескольких тем, поэтому здесь подошел более простой алгоритм v4.</p>
+              <div class="pfacts">
+                <div class="pf"><strong>Где чинится</strong>Самый сильный прирост дает тема миграции: 0.371 → 0.169.
+                  Заметные выигрыши есть и у Social Values, Science and Technology, Political Culture, Economic Values и
+                  Security.</div>
+                <div class="pf"><strong>Почему v4</strong>На отложенной выборке схема v4 дала 0.225 → 0.203. Более
+                  сложная v5 у той же модели сработала слабее: 0.214 → 0.207.</div>
+                <div class="pf"><strong>Вывод</strong>Этой модели хватает точечной поправки по теме и группе. Более
+                  сложная перестройка распределения здесь не дает дополнительного выигрыша.</div>
+              </div>
+            </div>
+          </article>
+
+          <article class="profile">
+            <div class="profile-s">
+              <span class="pill">Внешняя модель</span>
+              <h3>Llama 3.1 8B</h3>
+              <div class="badge">0.206 → 0.192 <i>W</i><sub>1</sub></div>
+            </div>
+            <div class="profile-m">
+              <p class="prose">Профиль ошибки шире и грубее, чем у Qwen. Модель хуже держит и положение массы по шкале,
+                и саму форму распределения. Поэтому здесь используется более богатая v5.</p>
+              <div class="pfacts">
+                <div class="pf"><strong>Где ломается</strong>Самая сложная группа — <i>Africa | Rural | Primary or No
+                    Education</i> (0.322). Дальше идут <i>Europe | Rural | Lower Secondary</i> (0.265) и <i>South
+                    America | Urban | Lower Secondary</i> (0.244). Самые тяжелые темы — Political Participation (0.334),
+                  Religious Values (0.314), Security (0.293), Social Values (0.289) и Science and Technology (0.280).
+                </div>
+                <div class="pf"><strong>Что дает коррекция</strong>Крупнейшие сдвиги приходятся на Social Values
+                  (-0.070), Political Participation (-0.051), Science and Technology (-0.035) и Social Capital (-0.030).
+                </div>
+                <div class="pf"><strong>Вывод</strong>Здесь проблема не сводится к одному смещению среднего. Коррекция
+                  подправляет и ширину распределения, и саму форму ответа.</div>
+              </div>
+            </div>
+          </article>
+
+          <article class="profile">
+            <div class="profile-s">
+              <span class="pill">Локальная модель</span>
+              <h3>Llama 3.2 3B</h3>
+              <div class="badge">0.218 → 0.207 <i>W</i><sub>1</sub></div>
+            </div>
+            <div class="profile-m">
+              <p class="prose">По характеру ошибки ветка копирует старшую Llama. Простой сдвиг среднего не решает
+                проблему, поэтому здесь также используется сложная схема v5.</p>
+              <div class="pfacts">
+                <div class="pf"><strong>Где ломается</strong>Этика (0.308), социальные ценности (0.282), социальный
+                  капитал (0.272). Промахи размазаны шире, чем у Qwen.</div>
+                <div class="pf"><strong>Что дает коррекция v5</strong>Снижает ошибку в соц. ценностях (0.282 → 0.153).
+                  Метрика попадания в главный ответ вырастает с 0.306 до 0.389.</div>
+                <div class="pf"><strong>Вывод</strong>Полезна как дешевый полигон для проверки гипотез. Как генератор
+                  финальных данных она проигрывает Qwen.</div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═ 4 КЕЙСА (ГЛУБОКИЙ РАЗБОР) ═ -->
+    <section class="sec" id="cases">
+      <div class="w">
+        <h2>Разбор кейсов: 4 сценария поведения нейросетей</h2>
+        <p class="prose">Средняя метрика скрывает детали. Ниже собраны полярные сценарии: когда алгоритм спасает данные,
+          когда контекст уводит модель в сторону, и когда математическая коррекция приносит вред.</p>
+
+        <div class="cases-wrap">
+
+          <!-- Кейс 1 -->
+          <article class="case">
+            <div class="case-hd">
+              <span class="case-id">Кейс 1 · Переход к распределению снимает ошибку</span>
+              <h3>Должна ли расти доля частной (1) или госсобственности (10)?</h3>
+              <div style="display: flex; gap: 8px; margin-top: 12px;">
+                <span class="pill">Economic Values</span>
+                <span class="pill">North America | Urban | Tertiary</span>
+              </div>
+            </div>
+
+            <div class="case-bd">
+              <div class="box" style="margin-bottom: 24px;">
+                <h4>Что отвечают реальные люди</h4>
+                <div class="dots" style="margin-top: 12px; margin-bottom: 12px;">
+                  <span style="background: #fff; border: 1px solid var(--bd2); color: var(--tx);">1</span>
+                  <span style="background: #fff; border: 1px solid var(--bd2); color: var(--tx);">8</span>
+                  <span style="background: #fff; border: 1px solid var(--bd2); color: var(--tx);">1</span>
+                  <span style="background: #fff; border: 1px solid var(--bd2); color: var(--tx);">5</span>
+                  <span style="background: #fff; border: 1px solid var(--bd2); color: var(--tx);">3</span>
+                </div>
+                <p>В этой группе у людей нет единого мнения. Ответы растянуты по шкале и дают смесь позиций.</p>
+              </div>
+
+              <div class="case-step">
+                <div class="cs-n">1</div>
+                <div>
+                  <h4>Без демографии · Один ответ (<i>W</i><sub>1</sub>: 4.4)</h4>
+                  <p class="prose">Модель штампует ответ «8» для всех. Ошибка огромна. Модель убирает весь разброс.</p>
+                  <div class="dots error" style="margin-top: 8px;">
+                    <span>8</span><span>8</span><span>8</span><span>8</span><span>8</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="case-step">
+                <div class="cs-n">2</div>
+                <div>
+                  <h4>С демографией · Один ответ (<i>W</i><sub>1</sub>: 2.2)</h4>
+                  <p class="prose">Модель понимает контекст и сдвигает шаблонный ответ на «3». Ошибка падает вдвое, но
+                    группа остаётся искусственно плоской.</p>
+                  <div class="dots error" style="margin-top: 8px;">
+                    <span>3</span><span>3</span><span>3</span><span>3</span><span>3</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="case-step">
+                <div class="cs-n">3</div>
+                <div>
+                  <h4>С демографией · Распределение (<i>W</i><sub>1</sub>: 0.501)</h4>
+                  <p class="prose">Алгоритм запрашивает вероятности. Модель выдаёт разброс мнений. Ошибка падает почти в
+                    девять раз.</p>
+                  <div class="dots highlight" style="margin-top: 8px;">
+                    <span>1</span><span>7</span><span>6</span><span>2</span><span>7</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="takeaway">
+                <strong>Вывод:</strong> Генерация одиночных ответов убивает структуру группы даже на простых вопросах.
+                Переход к распределению быстро возвращает ей объём.
+              </div>
+            </div>
+          </article>
+
+          <!-- Кейс 2 -->
+          <article class="case">
+            <div class="case-hd">
+              <span class="case-id">Кейс 2 · Демография провоцирует неверный стереотип</span>
+              <h3>Оцените от 1 до 10, насколько вы контролируете свою жизнь?</h3>
+              <div style="display: flex; gap: 8px; margin-top: 12px;">
+                <span class="pill">Happiness and Wellbeing</span>
+                <span class="pill">South America | Urban | Lower Secondary</span>
+              </div>
+            </div>
+            <div class="case-bd">
+              <div class="box" style="margin-bottom: 24px;">
+                <h4>Что отвечают люди</h4>
+                <p>Очень асимметричная группа: <strong>10 → 60%, 4 → 20%, 5 → 20%</strong>. Люди в этой группе чувствуют
+                  контроль над жизнью.</p>
+              </div>
+
+              <div class="case-step">
+                <div class="cs-n">A</div>
+                <div>
+                  <h4 style="display: flex; align-items: center; gap: 8px;">
+                    <span class="pill dark">Qwen 3.5 4B</span>
+                    Сглаживает крайние ответы (<i>W</i><sub>1</sub>: 1.689)
+                  </h4>
+                  <p class="prose">Модель выдает распределение вокруг 6–8 и сильно недооценивает человеческий пик на
+                    десятке.</p>
+                  <div class="dots" style="margin-top: 8px;">
+                    <span>6</span><span>8</span><span>7</span><span>5</span><span>8</span>
+                  </div>
+                </div>
+              </div>
+              <div class="case-step">
+                <div class="cs-n">B</div>
+                <div>
+                  <h4 style="display: flex; align-items: center; gap: 8px;">
+                    <span class="pill dark">Llama 3.2 3B</span>
+                    Уверенно уходит не туда (<i>W</i><sub>1</sub>: 3.594)
+                  </h4>
+                  <p class="prose">Модель смещает ответы в среднюю часть шкалы и уходит от наблюдаемого распределения
+                    людей.</p>
+                  <div class="dots error" style="margin-top: 8px;">
+                    <span>3</span><span>4</span><span>4</span><span>3</span><span>5</span>
+                  </div>
+                </div>
+              </div>
+              <div class="takeaway"><strong>Вывод:</strong> Социальный контекст не гарантирует улучшение. На этом
+                вопросе одна модель частично приближается к людям, а другая уверенно строит неправильное распределение и
+                уходит в диапазон 3–5.</div>
+            </div>
+          </article>
+
+          <!-- Кейс 3 -->
+          <article class="case">
+            <div class="case-hd">
+              <span class="case-id">Кейс 3 · Коррекция чинит форму</span>
+              <h3>Оцените от 1 до 5 влияние иммигрантов на развитие страны.</h3>
+              <div style="display: flex; gap: 8px; margin-top: 12px;">
+                <span class="pill">Question-level (Средний результат)</span>
+                <span class="pill">Llama 3.1 8B</span>
+              </div>
+            </div>
+            <div class="case-bd">
+              <p class="prose">На этом вопросе у модели наблюдался системный сдвиг ответов в негативную сторону.
+                Математическая коррекция применяется без перегенерации ответов.</p>
+
+              <div class="g3">
+                <div class="box">
+                  <h4>До коррекции</h4>
+                  <p><i>W</i><sub>1</sub>: 0.164 <br>Top-hit: 0.667</p>
+                </div>
+                <div class="box">
+                  <h4>После коррекции</h4>
+                  <p><i>W</i><sub>1</sub>: 0.150 <br>Top-hit: 0.667</p>
+                </div>
+                <div class="box">
+                  <h4>Результат</h4>
+                  <p style="color: var(--grn); font-weight: bold;">Delta: −0.014</p>
+                  <p>Главный ответ не изменился.</p>
+                </div>
+              </div>
+              <div class="takeaway"><strong>Вывод:</strong> Самый популярный ответ (Top-hit) вообще не изменился. Слой
+                коррекции просто «собрал» хвост распределения, сделав форму ответов группы более плотной и реалистичной.
+              </div>
+            </div>
+          </article>
+
+          <!-- Кейс 4 -->
+          <article class="case">
+            <div class="case-hd">
+              <span class="case-id">Кейс 4 · Коррекция ломает хорошие данные</span>
+              <h3>Правительство (1) или сами люди (10) несут ответственность?</h3>
+              <div style="display: flex; gap: 8px; margin-top: 12px;">
+                <span class="pill">Question-level (Средний результат)</span>
+                <span class="pill">Qwen 3 235B</span>
+              </div>
+            </div>
+            <div class="case-bd">
+              <p class="prose">Этот пример показывает ограничения алгоритма. Базовая LLM без поправок уже выдала
+                распределение, относительно близкое к человеческому.</p>
+              <div class="g3">
+                <div class="box">
+                  <h4>До коррекции</h4>
+                  <p><i>W</i><sub>1</sub>: 0.137 <br>Уже неплохой результат.</p>
+                </div>
+                <div class="box">
+                  <h4>После коррекции</h4>
+                  <p><i>W</i><sub>1</sub>: 0.148 <br>Распределение стало жёстче.</p>
+                </div>
+                <div class="box">
+                  <h4>Результат</h4>
+                  <p style="color: var(--acc); font-weight: bold;">Delta: +0.011</p>
+                  <p>Коррекция перерегулировала данные.</p>
+                </div>
+              </div>
+              <div class="takeaway"><strong>Вывод:</strong> Слой коррекции отлично лечит устойчивые системные сдвиги. Но
+                если сырой ответ LLM уже точен, алгоритм может его испортить. У этого инструмента есть своя зона риска.
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═ ОГРАНИЧЕНИЯ (WORDING + PROMPTS) ═ -->
+    <section class="sec" id="caveats">
+      <div class="w">
+        <h2>Ограничения: Wording и Промпты</h2>
+
+        <h3 style="margin-top: 24px;">Проверка на устойчивость (Wording)</h3>
+        <p class="prose">Даже при правильной настройке результат зависит от формулировки вопроса. Если легкий перефраз
+          или перестановка полюсов шкалы сильно меняют распределение ответов, системе нельзя доверять слепо. Ниже
+          результаты проверок (invariance runs) на локальных моделях.</p>
+
+        <div class="tbl-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Модель</th>
+                <th>Базовый текст</th>
+                <th>Легкий перефраз</th>
+                <th>Перестановка полюсов</th>
+                <th>Вывод</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Qwen 3.5 4B</strong></td>
+                <td>0.209</td>
+                <td>0.200</td>
+                <td>0.220</td>
+                <td>Полной устойчивости нет, но модель реагирует умеренно. Изменение текста не ломает результат.</td>
+              </tr>
+              <tr>
+                <td><strong>Llama 3.2 3B</strong></td>
+                <td>0.275</td>
+                <td>0.292</td>
+                <td>0.272</td>
+                <td>Чувствительность к тексту высокая. Небольшое изменение промпта заметно двигает распределение.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h3 style="margin-top: 48px;">Как менялась постановка задачи (Промпты)</h3>
+        <p class="prose">Реальные шаблоны промптов из логов проекта. По ним видна эволюция подхода: от попытки получить
+          один конкретный ответ до генерации полноценного распределения.</p>
+
+        <details>
+          <summary>Шаблон 1: Direct Persona (Один ответ)</summary>
+          <div class="det-b">
+            <p>Модели дают короткий социальный профиль и просят вернуть один ответ по шкале.</p>
+            <pre class="raw">You are simulating a survey respondent.
+
+Respondent demographic context:
+- Region: Europe
+- Settlement type: Urban
+- Education: Tertiary
+
+Answer like a normal survey participant. Do not sound like an expert. Keep it brief and natural.
+Choose exactly one valid score on the allowed scale.
+
+Question:
+On a scale of 1 to 4, 1 meaning 'Very important' and 4 meaning 'Not at all important', how important is family in your life?
+
+Return valid JSON only with these exact keys:
+{
+  "rationale": "up to 25 words",
+  "answer_score": integer between 1 and 4
+}</pre>
+          </div>
+        </details>
+
+        <details>
+          <summary>Шаблон 2: Distribution (Главный сдвиг)</summary>
+          <div class="det-b">
+            <p>Модель больше не выбирает один ответ, а оценивает распределение вероятностей по шкале для всей
+              демографической группы.</p>
+            <pre
+              class="raw">This is a survey simulation task.
+Estimate a plausible distribution of answers for respondents with this demographic context.
+Use the demographic context as survey conditioning only. Do not invent names, stories, or extra backstory.
+
+Respondent demographic context:
+- Region: Europe
+- Settlement type: Urban
+- Education: Tertiary
+
+Question:
+On a scale of 1 to 4, 1 meaning 'Very important' and 4 meaning 'Not at all important', how important is family in your life?
+
+Allowed answers: 1, 2, 3, 4
+
+Return valid JSON only with keys: "option_probs", "most_likely_answer", and "rationale_short". "option_probs" must contain every allowed answer from 1 to 4 exactly once, as probabilities summing to 1.0. "most_likely_answer" must be one allowed integer. Keep rationale_short to one short sentence describing the main driver of the distribution.</pre>
+          </div>
+        </details>
+
+        <details>
+          <summary>Шаблон 3: Interview Framing</summary>
+          <div class="det-b">
+            <p>Тот же запрос на распределение, но упакованный в формат интервью. В некоторых ветках этот ритм лучше
+              удерживал модель в рамках социологического опроса.</p>
+            <pre class="raw">This is a survey interview.
+
+Interviewer notes about the respondent group:
+- Region: Europe
+- Settlement type: Urban
+- Education: Tertiary
+
+Estimate a plausible distribution of answers on the allowed scale.
+
+Survey question:
+On a scale of 1 to 4, how important is family in your life?
+
+Return JSON: {"option_probs": {...}, "most_likely_answer": int, "rationale_short": "..."}</pre>
+          </div>
+        </details>
+      </div>
+    </section>
+
+    <!-- ═ ЛИТЕРАТУРА И АРХИВ ═ -->
+    <section class="sec" id="papers">
+      <div class="w">
+        <h2>Академическая база проекта</h2>
+        <p class="prose">Статьи, которые сформировали этот проект. Здесь нет случайных ссылок: каждая работа
+          математически или концептуально обосновывает конкретный шаг в архитектуре пайплайна.</p>
+
+        <div class="g2" style="margin-top: 32px;">
+
+          <div class="box">
+            <h3>Бенчмарк и объект измерения</h3>
+            <ul style="padding-left: 20px; font-size: 14px; color: var(--tx2); margin-top: 12px;">
+              <li style="margin-bottom: 12px;"><a href="https://arxiv.org/abs/2404.16308v1" target="_blank"
+                  rel="noopener"><strong>WorldValuesBench.</strong></a> Задает формат задачи: «демографический профиль +
+                вопрос = ответ на шкале». Показывает на benchmark-е заметный разрыв между ответами моделей и реальными
+                распределениями по метрике <i>W</i><sub>1</sub>.</li>
+              <li style="margin-bottom: 12px;"><a href="https://arxiv.org/abs/2411.05403" target="_blank"
+                  rel="noopener"><strong>Benchmarking Distributional Alignment.</strong></a> Обосновывает
+                фундаментальный сдвиг проекта — от генерации одного ответа к сравнению распределений внутри
+                демографической группы.</li>
+              <li style="margin-bottom: 12px;"><a href="https://arxiv.org/abs/2502.16761" target="_blank"
+                  rel="noopener"><strong>Fine-Tuning on Scaled Survey Data.</strong></a> Подтверждает главную метрику
+                проекта: качество симуляции нужно оценивать на уровне предсказания распределения подгруппы, а не по
+                одиночным ответам.</li>
+              <li><a href="https://arxiv.org/abs/2502.07068" target="_blank" rel="noopener"><strong>Specializing LLMs
+                    for Global Populations.</strong></a> Рассматривает симуляцию опросов как отдельную ML-задачу,
+                требующую специализации, а не как побочный навык базовых моделей.</li>
+            </ul>
+          </div>
+
+          <div class="box">
+            <h3>Коррекция (Rectification)</h3>
+            <ul style="padding-left: 20px; font-size: 14px; color: var(--tx2); margin-top: 12px;">
+              <li style="margin-bottom: 12px;"><a href="https://arxiv.org/abs/2510.11408" target="_blank"
+                  rel="noopener"><strong>Valid Survey Simulations.</strong></a> Ключевая статья для архитектуры
+                пайплайна. Математически обосновывает вынесение корректирующего слоя отдельно от промптинга и генерации.
+              </li>
+              <li><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4802019" target="_blank"
+                  rel="noopener"><strong>Optimal LLM Sample Calibration.</strong></a> Доказывает, что системный разрыв
+                между ответами LLM и людей можно эффективно снимать калибровкой постфактум, не заставляя модель
+                переписывать ответы.</li>
+            </ul>
+          </div>
+
+          <div class="box">
+            <h3>Устойчивость и разнообразие мнений</h3>
+            <ul style="padding-left: 20px; font-size: 14px; color: var(--tx2); margin-top: 12px;">
+              <li style="margin-bottom: 12px;"><a href="https://arxiv.org/abs/2507.07188" target="_blank"
+                  rel="noopener"><strong>Prompt Perturbations Reveal Biases.</strong></a> База для наших проверок на
+                устойчивость (wording). Показывает, что модели крайне чувствительны к перефразировке.</li>
+              <li style="margin-bottom: 12px;"><a href="https://arxiv.org/abs/2510.01171" target="_blank"
+                  rel="noopener"><strong>Verbalized Sampling.</strong></a> Объясняет физику «схлопывания» ответов в один
+                шаблон и доказывает, что запрос вероятностей возвращает в группу разнообразие.</li>
+              <li><a href="https://arxiv.org/abs/2410.15226" target="_blank" rel="noopener"><strong>Diversity of
+                    Synthetic Data.</strong></a> Обосновывает, почему мы трекаем количество уникальных ответов. Потеря
+                разнообразия — это критическая поломка синтетических данных.</li>
+            </ul>
+          </div>
+
+          <div class="box">
+            <h3>Границы выводов и анализ подгрупп</h3>
+            <ul style="padding-left: 20px; font-size: 14px; color: var(--tx2); margin-top: 12px;">
+              <li style="margin-bottom: 12px;"><a href="https://arxiv.org/abs/2306.07951" target="_blank"
+                  rel="noopener"><strong>Questioning Survey Responses.</strong></a> Доказывает, что один правдоподобный
+                текст ответа еще ничего не значит, а выбор промпта может искусственно завысить сходство с людьми.</li>
+              <li style="margin-bottom: 12px;"><a href="https://arxiv.org/abs/2506.19806" target="_blank"
+                  rel="noopener"><strong>Social Simulations Require a Boundary.</strong></a> Устанавливает жесткие
+                границы: мы измеряем точность симуляции анкет, а не создаем «социально реалистичных» цифровых людей.
+              </li>
+              <li style="margin-bottom: 12px;"><a href="https://arxiv.org/abs/2501.15351" target="_blank"
+                  rel="noopener"><strong>Fairness in LLM-Generated Surveys.</strong></a> Обосновывает необходимость
+                смотреть на профили ошибок по конкретным странам и социальным группам, а не опираться на среднюю метрику
+                по бенчмарку.</li>
+              <li><a href="https://aclanthology.org/2025.acl-long.90/" target="_blank"
+                  rel="noopener"><strong>Algorithmic Fidelity of LLMs.</strong></a> Доказывает, что качество симуляции
+                напрямую зависит от конкретных социальных профилей и различий между ними.</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ═ FOOTER ═ -->
+  <footer class="footer">
+    <div class="w footer-grid">
+      <div>
+        <h2>Навигация по репозиторию</h2>
+        <p class="prose" style="font-size: 15px; margin-bottom: 16px;">
+          Архив проекта разделен на статический сайт и техническое ядро с кодом.
+          Исходные данные WVS Wave 7 и производные таблицы закрыты лицензией. Репозиторий их не раздает. Инструкция по
+          локальной сборке лежит в <code>data/private/README.md</code>.
+        </p>
+        <ul style="font-size: 14px; color: var(--tx2); padding-left: 20px; margin-bottom: 16px;">
+          <li><code>docs/</code> — исходники этого сайта.</li>
+          <li><code>artifacts/runs/</code> — логи, предсказания моделей.</li>
+          <li><code>Rectification/</code> — код корректирующего алгоритма.</li>
+          <li><code>data/raw_examples/</code> — подробные разборы кейсов.</li>
+        </ul>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 12px; align-items: flex-start;">
+        <a class="btn" href="https://github.com/ppspb/synthetic-survey-study" target="_blank">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
+          </svg>
+          Репозиторий
+        </a>
+
+        <a class="btn" href="runs.html">Сводная таблица запусков</a>
+        <a class="btn" href="rectification.html">Сводная таблица коррекции</a>
+        <a class="btn" href="https://t.me/gecs1000" target="_blank"
+          style="background: #2563eb; color: #fff; border-color: #2563eb;">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69.01-.03.01-.14-.07-.19-.08-.05-.19-.02-.27 0-.11.03-1.84 1.18-5.21 3.45-.49.33-.94.5-1.35.49-.45-.01-1.3-.25-1.94-.46-.78-.26-1.4-.4-1.35-.85.03-.23.36-.48.98-.74 3.85-1.68 6.41-2.78 7.7-3.32 3.66-1.53 4.42-1.79 4.9-1.8.11 0 .35.03.48.14.11.09.14.22.15.34-.01.07-.01.19-.03.27z" />
+          </svg>
+          Telegram автора
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Плавный скролл и подсветка активного пункта меню
+    const ss = Array.from(document.querySelectorAll('main section[id]')), nl = Array.from(document.querySelectorAll('.hd-bar nav a'));
+    if ('IntersectionObserver' in window) {
+      const observer = new IntersectionObserver(es => es.forEach(e => {
+        if (e.isIntersecting) {
+          nl.forEach(l => l.classList.toggle('active', l.getAttribute('href') === '#' + e.target.id));
+        }
+      }), { rootMargin: '-20% 0px -75% 0px', threshold: 0 });
+      ss.forEach(s => observer.observe(s));
+    }
+  </script>
+</body>
+
+</html>

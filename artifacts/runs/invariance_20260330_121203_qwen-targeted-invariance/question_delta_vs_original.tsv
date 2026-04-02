@@ -1,0 +1,17 @@
+perturbation	QUESTION_ID	category	original_w1	perturbed_w1	delta_w1
+paraphrase_light	Q1	Social Values, Norms, Stereotypes	0.37777777777777777	0.27586206896551724	-0.10191570881226053
+paraphrase_light	Q107	Economic Values	0.11481481481481483	0.0888888888888889	-0.02592592592592592
+paraphrase_light	Q123	Perceptions of Migration	0.25	0.2833333333333333	0.033333333333333326
+paraphrase_light	Q132	Perceptions of Security	0.2	0.2	0.0
+paraphrase_light	Q178	Ethical Values	0.26666666666666666	0.33333333333333337	0.06666666666666671
+paraphrase_light	Q236	Political Culture and Political Regimes	0.033333333333333326	0.06666666666666665	0.033333333333333326
+paraphrase_light	Q237	Political Culture and Political Regimes	0.16666666666666669	0.08888888888888888	-0.0777777777777778
+paraphrase_light	Q57	Social Capital, Trust and Organizational Membership	0.26666666666666666	0.26666666666666666	0.0
+reverse_anchor_order	Q1	Social Values, Norms, Stereotypes	0.37777777777777777	0.2777777777777778	-0.09999999999999998
+reverse_anchor_order	Q107	Economic Values	0.11481481481481483	0.048148148148148155	-0.06666666666666668
+reverse_anchor_order	Q123	Perceptions of Migration	0.25	0.19999999999999996	-0.050000000000000044
+reverse_anchor_order	Q132	Perceptions of Security	0.2	0.21111111111111114	0.011111111111111127
+reverse_anchor_order	Q178	Ethical Values	0.26666666666666666	0.2925925925925926	0.025925925925925963
+reverse_anchor_order	Q236	Political Culture and Political Regimes	0.033333333333333326	0.09999999999999999	0.06666666666666667
+reverse_anchor_order	Q237	Political Culture and Political Regimes	0.16666666666666669	0.26666666666666666	0.09999999999999998
+reverse_anchor_order	Q57	Social Capital, Trust and Organizational Membership	0.26666666666666666	0.36666666666666664	0.09999999999999998

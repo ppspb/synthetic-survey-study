@@ -1,0 +1,45 @@
+# Safe smoke test that runs entirely on synthetic data shipped with the repo.
+api:
+  base_url: mock://local
+  api_key: ${OPENAI_API_KEY:-mock}
+  model: ${MODEL_NAME:-mock-model}
+  temperature: 0
+  max_retries: 2
+  timeout_seconds: 60
+  use_structured_output: true
+  structured_output_strict: true
+  max_completion_tokens: 120
+paths:
+  data_dir: data/mock
+  samples_file: samples.tsv
+  question_metadata_file: question_metadata.json
+  outputs_dir: ${OUTPUTS_DIR:-local_outputs}
+  full_value_qa_file:
+benchmark:
+  prompt_modes:
+  - no_demo
+  - direct_persona
+  questions:
+  - Q46
+  - Q57
+  - Q106
+  groups:
+  - continent: Europe
+    urban_rural: Urban
+    education: Tertiary
+  - continent: Africa
+    urban_rural: Rural
+    education: Primary or No Education
+  participants_per_group_question: 2
+  explanation_max_words: 25
+  random_seed: 42
+  continue_on_error: true
+judge:
+  enabled: false
+robustness:
+  perturbations:
+  - original
+  compare_to: original
+  continue_on_error: true
+model_management:
+  enabled: false

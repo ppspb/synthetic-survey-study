@@ -1,0 +1,87 @@
+{
+  "interview_direct": {
+    "judge_summary": {
+      "total_rows": 1080,
+      "successful_rows": 1080,
+      "failed_rows": 0,
+      "rule_pass_rate": 1.0,
+      "mean_rule_score": 1.0,
+      "mean_rationale_word_count": 14.212962962962964,
+      "llm_judge_rows": 0,
+      "mean_llm_consistency_score": null,
+      "mean_llm_naturalness_score": null,
+      "llm_judge_error_rows": 0,
+      "repair_success_rows": 0,
+      "structured_output_success_rows": 1080,
+      "recovery_success_rows": 0
+    },
+    "distribution_summary": {
+      "mean_w1": 0.25861625514403286,
+      "per_question_w1": {
+        "Q1": 0.011111111111111108,
+        "Q106": 0.23703703703703705,
+        "Q107": 0.3370370370370371,
+        "Q108": 0.17777777777777778,
+        "Q112": 0.23703703703703705,
+        "Q113": 0.18888888888888888,
+        "Q114": 0.2,
+        "Q121": 0.18333333333333332,
+        "Q122": 0.4,
+        "Q123": 0.4,
+        "Q131": 0.3111111111111111,
+        "Q132": 0.13333333333333336,
+        "Q133": 0.2,
+        "Q158": 0.1851851851851852,
+        "Q159": 0.23333333333333334,
+        "Q160": 0.27037037037037037,
+        "Q164": 0.24074074074074076,
+        "Q165": 0.7666666666666667,
+        "Q166": 0.5666666666666667,
+        "Q176": 0.1111111111111111,
+        "Q177": 0.23333333333333334,
+        "Q178": 0.20740740740740737,
+        "Q199": 0.3,
+        "Q2": 0.25555555555555554,
+        "Q200": 0.3333333333333333,
+        "Q201": 0.3833333333333333,
+        "Q235": 0.2888888888888889,
+        "Q236": 0.3333333333333333,
+        "Q237": 0.06666666666666665,
+        "Q3": 0.39999999999999997,
+        "Q46": 0.25555555555555554,
+        "Q47": 0.2916666666666667,
+        "Q48": 0.15925925925925927,
+        "Q57": 0.13333333333333333,
+        "Q58": 0.04444444444444443,
+        "Q59": 0.2333333333333333
+      },
+      "per_group_w1": {
+        "Africa | Rural | Primary or No Education": 0.2972222222222222,
+        "Asia | Urban | Upper to Post Secondary": 0.29243827160493824,
+        "Europe | Rural | Lower Secondary": 0.30401234567901236,
+        "Europe | Urban | Tertiary": 0.32083333333333336,
+        "North America | Urban | Tertiary": 0.31851851851851853,
+        "South America | Urban | Lower Secondary": 0.32916666666666666
+      },
+      "valid_rows": 1080,
+      "top_option_hit_rate": 0.30092592592592593,
+      "mean_variance_ratio": 0.0,
+      "self_correlation_distance": 0.22731193757043117
+    }
+  },
+  "mode_comparison": {
+    "ranked_by_mean_w1": [
+      {
+        "mode": "interview_direct",
+        "mean_w1": 0.25861625514403286,
+        "top_option_hit_rate": 0.30092592592592593,
+        "mean_variance_ratio": 0.0,
+        "self_correlation_distance": 0.22731193757043117,
+        "valid_rows": 1080,
+        "failed_rows": 0
+      }
+    ],
+    "has_distribution_metrics": true,
+    "note": "Lower mean_w1 and self_correlation_distance are better. Higher top_option_hit_rate is better. Variance ratio closer to 1 is better."
+  }
+}

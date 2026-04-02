@@ -1,0 +1,62 @@
+{
+  "scripts": [
+    "scripts/offline_rectification.py",
+    "scripts/offline_rectification_v2.py",
+    "scripts/offline_rectification_v3.py",
+    "scripts/offline_rectification_v4.py",
+    "scripts/offline_rectification_v5.py"
+  ],
+  "inputs": [
+    "inputs/llama_predictions.tsv",
+    "inputs/proposed_calibration_questions.csv",
+    "inputs/question_metadata.json",
+    "inputs/qwen_predictions.tsv"
+  ],
+  "results": [
+    "results/calibration_rectification_v3_llama/category_rectification_eval_v3.tsv",
+    "results/calibration_rectification_v3_llama/group_rectification_eval_v3.tsv",
+    "results/calibration_rectification_v3_llama/question_rectification_eval_v3.tsv",
+    "results/calibration_rectification_v3_llama/summary_v3.json",
+    "results/calibration_rectification_v3_qwen/category_rectification_eval_v3.tsv",
+    "results/calibration_rectification_v3_qwen/group_rectification_eval_v3.tsv",
+    "results/calibration_rectification_v3_qwen/question_rectification_eval_v3.tsv",
+    "results/calibration_rectification_v3_qwen/summary_v3.json",
+    "results/calibration_rectification_v4_qwen/category_rectification_eval_v4.tsv",
+    "results/calibration_rectification_v4_qwen/dev_grid_search_v4.tsv",
+    "results/calibration_rectification_v4_qwen/summary_v4.json",
+    "results/calibration_rectification_v5_llama2/category_rectification_eval_v5.tsv",
+    "results/calibration_rectification_v5_llama2/dev_grid_search_v5.tsv",
+    "results/calibration_rectification_v5_llama2/group_rectification_eval_v5.tsv",
+    "results/calibration_rectification_v5_llama2/question_rectification_eval_v5.tsv",
+    "results/calibration_rectification_v5_llama2/summary_v5.json",
+    "results/calibration_rectification_v5_qwen2/category_rectification_eval_v5.tsv",
+    "results/calibration_rectification_v5_qwen2/dev_grid_search_v5.tsv",
+    "results/calibration_rectification_v5_qwen2/group_rectification_eval_v5.tsv",
+    "results/calibration_rectification_v5_qwen2/question_rectification_eval_v5.tsv",
+    "results/calibration_rectification_v5_qwen2/summary_v5.json",
+    "results/llama_rectification/README.txt",
+    "results/llama_rectification/category_rectification_eval.tsv",
+    "results/llama_rectification/question_rectification_eval.tsv",
+    "results/llama_rectification/summary.json",
+    "results/llama_rectification_v2/category_rectification_eval_v2.tsv",
+    "results/llama_rectification_v2/group_rectification_eval_v2.tsv",
+    "results/llama_rectification_v2/question_rectification_eval_v2.tsv",
+    "results/llama_rectification_v2/summary_v2.json",
+    "results/qwen_rectification/README.txt",
+    "results/qwen_rectification/category_rectification_eval.tsv",
+    "results/qwen_rectification/question_rectification_eval.tsv",
+    "results/qwen_rectification/summary.json",
+    "results/qwen_rectification_v2/category_rectification_eval_v2.tsv",
+    "results/qwen_rectification_v2/group_rectification_eval_v2.tsv",
+    "results/qwen_rectification_v2/question_rectification_eval_v2.tsv",
+    "results/qwen_rectification_v2/summary_v2.json"
+  ],
+  "analysis": [
+    "analysis/model_error_analysis/analysis_summary.md",
+    "analysis/model_error_analysis/category_comparison_qwen_vs_llama_interview_distribution.csv",
+    "analysis/model_error_analysis/group_comparison_qwen_vs_llama_interview_distribution.csv",
+    "analysis/model_error_analysis/proposed_calibration_questions.csv",
+    "analysis/model_error_analysis/proposed_evaluation_questions.csv",
+    "analysis/model_error_analysis/question_comparison_qwen_vs_llama_interview_distribution.csv"
+  ]
+}

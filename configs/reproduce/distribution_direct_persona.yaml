@@ -1,0 +1,89 @@
+# Canonical distribution run with direct persona conditioning.
+api:
+  base_url: ${OPENAI_BASE_URL:-http://127.0.0.1:1234/v1}
+  api_key: ${OPENAI_API_KEY:-lm-studio}
+  model: ${MODEL_NAME:-qwen3.5-4b}
+  temperature: 0
+  top_p: 1.0
+  timeout_seconds: 120
+  max_retries: 3
+  use_structured_output: true
+  structured_output_strict: true
+  max_completion_tokens: 180
+  seed: 42
+  logprobs: false
+  top_logprobs: 5
+paths:
+  data_dir: ${DATA_DIR:-data/private}
+  samples_file: ${SAMPLES_FILE:-samples.tsv}
+  question_metadata_file: ${QUESTION_METADATA_FILE:-../benchmark_spec/question_metadata.json}
+  outputs_dir: ${OUTPUTS_DIR:-local_outputs}
+  full_value_qa_file: ${FULL_VALUE_QA_FILE:-data/private/wvs_wave7_source.zip}
+benchmark:
+  prompt_modes:
+  - direct_persona_distribution
+  questions:
+  - Q1
+  - Q2
+  - Q3
+  - Q46
+  - Q47
+  - Q48
+  - Q57
+  - Q58
+  - Q59
+  - Q106
+  - Q107
+  - Q108
+  - Q112
+  - Q113
+  - Q114
+  - Q121
+  - Q122
+  - Q123
+  - Q131
+  - Q132
+  - Q133
+  - Q158
+  - Q159
+  - Q160
+  - Q164
+  - Q165
+  - Q166
+  - Q176
+  - Q177
+  - Q178
+  - Q199
+  - Q200
+  - Q201
+  - Q235
+  - Q236
+  - Q237
+  groups:
+  - continent: Europe
+    urban_rural: Urban
+    education: Tertiary
+  - continent: Europe
+    urban_rural: Rural
+    education: Lower Secondary
+  - continent: Asia
+    urban_rural: Urban
+    education: Upper to Post Secondary
+  - continent: Africa
+    urban_rural: Rural
+    education: Primary or No Education
+  - continent: North America
+    urban_rural: Urban
+    education: Tertiary
+  - continent: South America
+    urban_rural: Urban
+    education: Lower Secondary
+  participants_per_group_question: 5
+  random_seed: 42
+  sampling_seed_base: 17
+model_management:
+  enabled: true
+  use_lmstudio_rest: true
+  load_before_run: false
+  unload_after_run: false
+

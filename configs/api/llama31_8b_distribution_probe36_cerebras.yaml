@@ -1,0 +1,93 @@
+paths:
+  outputs_dir: "outputs/runs"
+  samples_file: "data/private/samples.tsv"
+  question_metadata_file: "data/private/question_metadata.json"
+  full_value_qa_file: "data/F00011356-WVS_Cross-National_Wave_7_csv_v6_0.zip"
+
+api:
+  api_key_env: "CEREBRAS_API_KEY"
+  base_url: ${OPENAI_BASE_URL:-http://127.0.0.1:1234/v1}
+  model: ${MODEL_NAME:-qwen3.5-4b}
+  timeout_seconds: 180
+  max_completion_tokens: 220
+  temperature: 0.0
+  top_p: 1.0
+  # Optional, only if Cerebras asks you to pin a patch version later.
+  x_cerebras_version_patch: null
+  # Optional. Leave null unless you specifically want to override default behavior.
+  clear_thinking: null
+
+limits:
+  requests_per_minute: 30
+  requests_per_hour: 900
+  requests_per_day: 14400
+  tokens_per_minute: 30000
+  tokens_per_hour: 1000000
+  tokens_per_day: 1000000
+
+retries:
+  max_attempts: 6
+  base_sleep_seconds: 2.0
+
+benchmark:
+  prompt_mode: "interview_direct_distribution"
+  # The same 36-question probe family used in WorldValuesBench.
+  questions:
+    - "Q1"
+    - "Q2"
+    - "Q3"
+    - "Q46"
+    - "Q47"
+    - "Q48"
+    - "Q57"
+    - "Q58"
+    - "Q59"
+    - "Q106"
+    - "Q107"
+    - "Q108"
+    - "Q112"
+    - "Q113"
+    - "Q114"
+    - "Q121"
+    - "Q122"
+    - "Q123"
+    - "Q131"
+    - "Q132"
+    - "Q133"
+    - "Q158"
+    - "Q159"
+    - "Q160"
+    - "Q164"
+    - "Q165"
+    - "Q166"
+    - "Q176"
+    - "Q177"
+    - "Q178"
+    - "Q199"
+    - "Q200"
+    - "Q201"
+    - "Q235"
+    - "Q236"
+    - "Q237"
+  groups:
+    - continent: "Europe"
+      urban_rural: "Urban"
+      education: "Tertiary"
+    - continent: "Europe"
+      urban_rural: "Rural"
+      education: "Lower Secondary"
+    - continent: "Asia"
+      urban_rural: "Urban"
+      education: "Upper to Post Secondary"
+    - continent: "Africa"
+      urban_rural: "Rural"
+      education: "Primary or No Education"
+    - continent: "North America"
+      urban_rural: "Urban"
+      education: "Tertiary"
+    - continent: "South America"
+      urban_rural: "Urban"
+      education: "Lower Secondary"
+  participants_per_group_question: 5
+  random_seed: 42
+  sampling_seed_base: 17

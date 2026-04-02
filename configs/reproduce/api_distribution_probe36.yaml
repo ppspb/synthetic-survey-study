@@ -1,0 +1,87 @@
+# Large-model API run on the canonical 36-question probe.
+paths:
+  outputs_dir: ${OUTPUTS_DIR:-local_outputs}
+  samples_file: ${SAMPLES_FILE:-data/private/samples.tsv}
+  question_metadata_file: ${QUESTION_METADATA_FILE:-data/benchmark_spec/question_metadata.json}
+  full_value_qa_file: ${FULL_VALUE_QA_FILE:-data/private/wvs_wave7_source.zip}
+limits:
+  requests_per_minute: 30
+  requests_per_hour: 900
+  requests_per_day: 14400
+  tokens_per_minute: 30000
+  tokens_per_hour: 1000000
+  tokens_per_day: 1000000
+retries:
+  max_attempts: 6
+  base_sleep_seconds: 2.0
+api:
+  api_key_env: ${CEREBRAS_API_KEY_ENV:-CEREBRAS_API_KEY}
+  base_url: ${CEREBRAS_BASE_URL:-https://api.cerebras.ai/v1}
+  model: ${MODEL_NAME:-qwen-3-235b-a22b-instruct-2507}
+  timeout_seconds: 180
+  max_completion_tokens: 220
+  temperature: 0
+  top_p: 1.0
+  x_cerebras_version_patch: null
+  clear_thinking: null
+benchmark:
+  prompt_mode: direct_persona_distribution
+  questions:
+  - Q1
+  - Q2
+  - Q3
+  - Q46
+  - Q47
+  - Q48
+  - Q57
+  - Q58
+  - Q59
+  - Q106
+  - Q107
+  - Q108
+  - Q112
+  - Q113
+  - Q114
+  - Q121
+  - Q122
+  - Q123
+  - Q131
+  - Q132
+  - Q133
+  - Q158
+  - Q159
+  - Q160
+  - Q164
+  - Q165
+  - Q166
+  - Q176
+  - Q177
+  - Q178
+  - Q199
+  - Q200
+  - Q201
+  - Q235
+  - Q236
+  - Q237
+  groups:
+  - continent: Europe
+    urban_rural: Urban
+    education: Tertiary
+  - continent: Europe
+    urban_rural: Rural
+    education: Lower Secondary
+  - continent: Asia
+    urban_rural: Urban
+    education: Upper to Post Secondary
+  - continent: Africa
+    urban_rural: Rural
+    education: Primary or No Education
+  - continent: North America
+    urban_rural: Urban
+    education: Tertiary
+  - continent: South America
+    urban_rural: Urban
+    education: Lower Secondary
+  participants_per_group_question: 5
+  random_seed: 42
+  sampling_seed_base: 17

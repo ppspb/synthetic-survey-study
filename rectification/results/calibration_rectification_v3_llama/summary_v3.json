@@ -1,0 +1,52 @@
+{
+  "method": "selective_family_rectification_v3",
+  "shrink": 5.0,
+  "weights": {
+    "global": 0.0,
+    "category": 1.5
+  },
+  "selected_categories": [
+    "Perceptions of Migration",
+    "Social Values, Norms, Stereotypes",
+    "Perceptions of Corruption"
+  ],
+  "overall": {
+    "split": "overall",
+    "rows": 216,
+    "baseline_mean_w1": 0.23827899461582489,
+    "corrected_mean_w1": 0.2173065193412118,
+    "baseline_top_hit_rate": 0.25462962962962965,
+    "corrected_top_hit_rate": 0.32407407407407407,
+    "delta_mean_w1": -0.020972475274613073,
+    "delta_top_hit_rate": 0.06944444444444442,
+    "mean_corrected_entropy": 1.4202805046706184
+  },
+  "calibration": {
+    "split": "calibration",
+    "rows": 72,
+    "baseline_mean_w1": 0.2910995230774305,
+    "corrected_mean_w1": 0.2537290328696435,
+    "baseline_top_hit_rate": 0.2361111111111111,
+    "corrected_top_hit_rate": 0.3194444444444444,
+    "delta_mean_w1": -0.03737049020778699,
+    "delta_top_hit_rate": 0.08333333333333331,
+    "mean_corrected_entropy": 1.279650665364727
+  },
+  "evaluation": {
+    "split": "evaluation",
+    "rows": 144,
+    "baseline_mean_w1": 0.21186873038502207,
+    "corrected_mean_w1": 0.199095262576996,
+    "baseline_top_hit_rate": 0.2638888888888889,
+    "corrected_top_hit_rate": 0.3263888888888889,
+    "delta_mean_w1": -0.012773467808026073,
+    "delta_top_hit_rate": 0.0625,
+    "mean_corrected_entropy": 1.4905954243235642
+  },
+  "evaluation_bootstrap": {
+    "delta_mean_w1_bootstrap_mean": -0.012794082555964512,
+    "delta_mean_w1_bootstrap_ci95_low": -0.025724452334292977,
+    "delta_mean_w1_bootstrap_ci95_high": -0.000684749346471882
+  },
+  "warning": "Targeted post-selection rectification. If families were chosen using prior held-out analysis, evaluation is optimistic and not a fresh generalization test."
+}

@@ -1,0 +1,23 @@
+{
+  "mean_w1": 0.16777777777777778,
+  "per_question_w1": {
+    "Q106": 0.1288888888888889,
+    "Q158": 0.15111111111111114,
+    "Q164": 0.16888888888888887,
+    "Q199": 0.18666666666666665,
+    "Q235": 0.13333333333333333,
+    "Q46": 0.16,
+    "Q57": 0.32,
+    "Q59": 0.09333333333333335
+  },
+  "top_option_hit_rate": 0.375,
+  "mean_score_delta": -0.4100000000000001,
+  "human_unique_scores_per_cell": 2.875,
+  "human_zero_variance_cell_rate": 0.05,
+  "human_mean_cell_entropy": 0.9108767550956083,
+  "model_unique_scores_per_cell": 3.05,
+  "model_zero_variance_cell_rate": 0.025,
+  "model_mean_cell_entropy": 0.9876045626361956,
+  "mean_declared_option_entropy": 1.509970496134423,
+  "inter_group_std_ratio": 1.8985804113851734
+}

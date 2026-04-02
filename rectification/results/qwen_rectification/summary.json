@@ -1,0 +1,38 @@
+{
+  "alpha": 10.0,
+  "overall": {
+    "split": "overall",
+    "rows": 216,
+    "baseline_mean_w1": 0.2273082402266344,
+    "corrected_mean_w1": 0.20624910781718697,
+    "baseline_top_hit_rate": 0.3611111111111111,
+    "corrected_top_hit_rate": 0.30092592592592593,
+    "delta_mean_w1": -0.02105913240944743,
+    "delta_top_hit_rate": -0.060185185185185175
+  },
+  "calibration": {
+    "split": "calibration",
+    "rows": 72,
+    "baseline_mean_w1": 0.2703347395856761,
+    "corrected_mean_w1": 0.2081410400713867,
+    "baseline_top_hit_rate": 0.2916666666666667,
+    "corrected_top_hit_rate": 0.3888888888888889,
+    "delta_mean_w1": -0.06219369951428941,
+    "delta_top_hit_rate": 0.09722222222222221
+  },
+  "evaluation": {
+    "split": "evaluation",
+    "rows": 144,
+    "baseline_mean_w1": 0.20579499054711356,
+    "corrected_mean_w1": 0.20530314169008712,
+    "baseline_top_hit_rate": 0.3958333333333333,
+    "corrected_top_hit_rate": 0.2569444444444444,
+    "delta_mean_w1": -0.000491848857026439,
+    "delta_top_hit_rate": -0.1388888888888889
+  },
+  "evaluation_bootstrap": {
+    "delta_mean_w1_bootstrap_mean": -7.029368781998707e-05,
+    "delta_mean_w1_bootstrap_ci95_low": -0.02321529279314763,
+    "delta_mean_w1_bootstrap_ci95_high": 0.021693203860555583
+  }
+}
