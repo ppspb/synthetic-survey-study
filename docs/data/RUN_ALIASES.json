@@ -1,0 +1,507 @@
+[
+  {
+    "run_id": "benchmark_20260329_152542_644025_qwen35-distilled-interview-direct-1080",
+    "alias": "Qwen 3.5 / distilled Qwen • single-answer benchmark • interview framing • 36×6×5 grid",
+    "kind": "benchmark",
+    "model": "Qwen 3.5 / distilled Qwen",
+    "scenario": [
+      "single-answer benchmark",
+      "interview framing",
+      "36×6×5 grid"
+    ],
+    "description": "Benchmark run for qwen 3.5 / distilled qwen. Includes summaries, predictions, raw generations.",
+    "path": "../artifacts/runs/benchmark_20260329_152542_644025_qwen35-distilled-interview-direct-1080/",
+    "files": [
+      "benchmark_20260329_152542.log",
+      "predictions_interview_direct.tsv",
+      "raw_interview_direct.jsonl",
+      "run_manifest.json",
+      "summary_all.json",
+      "summary_interview_direct.json"
+    ],
+    "excluded_due_to_licensing": [
+      "subset.tsv"
+    ]
+  },
+  {
+    "run_id": "benchmark_20260329_161609_431135_qwen3-5-direct-1080",
+    "alias": "Qwen 3.5 / distilled Qwen • single-answer benchmark • direct persona • 36×6×5 grid",
+    "kind": "benchmark",
+    "model": "Qwen 3.5 / distilled Qwen",
+    "scenario": [
+      "single-answer benchmark",
+      "direct persona",
+      "36×6×5 grid"
+    ],
+    "description": "Benchmark run for qwen 3.5 / distilled qwen. Includes summaries, predictions, raw generations.",
+    "path": "../artifacts/runs/benchmark_20260329_161609_431135_qwen3-5-direct-1080/",
+    "files": [
+      "benchmark_20260329_161609.log",
+      "predictions_direct_persona.tsv",
+      "raw_direct_persona.jsonl",
+      "run_manifest.json",
+      "summary_all.json",
+      "summary_direct_persona.json"
+    ],
+    "excluded_due_to_licensing": [
+      "subset.tsv"
+    ]
+  },
+  {
+    "run_id": "benchmark_20260329_165435_724091_llama-1080",
+    "alias": "Llama local / Llama 3.2 3B • single-answer benchmark • 36×6×5 grid",
+    "kind": "benchmark",
+    "model": "Llama local / Llama 3.2 3B",
+    "scenario": [
+      "single-answer benchmark",
+      "36×6×5 grid"
+    ],
+    "description": "Benchmark run for llama local / llama 3.2 3b. Includes summaries, predictions, raw generations.",
+    "path": "../artifacts/runs/benchmark_20260329_165435_724091_llama-1080/",
+    "files": [
+      "benchmark_20260329_165435.log",
+      "predictions_interview_state_guided.tsv",
+      "raw_interview_state_guided.jsonl",
+      "run_manifest.json",
+      "summary_all.json",
+      "summary_interview_state_guided.json"
+    ],
+    "excluded_due_to_licensing": [
+      "subset.tsv"
+    ]
+  },
+  {
+    "run_id": "benchmark_20260329_190736_686813_qwen3-5-nodemo-1080",
+    "alias": "Qwen 3.5 / distilled Qwen • single-answer benchmark • without demography • 36×6×5 grid",
+    "kind": "benchmark",
+    "model": "Qwen 3.5 / distilled Qwen",
+    "scenario": [
+      "single-answer benchmark",
+      "without demography",
+      "36×6×5 grid"
+    ],
+    "description": "Benchmark run for qwen 3.5 / distilled qwen. Includes summaries, predictions, raw generations.",
+    "path": "../artifacts/runs/benchmark_20260329_190736_686813_qwen3-5-nodemo-1080/",
+    "files": [
+      "benchmark_20260329_190736.log",
+      "predictions_no_demo.tsv",
+      "raw_no_demo.jsonl",
+      "run_manifest.json",
+      "summary_all.json",
+      "summary_no_demo.json"
+    ],
+    "excluded_due_to_licensing": [
+      "subset.tsv"
+    ]
+  },
+  {
+    "run_id": "benchmark_20260329_193243_505054_qwen35-distilled-nodemo-1080",
+    "alias": "Qwen 3.5 / distilled Qwen • single-answer benchmark • without demography • 36×6×5 grid",
+    "kind": "benchmark",
+    "model": "Qwen 3.5 / distilled Qwen",
+    "scenario": [
+      "single-answer benchmark",
+      "without demography",
+      "36×6×5 grid"
+    ],
+    "description": "Benchmark run for qwen 3.5 / distilled qwen. Includes summaries, predictions, raw generations.",
+    "path": "../artifacts/runs/benchmark_20260329_193243_505054_qwen35-distilled-nodemo-1080/",
+    "files": [
+      "benchmark_20260329_193243.log",
+      "predictions_no_demo.tsv",
+      "raw_no_demo.jsonl",
+      "run_manifest.json",
+      "summary_all.json",
+      "summary_no_demo.json"
+    ],
+    "excluded_due_to_licensing": [
+      "subset.tsv"
+    ]
+  },
+  {
+    "run_id": "benchmark_20260329_201602_240269_llama-nodemo-1080",
+    "alias": "Llama local / Llama 3.2 3B • single-answer benchmark • without demography • 36×6×5 grid",
+    "kind": "benchmark",
+    "model": "Llama local / Llama 3.2 3B",
+    "scenario": [
+      "single-answer benchmark",
+      "without demography",
+      "36×6×5 grid"
+    ],
+    "description": "Benchmark run for llama local / llama 3.2 3b. Includes summaries, predictions, raw generations.",
+    "path": "../artifacts/runs/benchmark_20260329_201602_240269_llama-nodemo-1080/",
+    "files": [
+      "benchmark_20260329_201602.log",
+      "predictions_no_demo.tsv",
+      "raw_no_demo.jsonl",
+      "run_manifest.json",
+      "summary_all.json",
+      "summary_no_demo.json"
+    ],
+    "excluded_due_to_licensing": [
+      "subset.tsv"
+    ]
+  },
+  {
+    "run_id": "cerebras-llama31-8b-dist36",
+    "alias": "Llama 3.1 8B • api_distribution • 36-question probe",
+    "kind": "api_distribution",
+    "model": "Llama 3.1 8B",
+    "scenario": [
+      "api_distribution",
+      "36-question probe"
+    ],
+    "description": "Api_distribution run for llama 3.1 8b. Includes predictions, raw generations, rate-limit state.",
+    "path": "../artifacts/runs/cerebras-llama31-8b-dist36/",
+    "files": [
+      "cerebras_distribution_20260331_020913.log",
+      "predictions.tsv",
+      "raw.jsonl"
+    ],
+    "excluded_due_to_licensing": [
+      "subset.tsv"
+    ]
+  },
+  {
+    "run_id": "cerebras-qwen235b-dist36",
+    "alias": "Qwen 3 235B • api_distribution • 36-question probe",
+    "kind": "api_distribution",
+    "model": "Qwen 3 235B",
+    "scenario": [
+      "api_distribution",
+      "36-question probe"
+    ],
+    "description": "Api_distribution run for qwen 3 235b. Includes predictions, raw generations, rate-limit state.",
+    "path": "../artifacts/runs/cerebras-qwen235b-dist36/",
+    "files": [
+      "cerebras_distribution_20260331_015749.log",
+      "predictions.tsv",
+      "raw.jsonl"
+    ],
+    "excluded_due_to_licensing": [
+      "subset.tsv"
+    ]
+  },
+  {
+    "run_id": "distribution_20260329_211206_qwen",
+    "alias": "Unknown model • distribution benchmark",
+    "kind": "distribution",
+    "model": "Unknown model",
+    "scenario": [
+      "distribution benchmark"
+    ],
+    "description": "Distribution run for unknown model. Includes summaries, predictions, raw generations.",
+    "path": "../artifacts/runs/distribution_20260329_211206_qwen/",
+    "files": [
+      "distribution_20260329_211206.log",
+      "predictions.tsv",
+      "raw.jsonl",
+      "summary.json"
+    ],
+    "excluded_due_to_licensing": [
+      "subset.tsv"
+    ]
+  },
+  {
+    "run_id": "distribution_20260329_213549_qwen-distilled",
+    "alias": "Qwen 3.5 / distilled Qwen • distribution benchmark",
+    "kind": "distribution",
+    "model": "Qwen 3.5 / distilled Qwen",
+    "scenario": [
+      "distribution benchmark"
+    ],
+    "description": "Distribution run for qwen 3.5 / distilled qwen. Includes predictions, raw generations.",
+    "path": "../artifacts/runs/distribution_20260329_213549_qwen-distilled/",
+    "files": [
+      "distribution_20260329_213549.log",
+      "distribution_20260329_221757.log",
+      "errors.jsonl",
+      "predictions.tsv",
+      "raw.jsonl"
+    ],
+    "excluded_due_to_licensing": [
+      "subset.tsv"
+    ]
+  },
+  {
+    "run_id": "distribution_20260329_224419_llama",
+    "alias": "Llama local / Llama 3.2 3B • distribution benchmark",
+    "kind": "distribution",
+    "model": "Llama local / Llama 3.2 3B",
+    "scenario": [
+      "distribution benchmark"
+    ],
+    "description": "Distribution run for llama local / llama 3.2 3b. Includes predictions, raw generations.",
+    "path": "../artifacts/runs/distribution_20260329_224419_llama/",
+    "files": [
+      "distribution_20260329_224419.log",
+      "predictions.tsv",
+      "raw.jsonl"
+    ],
+    "excluded_due_to_licensing": [
+      "subset.tsv"
+    ]
+  },
+  {
+    "run_id": "distribution_20260329_232251_qwen35-direct-dist-1080",
+    "alias": "Qwen 3.5 / distilled Qwen • distribution benchmark • direct persona • 36×6×5 grid",
+    "kind": "distribution",
+    "model": "Qwen 3.5 / distilled Qwen",
+    "scenario": [
+      "distribution benchmark",
+      "direct persona",
+      "36×6×5 grid"
+    ],
+    "description": "Distribution run for qwen 3.5 / distilled qwen. Includes summaries, predictions, raw generations.",
+    "path": "../artifacts/runs/distribution_20260329_232251_qwen35-direct-dist-1080/",
+    "files": [
+      "distribution_20260329_232251.log",
+      "errors.jsonl",
+      "predictions.tsv",
+      "raw.jsonl",
+      "summary.json"
+    ],
+    "excluded_due_to_licensing": [
+      "subset.tsv"
+    ]
+  },
+  {
+    "run_id": "distribution_20260330_005931_llama-nodemo-dist-1080",
+    "alias": "Llama local / Llama 3.2 3B • distribution benchmark • without demography • 36×6×5 grid",
+    "kind": "distribution",
+    "model": "Llama local / Llama 3.2 3B",
+    "scenario": [
+      "distribution benchmark",
+      "without demography",
+      "36×6×5 grid"
+    ],
+    "description": "Distribution run for llama local / llama 3.2 3b. Includes summaries, predictions, raw generations.",
+    "path": "../artifacts/runs/distribution_20260330_005931_llama-nodemo-dist-1080/",
+    "files": [
+      "distribution_20260330_005931.log",
+      "errors.jsonl",
+      "predictions.tsv",
+      "raw.jsonl",
+      "summary.json"
+    ],
+    "excluded_due_to_licensing": [
+      "subset.tsv"
+    ]
+  },
+  {
+    "run_id": "distribution_20260330_012523_llama-direct-dist-1080",
+    "alias": "Llama local / Llama 3.2 3B • distribution benchmark • direct persona • 36×6×5 grid",
+    "kind": "distribution",
+    "model": "Llama local / Llama 3.2 3B",
+    "scenario": [
+      "distribution benchmark",
+      "direct persona",
+      "36×6×5 grid"
+    ],
+    "description": "Distribution run for llama local / llama 3.2 3b. Includes summaries, predictions, raw generations.",
+    "path": "../artifacts/runs/distribution_20260330_012523_llama-direct-dist-1080/",
+    "files": [
+      "distribution_20260330_012523.log",
+      "errors.jsonl",
+      "predictions.tsv",
+      "raw.jsonl",
+      "summary.json"
+    ],
+    "excluded_due_to_licensing": [
+      "subset.tsv"
+    ]
+  },
+  {
+    "run_id": "distribution_20260330_015446_llama-interview-dist-1080",
+    "alias": "Llama local / Llama 3.2 3B • distribution benchmark • interview framing • 36×6×5 grid",
+    "kind": "distribution",
+    "model": "Llama local / Llama 3.2 3B",
+    "scenario": [
+      "distribution benchmark",
+      "interview framing",
+      "36×6×5 grid"
+    ],
+    "description": "Distribution run for llama local / llama 3.2 3b. Includes summaries, predictions, raw generations.",
+    "path": "../artifacts/runs/distribution_20260330_015446_llama-interview-dist-1080/",
+    "files": [
+      "distribution_20260330_015446.log",
+      "errors.jsonl",
+      "predictions.tsv",
+      "raw.jsonl",
+      "summary.json"
+    ],
+    "excluded_due_to_licensing": [
+      "subset.tsv"
+    ]
+  },
+  {
+    "run_id": "distribution_20260330_053336_qwen-targeted-followup",
+    "alias": "Unknown model • distribution benchmark • targeted follow-up",
+    "kind": "distribution",
+    "model": "Unknown model",
+    "scenario": [
+      "distribution benchmark",
+      "targeted follow-up"
+    ],
+    "description": "Distribution run for unknown model. Includes logs and artifacts.",
+    "path": "../artifacts/runs/distribution_20260330_053336_qwen-targeted-followup/",
+    "files": [
+      "distribution_20260330_053336.log"
+    ],
+    "excluded_due_to_licensing": []
+  },
+  {
+    "run_id": "distribution_20260330_053444_qwen-targeted-followup",
+    "alias": "Unknown model • distribution benchmark • targeted follow-up",
+    "kind": "distribution",
+    "model": "Unknown model",
+    "scenario": [
+      "distribution benchmark",
+      "targeted follow-up"
+    ],
+    "description": "Distribution run for unknown model. Includes summaries, predictions, raw generations.",
+    "path": "../artifacts/runs/distribution_20260330_053444_qwen-targeted-followup/",
+    "files": [
+      "distribution_20260330_053444.log",
+      "errors.jsonl",
+      "predictions.tsv",
+      "raw.jsonl",
+      "summary.json"
+    ],
+    "excluded_due_to_licensing": [
+      "subset.tsv"
+    ]
+  },
+  {
+    "run_id": "distribution_20260330_061914_llama-targeted-followup",
+    "alias": "Llama local / Llama 3.2 3B • distribution benchmark • targeted follow-up",
+    "kind": "distribution",
+    "model": "Llama local / Llama 3.2 3B",
+    "scenario": [
+      "distribution benchmark",
+      "targeted follow-up"
+    ],
+    "description": "Distribution run for llama local / llama 3.2 3b. Includes summaries, predictions, raw generations.",
+    "path": "../artifacts/runs/distribution_20260330_061914_llama-targeted-followup/",
+    "files": [
+      "distribution_20260330_061914.log",
+      "errors.jsonl",
+      "predictions.tsv",
+      "raw.jsonl",
+      "summary.json"
+    ],
+    "excluded_due_to_licensing": [
+      "subset.tsv"
+    ]
+  },
+  {
+    "run_id": "distribution_20260330_064513_llama-targeted-followup",
+    "alias": "Llama local / Llama 3.2 3B • distribution benchmark • targeted follow-up",
+    "kind": "distribution",
+    "model": "Llama local / Llama 3.2 3B",
+    "scenario": [
+      "distribution benchmark",
+      "targeted follow-up"
+    ],
+    "description": "Distribution run for llama local / llama 3.2 3b. Includes summaries, predictions, raw generations.",
+    "path": "../artifacts/runs/distribution_20260330_064513_llama-targeted-followup/",
+    "files": [
+      "distribution_20260330_064513.log",
+      "errors.jsonl",
+      "predictions.tsv",
+      "raw.jsonl",
+      "summary.json"
+    ],
+    "excluded_due_to_licensing": [
+      "subset.tsv"
+    ]
+  },
+  {
+    "run_id": "distribution_20260330_071005_llama-targeted-followup",
+    "alias": "Llama local / Llama 3.2 3B • distribution benchmark • targeted follow-up",
+    "kind": "distribution",
+    "model": "Llama local / Llama 3.2 3B",
+    "scenario": [
+      "distribution benchmark",
+      "targeted follow-up"
+    ],
+    "description": "Distribution run for llama local / llama 3.2 3b. Includes summaries, predictions, raw generations.",
+    "path": "../artifacts/runs/distribution_20260330_071005_llama-targeted-followup/",
+    "files": [
+      "distribution_20260330_071005.log",
+      "errors.jsonl",
+      "predictions.tsv",
+      "raw.jsonl",
+      "summary.json"
+    ],
+    "excluded_due_to_licensing": [
+      "subset.tsv"
+    ]
+  },
+  {
+    "run_id": "distribution_20260330_073423_hermes36-interview-direct-dist",
+    "alias": "Hermes 3 6B • distribution benchmark • interview framing",
+    "kind": "distribution",
+    "model": "Hermes 3 6B",
+    "scenario": [
+      "distribution benchmark",
+      "interview framing"
+    ],
+    "description": "Distribution run for hermes 3 6b. Includes summaries, predictions, raw generations.",
+    "path": "../artifacts/runs/distribution_20260330_073423_hermes36-interview-direct-dist/",
+    "files": [
+      "distribution_20260330_073423.log",
+      "errors.jsonl",
+      "predictions.tsv",
+      "raw.jsonl",
+      "summary.json"
+    ],
+    "excluded_due_to_licensing": [
+      "subset.tsv"
+    ]
+  },
+  {
+    "run_id": "invariance_20260330_121203_qwen-targeted-invariance",
+    "alias": "Unknown model • wording / invariance check",
+    "kind": "invariance",
+    "model": "Unknown model",
+    "scenario": [
+      "wording / invariance check"
+    ],
+    "description": "Invariance run for unknown model. Includes summaries, predictions, raw generations, question deltas.",
+    "path": "../artifacts/runs/invariance_20260330_121203_qwen-targeted-invariance/",
+    "files": [
+      "errors.jsonl",
+      "invariance_20260330_121203.log",
+      "predictions.tsv",
+      "question_delta_vs_original.tsv",
+      "raw.jsonl",
+      "summary_by_perturbation.json"
+    ],
+    "excluded_due_to_licensing": [
+      "subset.tsv"
+    ]
+  },
+  {
+    "run_id": "invariance_20260330_132031_llama-targeted-invariance",
+    "alias": "Llama local / Llama 3.2 3B • wording / invariance check",
+    "kind": "invariance",
+    "model": "Llama local / Llama 3.2 3B",
+    "scenario": [
+      "wording / invariance check"
+    ],
+    "description": "Invariance run for llama local / llama 3.2 3b. Includes summaries, predictions, raw generations, question deltas.",
+    "path": "../artifacts/runs/invariance_20260330_132031_llama-targeted-invariance/",
+    "files": [
+      "errors.jsonl",
+      "invariance_20260330_132031.log",
+      "predictions.tsv",
+      "question_delta_vs_original.tsv",
+      "raw.jsonl",
+      "summary_by_perturbation.json"
+    ],
+    "excluded_due_to_licensing": [
+      "subset.tsv"
+    ]
+  }
+]
